@@ -1,0 +1,699 @@
+2017-12-12 18:53:54.304 INFO  (main) [   ] o.e.j.u.log Logging initialized @1408ms
+2017-12-12 18:53:54.891 INFO  (main) [   ] o.e.j.s.Server jetty-9.2.13.v20150730
+2017-12-12 18:53:54.922 WARN  (main) [   ] o.e.j.s.h.RequestLogHandler !RequestLog
+2017-12-12 18:53:54.924 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:/mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server/contexts/] at interval 0
+2017-12-12 18:53:55.524 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2017-12-12 18:53:55.566 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@42dafa95{/solr,file:/mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server/solr-webapp/webapp/,STARTING}{/mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server/solr-webapp/webapp} has uncovered http methods for path: /
+2017-12-12 18:53:55.592 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=267760927@ff5b51f
+2017-12-12 18:53:55.651 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2017-12-12 18:53:55.651 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr
+2017-12-12 18:53:55.664 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr'
+2017-12-12 18:53:55.665 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2017-12-12 18:53:55.665 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr
+2017-12-12 18:53:55.685 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/solr.xml
+2017-12-12 18:53:56.028 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Config-defined core root directory: /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr
+2017-12-12 18:53:56.064 INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 1684792003
+2017-12-12 18:53:56.065 INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr]
+2017-12-12 18:53:56.065 WARN  (main) [   ] o.a.s.c.CoreContainer Couldn't add files from /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/lib to classpath: /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/lib
+2017-12-12 18:53:56.083 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,connectionsEvictorSleepDelay : 5000,maxConnectionIdleTime : 40000,
+2017-12-12 18:54:09.860 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2017-12-12 18:54:09.864 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2017-12-12 18:54:09.866 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2017-12-12 18:54:09.868 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+2017-12-12 18:54:09.868 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+2017-12-12 18:54:10.643 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Looking for core definitions underneath /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr
+2017-12-12 18:54:10.707 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 0 core definitions
+2017-12-12 18:54:10.710 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter user.dir=/mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server
+2017-12-12 18:54:10.711 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+2017-12-12 18:54:10.722 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@42dafa95{/solr,file:/mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server/solr-webapp/webapp/,AVAILABLE}{/mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server/solr-webapp/webapp}
+2017-12-12 18:54:13.729 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@7586beff{HTTP/1.1}{0.0.0.0:8983}
+2017-12-12 18:54:13.730 INFO  (main) [   ] o.e.j.s.Server Started @20840ms
+2017-12-12 18:55:56.281 INFO  (qtp987405879-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=138
+2017-12-12 18:56:15.088 INFO  (qtp987405879-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=5
+2017-12-12 18:56:21.053 INFO  (qtp987405879-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=6
+2017-12-12 18:57:54.171 INFO  (qtp987405879-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=7
+2017-12-12 18:58:01.456 INFO  (qtp987405879-33) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1513105081453} status=0 QTime=1
+2017-12-12 18:58:01.502 INFO  (qtp987405879-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1513105081494} status=0 QTime=6
+2017-12-12 18:58:07.183 INFO  (qtp987405879-34) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1513105087181} status=0 QTime=0
+2017-12-12 18:58:19.623 INFO  (qtp987405879-33) [   ] o.a.s.h.a.CoreAdminOperation core create command schema=schema.xml&dataDir=data&name=unis&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=unis&config=solrconfig.xml&_=1513105099620
+2017-12-12 18:58:19.630 INFO  (qtp987405879-33) [   ] o.a.s.c.CoreDescriptor Created CoreDescriptor: {name=unis, config=solrconfig.xml, loadOnStartup=true, schema=schema.xml, configSetProperties=configsetprops.json, transient=false, dataDir=data}
+2017-12-12 18:58:19.632 INFO  (qtp987405879-33) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis'
+2017-12-12 18:58:19.633 INFO  (qtp987405879-33) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2017-12-12 18:58:19.633 INFO  (qtp987405879-33) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr
+2017-12-12 18:58:19.639 ERROR (qtp987405879-33) [   ] o.a.s.c.CoreContainer Error creating core [unis]: Could not load conf for core unis: Error loading solr config from /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/conf/solrconfig.xml
+org.apache.solr.common.SolrException: Could not load conf for core unis: Error loading solr config from /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/conf/solrconfig.xml
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:84)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:818)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:757)
+	at org.apache.solr.handler.admin.CoreAdminOperation$1.call(CoreAdminOperation.java:131)
+	at org.apache.solr.handler.admin.CoreAdminHandler$CallInfo.call(CoreAdminHandler.java:354)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:153)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:155)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:660)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:441)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.solr.common.SolrException: Error loading solr config from /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/conf/solrconfig.xml
+	at org.apache.solr.core.SolrConfig.readFromResourceLoader(SolrConfig.java:174)
+	at org.apache.solr.core.ConfigSetService.createSolrConfig(ConfigSetService.java:98)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:78)
+	... 30 more
+Caused by: org.apache.solr.core.SolrResourceNotFoundException: Can't find resource 'solrconfig.xml' in classpath or '/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:408)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:363)
+	at org.apache.solr.core.Config.<init>(Config.java:120)
+	at org.apache.solr.core.Config.<init>(Config.java:90)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:189)
+	at org.apache.solr.core.SolrConfig.readFromResourceLoader(SolrConfig.java:166)
+	... 32 more
+2017-12-12 18:58:19.723 ERROR (qtp987405879-33) [   ] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: Error CREATEing SolrCore 'unis': Unable to create core [unis] Caused by: Can't find resource 'solrconfig.xml' in classpath or '/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis'
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:790)
+	at org.apache.solr.handler.admin.CoreAdminOperation$1.call(CoreAdminOperation.java:131)
+	at org.apache.solr.handler.admin.CoreAdminHandler$CallInfo.call(CoreAdminHandler.java:354)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:153)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:155)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:660)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:441)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.solr.common.SolrException: Unable to create core [unis]
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:833)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:757)
+	... 28 more
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core unis: Error loading solr config from /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/conf/solrconfig.xml
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:84)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:818)
+	... 29 more
+Caused by: org.apache.solr.common.SolrException: Error loading solr config from /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/conf/solrconfig.xml
+	at org.apache.solr.core.SolrConfig.readFromResourceLoader(SolrConfig.java:174)
+	at org.apache.solr.core.ConfigSetService.createSolrConfig(ConfigSetService.java:98)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:78)
+	... 30 more
+Caused by: org.apache.solr.core.SolrResourceNotFoundException: Can't find resource 'solrconfig.xml' in classpath or '/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:408)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:363)
+	at org.apache.solr.core.Config.<init>(Config.java:120)
+	at org.apache.solr.core.Config.<init>(Config.java:90)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:189)
+	at org.apache.solr.core.SolrConfig.readFromResourceLoader(SolrConfig.java:166)
+	... 32 more
+
+2017-12-12 18:58:19.725 INFO  (qtp987405879-33) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={schema=schema.xml&dataDir=data&name=unis&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=unis&config=solrconfig.xml&_=1513105099620} status=400 QTime=102
+2017-12-12 19:00:30.002 INFO  (qtp987405879-33) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=4
+2017-12-12 19:00:30.033 INFO  (qtp987405879-34) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=5
+2017-12-12 19:00:30.065 INFO  (qtp987405879-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={core=unis&action=STATUS&wt=json} status=0 QTime=25
+2017-12-12 19:00:35.984 INFO  (qtp987405879-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1513105235982} status=0 QTime=0
+2017-12-12 19:00:36.020 INFO  (qtp987405879-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1513105236011} status=0 QTime=7
+2017-12-12 19:00:36.043 INFO  (qtp987405879-34) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1513105236042} status=0 QTime=0
+2017-12-12 19:00:57.570 INFO  (qtp987405879-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=4
+2017-12-12 19:00:57.630 INFO  (qtp987405879-35) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={deleteInstanceDir=true&core=unis&deleteDataDir=true&action=UNLOAD&wt=json&deleteIndex=true} status=0 QTime=29
+2017-12-12 19:01:02.793 INFO  (qtp987405879-33) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=4
+2017-12-12 19:01:02.824 INFO  (qtp987405879-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=4
+2017-12-12 19:01:02.829 INFO  (qtp987405879-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={core=unis&action=STATUS&wt=json} status=0 QTime=0
+2017-12-12 19:01:02.901 INFO  (qtp987405879-34) [   ] o.a.s.h.a.CoreAdminOperation core create command name=unis&action=CREATE&instanceDir=unis&wt=json
+2017-12-12 19:01:02.901 INFO  (qtp987405879-34) [   ] o.a.s.c.CoreDescriptor Created CoreDescriptor: {name=unis, config=solrconfig.xml, loadOnStartup=true, schema=schema.xml, configSetProperties=configsetprops.json, transient=false, dataDir=data/}
+2017-12-12 19:01:02.902 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis'
+2017-12-12 19:01:02.902 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2017-12-12 19:01:02.902 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr
+2017-12-12 19:01:02.969 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrConfig current version of requestparams : 0
+2017-12-12 19:01:02.973 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrConfig Adding specified lib dirs to ClassLoader
+2017-12-12 19:01:02.984 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/pdfbox-1.8.8.jar' to classloader
+2017-12-12 19:01:02.984 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+2017-12-12 19:01:02.984 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+2017-12-12 19:01:02.984 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/aspectjrt-1.8.0.jar' to classloader
+2017-12-12 19:01:02.984 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+2017-12-12 19:01:02.984 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+2017-12-12 19:01:02.985 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+2017-12-12 19:01:02.985 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/commons-compress-1.8.1.jar' to classloader
+2017-12-12 19:01:02.985 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/fontbox-1.8.8.jar' to classloader
+2017-12-12 19:01:02.985 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/icu4j-54.1.jar' to classloader
+2017-12-12 19:01:02.985 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/isoparser-1.0.2.jar' to classloader
+2017-12-12 19:01:02.985 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/java-libpst-0.8.1.jar' to classloader
+2017-12-12 19:01:02.985 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/jdom-1.0.jar' to classloader
+2017-12-12 19:01:02.985 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/jempbox-1.8.8.jar' to classloader
+2017-12-12 19:01:02.986 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/jmatio-1.2.jar' to classloader
+2017-12-12 19:01:02.986 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+2017-12-12 19:01:02.986 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+2017-12-12 19:01:02.986 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/poi-3.11.jar' to classloader
+2017-12-12 19:01:02.986 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/poi-ooxml-3.11.jar' to classloader
+2017-12-12 19:01:02.986 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/poi-ooxml-schemas-3.11.jar' to classloader
+2017-12-12 19:01:02.986 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/poi-scratchpad-3.11.jar' to classloader
+2017-12-12 19:01:02.986 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/rome-1.0.jar' to classloader
+2017-12-12 19:01:02.987 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+2017-12-12 19:01:02.987 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/tika-core-1.7.jar' to classloader
+2017-12-12 19:01:02.987 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/tika-java7-1.7.jar' to classloader
+2017-12-12 19:01:02.987 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/tika-parsers-1.7.jar' to classloader
+2017-12-12 19:01:02.987 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/tika-xmp-1.7.jar' to classloader
+2017-12-12 19:01:02.987 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/vorbis-java-core-0.6.jar' to classloader
+2017-12-12 19:01:02.987 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/vorbis-java-tika-0.6.jar' to classloader
+2017-12-12 19:01:02.987 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+2017-12-12 19:01:02.988 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+2017-12-12 19:01:02.988 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+2017-12-12 19:01:02.988 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/xz-1.5.jar' to classloader
+2017-12-12 19:01:02.988 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/dist/solr-cell-5.5.5.jar' to classloader
+2017-12-12 19:01:02.988 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/clustering/lib/attributes-binder-1.2.3.jar' to classloader
+2017-12-12 19:01:02.988 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/clustering/lib/carrot2-guava-18.0.jar' to classloader
+2017-12-12 19:01:02.988 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/clustering/lib/carrot2-mini-3.10.4.jar' to classloader
+2017-12-12 19:01:02.988 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/clustering/lib/jackson-annotations-2.5.4.jar' to classloader
+2017-12-12 19:01:02.989 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/clustering/lib/jackson-databind-2.5.4.jar' to classloader
+2017-12-12 19:01:02.989 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+2017-12-12 19:01:02.989 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+2017-12-12 19:01:02.989 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/clustering/lib/simple-xml-2.7.1.jar' to classloader
+2017-12-12 19:01:02.989 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/dist/solr-clustering-5.5.5.jar' to classloader
+2017-12-12 19:01:02.989 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+2017-12-12 19:01:02.989 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+2017-12-12 19:01:02.989 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/dist/solr-langid-5.5.5.jar' to classloader
+2017-12-12 19:01:02.989 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+2017-12-12 19:01:02.990 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/velocity/lib/commons-collections-3.2.2.jar' to classloader
+2017-12-12 19:01:02.990 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/velocity/lib/velocity-1.7.jar' to classloader
+2017-12-12 19:01:02.990 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+2017-12-12 19:01:02.990 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/dist/solr-velocity-5.5.5.jar' to classloader
+2017-12-12 19:01:03.233 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.5.5
+2017-12-12 19:01:03.349 INFO  (qtp987405879-34) [   ] o.a.s.c.SolrConfig Loaded SolrConfig: solrconfig.xml
+2017-12-12 19:01:03.415 INFO  (qtp987405879-34) [   ] o.a.s.s.IndexSchema [unis] Schema name=example-data-driven-schema
+2017-12-12 19:01:03.988 INFO  (qtp987405879-34) [   ] o.a.s.s.IndexSchema unique key field: id
+2017-12-12 19:01:04.669 INFO  (qtp987405879-34) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2017-12-12 19:01:04.675 INFO  (qtp987405879-34) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2017-12-12 19:01:04.718 INFO  (qtp987405879-34) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or '/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis'
+2017-12-12 19:01:04.719 INFO  (qtp987405879-34) [   ] o.a.s.c.CoreContainer Creating SolrCore 'unis' using configuration from instancedir /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis
+2017-12-12 19:01:04.720 INFO  (qtp987405879-34) [   x:unis] o.a.s.c.SolrCore solr.NRTCachingDirectoryFactory
+2017-12-12 19:01:04.734 INFO  (qtp987405879-34) [   x:unis] o.a.s.c.SolrCore [[unis] ] Opening new SolrCore at [/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis], dataDir=[/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/data/]
+2017-12-12 19:01:04.761 INFO  (qtp987405879-34) [   x:unis] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2017-12-12 19:01:04.764 INFO  (qtp987405879-34) [   x:unis] o.a.s.c.SolrCore [[unis] ] Added SolrEventListener for newSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2017-12-12 19:01:04.765 INFO  (qtp987405879-34) [   x:unis] o.a.s.c.SolrCore [[unis] ] Added SolrEventListener for firstSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2017-12-12 19:01:04.768 INFO  (qtp987405879-34) [   x:unis] o.a.s.c.SchemaCodecFactory Using default compressionMode: BEST_SPEED
+2017-12-12 19:01:04.792 INFO  (qtp987405879-34) [   x:unis] o.a.s.c.CachingDirectoryFactory return new directory for /mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/data
+2017-12-12 19:01:04.793 INFO  (qtp987405879-34) [   x:unis] o.a.s.c.SolrCore New index directory detected: old=null new=/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/data/index/
+2017-12-12 19:01:04.794 WARN  (qtp987405879-34) [   x:unis] o.a.s.c.SolrCore [unis] Solr index directory '/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/data/index' doesn't exist. Creating new index...
+2017-12-12 19:01:04.805 INFO  (qtp987405879-34) [   x:unis] o.a.s.c.CachingDirectoryFactory return new directory for /mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/data/index
+2017-12-12 19:01:04.980 INFO  (qtp987405879-34) [   x:unis] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onCommit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@20834a3; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+2017-12-12 19:01:04.982 INFO  (qtp987405879-34) [   x:unis] o.a.s.c.SolrDeletionPolicy newest commit generation = 1
+2017-12-12 19:01:04.984 INFO  (OldIndexDirectoryCleanupThreadForCore-unis) [   x:unis] o.a.s.c.SolrCore Looking for old index directories to cleanup for core unis in /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/data/
+2017-12-12 19:01:04.989 INFO  (qtp987405879-34) [   x:unis] o.a.s.c.PluginBag queryResponseWriter : 'velocity' created with startup=lazy 
+2017-12-12 19:01:04.994 INFO  (qtp987405879-34) [   x:unis] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2017-12-12 19:01:05.083 INFO  (qtp987405879-34) [   x:unis] o.a.s.u.p.UpdateRequestProcessorChain creating updateRequestProcessorChain "add-unknown-fields-to-the-schema"
+2017-12-12 19:01:05.149 INFO  (qtp987405879-34) [   x:unis] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+2017-12-12 19:01:05.193 INFO  (qtp987405879-34) [   x:unis] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2017-12-12 19:01:05.195 INFO  (qtp987405879-34) [   x:unis] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2017-12-12 19:01:05.196 INFO  (qtp987405879-34) [   x:unis] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2017-12-12 19:01:05.197 INFO  (qtp987405879-34) [   x:unis] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2017-12-12 19:01:05.210 INFO  (qtp987405879-34) [   x:unis] o.a.s.c.PluginBag requestHandler : '/update/extract' created with startup=lazy 
+2017-12-12 19:01:05.210 INFO  (qtp987405879-34) [   x:unis] o.a.s.c.PluginBag requestHandler : '/analysis/field' created with startup=lazy 
+2017-12-12 19:01:05.210 INFO  (qtp987405879-34) [   x:unis] o.a.s.c.PluginBag requestHandler : '/analysis/document' created with startup=lazy 
+2017-12-12 19:01:05.212 INFO  (qtp987405879-34) [   x:unis] o.a.s.c.PluginBag requestHandler : '/spell' created with startup=lazy 
+2017-12-12 19:01:05.212 INFO  (qtp987405879-34) [   x:unis] o.a.s.c.PluginBag requestHandler : '/tvrh' created with startup=lazy 
+2017-12-12 19:01:05.212 INFO  (qtp987405879-34) [   x:unis] o.a.s.c.PluginBag requestHandler : '/terms' created with startup=lazy 
+2017-12-12 19:01:05.213 INFO  (qtp987405879-34) [   x:unis] o.a.s.c.PluginBag requestHandler : '/elevate' created with startup=lazy 
+2017-12-12 19:01:05.213 INFO  (qtp987405879-34) [   x:unis] o.a.s.c.RequestHandlers Registered paths: /admin/mbeans,/browse,/update/json/docs,/admin/luke,/export,/get,/admin/properties,/elevate,/update/json,/admin/threads,/query,/analysis/field,/analysis/document,/spell,/update/csv,/tvrh,/select,/admin/segments,/admin/system,/replication,/config,/schema,/admin/plugins,/admin/logging,/admin/ping,/update,/admin/file,/debug/dump,/terms,/update/extract
+2017-12-12 19:01:05.215 INFO  (qtp987405879-34) [   x:unis] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2017-12-12 19:01:05.224 INFO  (qtp987405879-34) [   x:unis] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2017-12-12 19:01:05.224 INFO  (qtp987405879-34) [   x:unis] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2017-12-12 19:01:05.232 INFO  (qtp987405879-34) [   x:unis] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2017-12-12 19:01:05.232 INFO  (qtp987405879-34) [   x:unis] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2017-12-12 19:01:05.239 INFO  (qtp987405879-34) [   x:unis] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@20834a3; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+2017-12-12 19:01:05.239 INFO  (qtp987405879-34) [   x:unis] o.a.s.c.SolrDeletionPolicy newest commit generation = 1
+2017-12-12 19:01:05.249 INFO  (qtp987405879-34) [   x:unis] o.a.s.s.SolrIndexSearcher Opening Searcher@6eb8e6c1[unis] main
+2017-12-12 19:01:05.256 INFO  (qtp987405879-34) [   x:unis] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/conf
+2017-12-12 19:01:05.256 INFO  (qtp987405879-34) [   x:unis] o.a.s.r.RestManager Initializing RestManager with initArgs: {storageDir=/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/conf}
+2017-12-12 19:01:05.264 INFO  (qtp987405879-34) [   x:unis] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using file:dir=/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/conf
+2017-12-12 19:01:05.264 INFO  (qtp987405879-34) [   x:unis] o.a.s.r.RestManager Initializing 0 registered ManagedResources
+2017-12-12 19:01:05.271 INFO  (qtp987405879-34) [   x:unis] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2017-12-12 19:01:05.277 INFO  (qtp987405879-34) [   x:unis] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2017-12-12 19:01:05.278 INFO  (qtp987405879-34) [   x:unis] o.a.s.h.c.SpellCheckComponent No queryConverter defined, using default converter
+2017-12-12 19:01:05.281 INFO  (qtp987405879-34) [   x:unis] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/conf/elevate.xml
+2017-12-12 19:01:05.301 INFO  (qtp987405879-34) [   x:unis] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2017-12-12 19:01:05.302 INFO  (searcherExecutor-7-thread-1-processing-x:unis) [   x:unis] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@6eb8e6c1[unis] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2017-12-12 19:01:05.302 INFO  (searcherExecutor-7-thread-1-processing-x:unis) [   x:unis] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-12-12 19:01:05.302 INFO  (searcherExecutor-7-thread-1-processing-x:unis) [   x:unis] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2017-12-12 19:01:05.303 INFO  (searcherExecutor-7-thread-1-processing-x:unis) [   x:unis] o.a.s.c.SolrCore [unis] Registered new searcher Searcher@6eb8e6c1[unis] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2017-12-12 19:01:05.303 INFO  (qtp987405879-34) [   x:unis] o.a.s.u.UpdateLog Looking up max value of version field to seed version buckets
+2017-12-12 19:01:05.304 INFO  (qtp987405879-34) [   x:unis] o.a.s.u.VersionInfo Refreshing highest value of _version_ for 65536 version buckets from index
+2017-12-12 19:01:05.304 INFO  (qtp987405879-34) [   x:unis] o.a.s.u.VersionInfo No terms found for _version_, cannot seed version bucket highest value from index
+2017-12-12 19:01:05.304 INFO  (qtp987405879-34) [   x:unis] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1586605866671407104
+2017-12-12 19:01:05.309 INFO  (qtp987405879-34) [   x:unis] o.a.s.u.UpdateLog Took 4.0ms to seed version buckets with highest version 1586605866671407104
+2017-12-12 19:01:05.309 INFO  (qtp987405879-34) [   x:unis] o.a.s.c.CoreContainer registering core: unis
+2017-12-12 19:01:05.314 INFO  (qtp987405879-34) [   x:unis] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={name=unis&action=CREATE&instanceDir=unis&wt=json} status=0 QTime=2413
+2017-12-12 19:01:22.025 INFO  (qtp987405879-17) [   x:unis] o.a.s.u.p.LogUpdateProcessorFactory [unis]  webapp=/solr path=/update params={}{} 0 38
+2017-12-12 19:01:22.026 ERROR (qtp987405879-17) [   x:unis] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: Unexpected character '[' (code 91) in prolog; expected '<'
+ at [row,col {unknown-source}]: [1,1]
+	at org.apache.solr.handler.loader.XMLLoader.load(XMLLoader.java:179)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:94)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:69)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:155)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2102)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:654)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:460)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.ctc.wstx.exc.WstxUnexpectedCharException: Unexpected character '[' (code 91) in prolog; expected '<'
+ at [row,col {unknown-source}]: [1,1]
+	at com.ctc.wstx.sr.StreamScanner.throwUnexpectedChar(StreamScanner.java:647)
+	at com.ctc.wstx.sr.BasicStreamReader.nextFromProlog(BasicStreamReader.java:2054)
+	at com.ctc.wstx.sr.BasicStreamReader.next(BasicStreamReader.java:1131)
+	at org.apache.solr.handler.loader.XMLLoader.processUpdate(XMLLoader.java:216)
+	at org.apache.solr.handler.loader.XMLLoader.load(XMLLoader.java:177)
+	... 28 more
+
+2017-12-12 19:01:22.178 INFO  (qtp987405879-19) [   x:unis] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-12-12 19:01:22.178 INFO  (qtp987405879-19) [   x:unis] o.a.s.u.DirectUpdateHandler2 No uncommitted changes. Skipping IW.commit.
+2017-12-12 19:01:22.190 INFO  (qtp987405879-19) [   x:unis] o.a.s.c.SolrCore SolrIndexSearcher has not changed - not re-opening: org.apache.solr.search.SolrIndexSearcher
+2017-12-12 19:01:22.190 INFO  (qtp987405879-19) [   x:unis] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2017-12-12 19:01:22.190 INFO  (qtp987405879-19) [   x:unis] o.a.s.u.p.LogUpdateProcessorFactory [unis]  webapp=/solr path=/update params={commit=true}{commit=} 0 13
+2017-12-12 19:02:35.749 INFO  (qtp987405879-15) [   x:unis] o.a.s.u.p.LogUpdateProcessorFactory [unis]  webapp=/solr path=/update params={}{} 0 0
+2017-12-12 19:02:35.750 ERROR (qtp987405879-15) [   x:unis] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: Unexpected character '[' (code 91) in prolog; expected '<'
+ at [row,col {unknown-source}]: [1,1]
+	at org.apache.solr.handler.loader.XMLLoader.load(XMLLoader.java:179)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:94)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:69)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:155)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2102)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:654)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:460)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.ctc.wstx.exc.WstxUnexpectedCharException: Unexpected character '[' (code 91) in prolog; expected '<'
+ at [row,col {unknown-source}]: [1,1]
+	at com.ctc.wstx.sr.StreamScanner.throwUnexpectedChar(StreamScanner.java:647)
+	at com.ctc.wstx.sr.BasicStreamReader.nextFromProlog(BasicStreamReader.java:2054)
+	at com.ctc.wstx.sr.BasicStreamReader.next(BasicStreamReader.java:1131)
+	at org.apache.solr.handler.loader.XMLLoader.processUpdate(XMLLoader.java:216)
+	at org.apache.solr.handler.loader.XMLLoader.load(XMLLoader.java:177)
+	... 28 more
+
+2017-12-12 19:02:35.754 INFO  (qtp987405879-33) [   x:unis] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-12-12 19:02:35.754 INFO  (qtp987405879-33) [   x:unis] o.a.s.u.DirectUpdateHandler2 No uncommitted changes. Skipping IW.commit.
+2017-12-12 19:02:35.755 INFO  (qtp987405879-33) [   x:unis] o.a.s.c.SolrCore SolrIndexSearcher has not changed - not re-opening: org.apache.solr.search.SolrIndexSearcher
+2017-12-12 19:02:35.756 INFO  (qtp987405879-33) [   x:unis] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2017-12-12 19:02:35.756 INFO  (qtp987405879-33) [   x:unis] o.a.s.u.p.LogUpdateProcessorFactory [unis]  webapp=/solr path=/update params={commit=true}{commit=} 0 2
+2017-12-12 19:02:47.637 INFO  (qtp987405879-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1513105367634} status=0 QTime=0
+2017-12-12 19:02:47.677 INFO  (qtp987405879-43) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1513105367669} status=0 QTime=6
+2017-12-12 19:02:47.699 INFO  (qtp987405879-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1513105367694} status=0 QTime=2
+2017-12-12 19:02:47.783 INFO  (qtp987405879-43) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1513105367771} status=0 QTime=2
+2017-12-12 19:07:13.971 INFO  (qtp987405879-33) [   x:unis] o.a.s.u.p.LogUpdateProcessorFactory [unis]  webapp=/solr path=/update params={}{} 0 0
+2017-12-12 19:07:13.972 ERROR (qtp987405879-33) [   x:unis] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: Unexpected character '[' (code 91) in prolog; expected '<'
+ at [row,col {unknown-source}]: [1,1]
+	at org.apache.solr.handler.loader.XMLLoader.load(XMLLoader.java:179)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:94)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:69)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:155)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2102)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:654)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:460)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.ctc.wstx.exc.WstxUnexpectedCharException: Unexpected character '[' (code 91) in prolog; expected '<'
+ at [row,col {unknown-source}]: [1,1]
+	at com.ctc.wstx.sr.StreamScanner.throwUnexpectedChar(StreamScanner.java:647)
+	at com.ctc.wstx.sr.BasicStreamReader.nextFromProlog(BasicStreamReader.java:2054)
+	at com.ctc.wstx.sr.BasicStreamReader.next(BasicStreamReader.java:1131)
+	at org.apache.solr.handler.loader.XMLLoader.processUpdate(XMLLoader.java:216)
+	at org.apache.solr.handler.loader.XMLLoader.load(XMLLoader.java:177)
+	... 28 more
+
+2017-12-12 19:07:14.123 INFO  (qtp987405879-18) [   x:unis] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-12-12 19:07:14.123 INFO  (qtp987405879-18) [   x:unis] o.a.s.u.DirectUpdateHandler2 No uncommitted changes. Skipping IW.commit.
+2017-12-12 19:07:14.125 INFO  (qtp987405879-18) [   x:unis] o.a.s.c.SolrCore SolrIndexSearcher has not changed - not re-opening: org.apache.solr.search.SolrIndexSearcher
+2017-12-12 19:07:14.125 INFO  (qtp987405879-18) [   x:unis] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2017-12-12 19:07:14.125 INFO  (qtp987405879-18) [   x:unis] o.a.s.u.p.LogUpdateProcessorFactory [unis]  webapp=/solr path=/update params={commit=true}{commit=} 0 2
+2017-12-12 19:07:58.063 INFO  (qtp987405879-33) [   x:unis] o.a.s.u.p.LogUpdateProcessorFactory [unis]  webapp=/solr path=/update params={}{} 0 0
+2017-12-12 19:07:58.063 ERROR (qtp987405879-33) [   x:unis] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: Unexpected character '[' (code 91) in prolog; expected '<'
+ at [row,col {unknown-source}]: [1,1]
+	at org.apache.solr.handler.loader.XMLLoader.load(XMLLoader.java:179)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:94)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:69)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:155)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2102)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:654)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:460)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.ctc.wstx.exc.WstxUnexpectedCharException: Unexpected character '[' (code 91) in prolog; expected '<'
+ at [row,col {unknown-source}]: [1,1]
+	at com.ctc.wstx.sr.StreamScanner.throwUnexpectedChar(StreamScanner.java:647)
+	at com.ctc.wstx.sr.BasicStreamReader.nextFromProlog(BasicStreamReader.java:2054)
+	at com.ctc.wstx.sr.BasicStreamReader.next(BasicStreamReader.java:1131)
+	at org.apache.solr.handler.loader.XMLLoader.processUpdate(XMLLoader.java:216)
+	at org.apache.solr.handler.loader.XMLLoader.load(XMLLoader.java:177)
+	... 28 more
+
+2017-12-12 19:07:58.068 INFO  (qtp987405879-18) [   x:unis] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-12-12 19:07:58.068 INFO  (qtp987405879-18) [   x:unis] o.a.s.u.DirectUpdateHandler2 No uncommitted changes. Skipping IW.commit.
+2017-12-12 19:07:58.069 INFO  (qtp987405879-18) [   x:unis] o.a.s.c.SolrCore SolrIndexSearcher has not changed - not re-opening: org.apache.solr.search.SolrIndexSearcher
+2017-12-12 19:07:58.069 INFO  (qtp987405879-18) [   x:unis] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2017-12-12 19:07:58.069 INFO  (qtp987405879-18) [   x:unis] o.a.s.u.p.LogUpdateProcessorFactory [unis]  webapp=/solr path=/update params={commit=true}{commit=} 0 1
+2017-12-12 19:08:46.863 INFO  (qtp987405879-42) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1513105726856} status=0 QTime=5
+2017-12-12 19:08:46.918 INFO  (qtp987405879-33) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1513105726914} status=0 QTime=1
+2017-12-12 19:08:52.411 INFO  (qtp987405879-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1513105732409} status=0 QTime=0
+2017-12-12 19:08:52.457 INFO  (qtp987405879-43) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1513105732450} status=0 QTime=5
+2017-12-12 19:09:03.230 ERROR (qtp987405879-42) [   x:unis] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.menu-top.html [/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/conf/admin-extra.menu-top.html]
+2017-12-12 19:09:03.231 INFO  (qtp987405879-42) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/admin/file params={file=admin-extra.menu-top.html&contentType=text/html;charset%3Dutf-8&_=1513105743227} status=404 QTime=1
+2017-12-12 19:09:03.232 ERROR (qtp987405879-33) [   x:unis] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.menu-bottom.html [/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/conf/admin-extra.menu-bottom.html]
+2017-12-12 19:09:03.233 INFO  (qtp987405879-33) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/admin/file params={file=admin-extra.menu-bottom.html&contentType=text/html;charset%3Dutf-8&_=1513105743229} status=404 QTime=1
+2017-12-12 19:09:03.303 INFO  (qtp987405879-34) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/admin/luke params={show=index&numTerms=0&wt=json&_=1513105743296} status=0 QTime=1
+2017-12-12 19:09:03.313 ERROR (qtp987405879-19) [   x:unis] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.html [/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/conf/admin-extra.html]
+2017-12-12 19:09:03.313 INFO  (qtp987405879-19) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/admin/file params={file=admin-extra.html&_=1513105743308} status=404 QTime=0
+2017-12-12 19:09:03.314 INFO  (qtp987405879-15) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/replication params={wt=json&command=details&_=1513105743302} status=0 QTime=2
+2017-12-12 19:09:03.317 INFO  (qtp987405879-42) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1513105743311} status=503 QTime=1
+2017-12-12 19:09:03.324 INFO  (qtp987405879-43) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/admin/system params={wt=json&_=1513105743305} status=0 QTime=12
+2017-12-12 19:09:22.805 INFO  (qtp987405879-42) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/admin/luke params={show=index&numTerms=0&wt=json&_=1513105762798} status=0 QTime=0
+2017-12-12 19:09:22.818 INFO  (qtp987405879-43) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/replication params={wt=json&command=details&_=1513105762804} status=0 QTime=6
+2017-12-12 19:09:22.824 INFO  (qtp987405879-34) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1513105762816} status=503 QTime=0
+2017-12-12 19:09:22.833 ERROR (qtp987405879-18) [   x:unis] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.html [/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/conf/admin-extra.html]
+2017-12-12 19:09:22.834 INFO  (qtp987405879-18) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/admin/file params={file=admin-extra.html&_=1513105762811} status=404 QTime=9
+2017-12-12 19:09:22.840 INFO  (qtp987405879-33) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/admin/system params={wt=json&_=1513105762808} status=0 QTime=28
+2017-12-12 19:10:23.156 INFO  (qtp987405879-34) [   x:unis] o.a.s.s.ManagedIndexSchema Upgraded to managed schema at /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/conf/managed-schema
+2017-12-12 19:10:23.777 INFO  (qtp987405879-34) [   x:unis] o.a.s.u.p.LogUpdateProcessorFactory [unis]  webapp=/solr path=/update/json/docs params={}{add=[6bce6de1-e6a2-4769-8bc7-984ac5f21e14 (1586606451523059712), 6bd9533d-2a53-4afc-9b81-66109fe964ad (1586606451933052928), db8023c0-a78f-4b2b-bae1-977126ab1b9b (1586606451937247232), fa56ce0c-3cfa-407d-812f-dd2365ceff7b (1586606451941441536), 517bcd7b-2c34-487b-bd47-ae5e8b76d073 (1586606451946684416), 0a804fd8-a154-4d00-9a8e-8f8173e0fa68 (1586606451956121600), 6c076098-b31b-4407-8660-6ce2697058d6 (1586606451959267328), 82485824-d64a-4a1d-9c27-8eb6da60af85 (1586606451964510208), a7a7b85b-cbb7-4fc0-88b1-cffd68a93155 (1586606451976044544), b6cf5e28-a6d9-4ee7-b059-35f625a4928c (1586606451979190272), ... (134 adds)]} 0 727
+2017-12-12 19:10:23.778 ERROR (qtp987405879-34) [   x:unis] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: ERROR: [doc=68653abd-7cbc-4ed1-98e3-320ffaba0f9d] Error adding field 'plazas'='-' msg=For input string: "-"
+	at org.apache.solr.update.DocumentBuilder.toDocument(DocumentBuilder.java:175)
+	at org.apache.solr.update.AddUpdateCommand.getLuceneDocument(AddUpdateCommand.java:82)
+	at org.apache.solr.update.DirectUpdateHandler2.doNormalUpdate(DirectUpdateHandler2.java:280)
+	at org.apache.solr.update.DirectUpdateHandler2.addDoc0(DirectUpdateHandler2.java:214)
+	at org.apache.solr.update.DirectUpdateHandler2.addDoc(DirectUpdateHandler2.java:169)
+	at org.apache.solr.update.processor.RunUpdateProcessor.processAdd(RunUpdateProcessorFactory.java:68)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:48)
+	at org.apache.solr.update.processor.AddSchemaFieldsUpdateProcessorFactory$AddSchemaFieldsUpdateProcessor.processAdd(AddSchemaFieldsUpdateProcessorFactory.java:335)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:48)
+	at org.apache.solr.update.processor.FieldMutatingUpdateProcessor.processAdd(FieldMutatingUpdateProcessor.java:117)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:48)
+	at org.apache.solr.update.processor.FieldMutatingUpdateProcessor.processAdd(FieldMutatingUpdateProcessor.java:117)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:48)
+	at org.apache.solr.update.processor.FieldMutatingUpdateProcessor.processAdd(FieldMutatingUpdateProcessor.java:117)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:48)
+	at org.apache.solr.update.processor.FieldMutatingUpdateProcessor.processAdd(FieldMutatingUpdateProcessor.java:117)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:48)
+	at org.apache.solr.update.processor.FieldNameMutatingUpdateProcessorFactory$1.processAdd(FieldNameMutatingUpdateProcessorFactory.java:74)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:48)
+	at org.apache.solr.update.processor.FieldMutatingUpdateProcessor.processAdd(FieldMutatingUpdateProcessor.java:117)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:48)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.doLocalAdd(DistributedUpdateProcessor.java:934)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.versionAdd(DistributedUpdateProcessor.java:1089)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.processAdd(DistributedUpdateProcessor.java:712)
+	at org.apache.solr.update.processor.LogUpdateProcessorFactory$LogUpdateProcessor.processAdd(LogUpdateProcessorFactory.java:103)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:48)
+	at org.apache.solr.update.processor.AbstractDefaultValueUpdateProcessorFactory$DefaultValueUpdateProcessor.processAdd(AbstractDefaultValueUpdateProcessorFactory.java:93)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader$1.handle(JsonLoader.java:230)
+	at org.apache.solr.common.util.JsonRecordReader$Node.handleObjectStart(JsonRecordReader.java:362)
+	at org.apache.solr.common.util.JsonRecordReader$Node.parse(JsonRecordReader.java:293)
+	at org.apache.solr.common.util.JsonRecordReader$Node.access$200(JsonRecordReader.java:153)
+	at org.apache.solr.common.util.JsonRecordReader.streamRecords(JsonRecordReader.java:138)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.handleSplitMode(JsonLoader.java:208)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.processUpdate(JsonLoader.java:125)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.load(JsonLoader.java:113)
+	at org.apache.solr.handler.loader.JsonLoader.load(JsonLoader.java:76)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:94)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:69)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:155)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2102)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:654)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:460)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NumberFormatException: For input string: "-"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:581)
+	at java.lang.Long.parseLong(Long.java:631)
+	at org.apache.solr.schema.TrieField.createField(TrieField.java:755)
+	at org.apache.solr.schema.TrieField.createFields(TrieField.java:806)
+	at org.apache.solr.update.DocumentBuilder.addField(DocumentBuilder.java:47)
+	at org.apache.solr.update.DocumentBuilder.toDocument(DocumentBuilder.java:122)
+	... 63 more
+
+2017-12-12 19:10:23.829 INFO  (qtp987405879-18) [   x:unis] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-12-12 19:10:24.148 INFO  (qtp987405879-18) [   x:unis] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@20834a3; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@20834a3; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_2,generation=2}
+2017-12-12 19:10:24.149 INFO  (qtp987405879-18) [   x:unis] o.a.s.c.SolrDeletionPolicy newest commit generation = 2
+2017-12-12 19:10:24.182 INFO  (qtp987405879-18) [   x:unis] o.a.s.s.SolrIndexSearcher Opening Searcher@ede033c[unis] main
+2017-12-12 19:10:24.184 INFO  (qtp987405879-18) [   x:unis] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2017-12-12 19:10:24.184 INFO  (searcherExecutor-7-thread-1-processing-x:unis) [   x:unis] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@ede033c[unis] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.5.5):C134)))}
+2017-12-12 19:10:24.184 INFO  (searcherExecutor-7-thread-1-processing-x:unis) [   x:unis] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-12-12 19:10:24.185 INFO  (searcherExecutor-7-thread-1-processing-x:unis) [   x:unis] o.a.s.c.SolrCore [unis] Registered new searcher Searcher@ede033c[unis] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.5.5):C134)))}
+2017-12-12 19:10:24.185 INFO  (qtp987405879-18) [   x:unis] o.a.s.u.p.LogUpdateProcessorFactory [unis]  webapp=/solr path=/update params={commit=true}{commit=} 0 355
+2017-12-12 19:11:08.053 INFO  (qtp987405879-43) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1513105868051} status=0 QTime=0
+2017-12-12 19:11:08.109 INFO  (qtp987405879-34) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1513105868086} status=0 QTime=21
+2017-12-12 19:11:08.141 ERROR (qtp987405879-18) [   x:unis] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.menu-top.html [/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/conf/admin-extra.menu-top.html]
+2017-12-12 19:11:08.141 INFO  (qtp987405879-18) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/admin/file params={file=admin-extra.menu-top.html&contentType=text/html;charset%3Dutf-8&_=1513105868139} status=404 QTime=0
+2017-12-12 19:11:08.142 ERROR (qtp987405879-15) [   x:unis] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.menu-bottom.html [/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/conf/admin-extra.menu-bottom.html]
+2017-12-12 19:11:08.143 INFO  (qtp987405879-15) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/admin/file params={file=admin-extra.menu-bottom.html&contentType=text/html;charset%3Dutf-8&_=1513105868141} status=404 QTime=0
+2017-12-12 19:11:08.197 INFO  (qtp987405879-18) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/admin/luke params={show=index&numTerms=0&wt=json&_=1513105868181} status=0 QTime=0
+2017-12-12 19:11:08.203 INFO  (qtp987405879-19) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/replication params={wt=json&command=details&_=1513105868192} status=0 QTime=5
+2017-12-12 19:11:08.212 INFO  (qtp987405879-34) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1513105868201} status=503 QTime=0
+2017-12-12 19:11:08.214 ERROR (qtp987405879-43) [   x:unis] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.html [/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/conf/admin-extra.html]
+2017-12-12 19:11:08.214 INFO  (qtp987405879-43) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/admin/file params={file=admin-extra.html&_=1513105868198} status=404 QTime=2
+2017-12-12 19:11:08.218 INFO  (qtp987405879-15) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/admin/system params={wt=json&_=1513105868195} status=0 QTime=7
+2017-12-12 19:11:29.219 INFO  (qtp987405879-34) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/select params={q=*:*&indent=true&wt=json&_=1513105889185} hits=134 status=0 QTime=29
+2017-12-12 19:54:55.111 INFO  (qtp987405879-18) [   x:unis] o.a.s.u.p.LogUpdateProcessorFactory [unis]  webapp=/solr path=/update/json/docs params={}{add=[39b6acba-169d-4066-915a-4168123ec0ac (1586609253294014464), 53f30586-6737-4c6e-9270-1c32bea30558 (1586609253310791680), c741d09b-e3a8-4d4a-a409-e236fb926a33 (1586609253314985984), 74023f8d-a190-4213-a148-a7d6318f6853 (1586609253316034560), d58f08e6-fad3-4653-8571-9df797d97961 (1586609253318131712), 60868659-c8c8-45b7-9a4e-f114c95d0298 (1586609253320228864), 1a78fcbb-946d-459e-8a2e-f5d87e85ef8a (1586609253322326016), 009ff611-b0e3-4cb5-9e71-4f5c31ee8c55 (1586609253324423168), 1990b0cb-8c70-41fd-8796-44776bda50a1 (1586609253325471744), 8363c1cc-b1ee-428b-972c-6afb7be86af1 (1586609253327568896), ... (48 adds)]} 0 72
+2017-12-12 19:54:55.112 ERROR (qtp987405879-18) [   x:unis] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: ERROR: [doc=47fe9c76-cf03-4fbe-8ae0-5f385169ff89] Error adding field 'plazas'='-' msg=For input string: "-"
+	at org.apache.solr.update.DocumentBuilder.toDocument(DocumentBuilder.java:175)
+	at org.apache.solr.update.AddUpdateCommand.getLuceneDocument(AddUpdateCommand.java:82)
+	at org.apache.solr.update.DirectUpdateHandler2.doNormalUpdate(DirectUpdateHandler2.java:280)
+	at org.apache.solr.update.DirectUpdateHandler2.addDoc0(DirectUpdateHandler2.java:214)
+	at org.apache.solr.update.DirectUpdateHandler2.addDoc(DirectUpdateHandler2.java:169)
+	at org.apache.solr.update.processor.RunUpdateProcessor.processAdd(RunUpdateProcessorFactory.java:68)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:48)
+	at org.apache.solr.update.processor.AddSchemaFieldsUpdateProcessorFactory$AddSchemaFieldsUpdateProcessor.processAdd(AddSchemaFieldsUpdateProcessorFactory.java:335)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:48)
+	at org.apache.solr.update.processor.FieldMutatingUpdateProcessor.processAdd(FieldMutatingUpdateProcessor.java:117)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:48)
+	at org.apache.solr.update.processor.FieldMutatingUpdateProcessor.processAdd(FieldMutatingUpdateProcessor.java:117)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:48)
+	at org.apache.solr.update.processor.FieldMutatingUpdateProcessor.processAdd(FieldMutatingUpdateProcessor.java:117)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:48)
+	at org.apache.solr.update.processor.FieldMutatingUpdateProcessor.processAdd(FieldMutatingUpdateProcessor.java:117)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:48)
+	at org.apache.solr.update.processor.FieldNameMutatingUpdateProcessorFactory$1.processAdd(FieldNameMutatingUpdateProcessorFactory.java:74)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:48)
+	at org.apache.solr.update.processor.FieldMutatingUpdateProcessor.processAdd(FieldMutatingUpdateProcessor.java:117)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:48)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.doLocalAdd(DistributedUpdateProcessor.java:934)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.versionAdd(DistributedUpdateProcessor.java:1089)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.processAdd(DistributedUpdateProcessor.java:712)
+	at org.apache.solr.update.processor.LogUpdateProcessorFactory$LogUpdateProcessor.processAdd(LogUpdateProcessorFactory.java:103)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:48)
+	at org.apache.solr.update.processor.AbstractDefaultValueUpdateProcessorFactory$DefaultValueUpdateProcessor.processAdd(AbstractDefaultValueUpdateProcessorFactory.java:93)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader$1.handle(JsonLoader.java:230)
+	at org.apache.solr.common.util.JsonRecordReader$Node.handleObjectStart(JsonRecordReader.java:362)
+	at org.apache.solr.common.util.JsonRecordReader$Node.parse(JsonRecordReader.java:293)
+	at org.apache.solr.common.util.JsonRecordReader$Node.access$200(JsonRecordReader.java:153)
+	at org.apache.solr.common.util.JsonRecordReader.streamRecords(JsonRecordReader.java:138)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.handleSplitMode(JsonLoader.java:208)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.processUpdate(JsonLoader.java:125)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.load(JsonLoader.java:113)
+	at org.apache.solr.handler.loader.JsonLoader.load(JsonLoader.java:76)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:94)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:69)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:155)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2102)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:654)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:460)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NumberFormatException: For input string: "-"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:581)
+	at java.lang.Long.parseLong(Long.java:631)
+	at org.apache.solr.schema.TrieField.createField(TrieField.java:755)
+	at org.apache.solr.schema.TrieField.createFields(TrieField.java:806)
+	at org.apache.solr.update.DocumentBuilder.addField(DocumentBuilder.java:47)
+	at org.apache.solr.update.DocumentBuilder.toDocument(DocumentBuilder.java:122)
+	... 63 more
+
+2017-12-12 19:54:55.303 INFO  (qtp987405879-33) [   x:unis] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2017-12-12 19:54:55.627 INFO  (qtp987405879-33) [   x:unis] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@20834a3; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_2,generation=2}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@20834a3; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_3,generation=3}
+2017-12-12 19:54:55.629 INFO  (qtp987405879-33) [   x:unis] o.a.s.c.SolrDeletionPolicy newest commit generation = 3
+2017-12-12 19:54:55.646 INFO  (qtp987405879-33) [   x:unis] o.a.s.s.SolrIndexSearcher Opening Searcher@5040f29[unis] main
+2017-12-12 19:54:55.650 INFO  (searcherExecutor-7-thread-1-processing-x:unis) [   x:unis] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@5040f29[unis] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.5.5):C134) Uninverting(_1(5.5.5):C48)))}
+2017-12-12 19:54:55.650 INFO  (qtp987405879-33) [   x:unis] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2017-12-12 19:54:55.652 INFO  (searcherExecutor-7-thread-1-processing-x:unis) [   x:unis] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-12-12 19:54:55.653 INFO  (searcherExecutor-7-thread-1-processing-x:unis) [   x:unis] o.a.s.c.SolrCore [unis] Registered new searcher Searcher@5040f29[unis] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.5.5):C134) Uninverting(_1(5.5.5):C48)))}
+2017-12-12 19:54:55.654 INFO  (qtp987405879-33) [   x:unis] o.a.s.u.p.LogUpdateProcessorFactory [unis]  webapp=/solr path=/update params={commit=true}{commit=} 0 351
+2017-12-12 20:01:25.356 INFO  (qtp987405879-33) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1513108885325} status=0 QTime=28
+2017-12-12 20:01:25.389 INFO  (qtp987405879-19) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1513108885383} status=0 QTime=4
+2017-12-12 20:01:32.678 INFO  (qtp987405879-34) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1513108892654} status=0 QTime=21
+2017-12-12 20:01:32.698 INFO  (qtp987405879-15) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1513108892695} status=0 QTime=2
+2017-12-12 20:01:48.950 INFO  (qtp987405879-43) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1513108908869} status=0 QTime=78
+2017-12-12 20:01:48.962 INFO  (qtp987405879-34) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1513108908957} status=0 QTime=2
+2017-12-12 20:01:56.003 INFO  (qtp987405879-18) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1513108915990} status=0 QTime=11
+2017-12-12 20:01:56.027 INFO  (qtp987405879-33) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1513108916024} status=0 QTime=2
+2017-12-12 20:01:59.348 INFO  (qtp987405879-18) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1513108919334} status=0 QTime=12
+2017-12-12 20:01:59.367 INFO  (qtp987405879-33) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1513108919364} status=0 QTime=2
+2017-12-12 20:02:04.106 INFO  (qtp987405879-18) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1513108924094} status=0 QTime=10
+2017-12-12 20:02:04.123 INFO  (qtp987405879-33) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1513108924120} status=0 QTime=1
+2017-12-12 20:03:06.661 INFO  (ShutdownMonitor) [   ] o.e.j.s.ServerConnector Stopped ServerConnector@7586beff{HTTP/1.1}{0.0.0.0:8983}
+2017-12-12 20:03:06.661 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=1684792003
+2017-12-12 20:03:06.662 INFO  (coreCloseExecutor-12-thread-1) [   x:unis] o.a.s.c.SolrCore [unis]  CLOSING SolrCore org.apache.solr.core.SolrCore@7348c49e
+2017-12-12 20:03:06.663 INFO  (coreCloseExecutor-12-thread-1) [   x:unis] o.a.s.u.DirectUpdateHandler2 closing DirectUpdateHandler2{commits=6,autocommit maxTime=15000ms,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=2,cumulative_adds=184,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=2,transaction_logs_total_size=215487,transaction_logs_total_number=2}
+2017-12-12 20:03:06.663 INFO  (coreCloseExecutor-12-thread-1) [   x:unis] o.a.s.u.SolrCoreState Closing SolrCoreState
+2017-12-12 20:03:06.663 INFO  (coreCloseExecutor-12-thread-1) [   x:unis] o.a.s.u.DefaultSolrCoreState SolrCoreState ref count has reached 0 - closing IndexWriter
+2017-12-12 20:03:06.664 INFO  (coreCloseExecutor-12-thread-1) [   x:unis] o.a.s.u.DefaultSolrCoreState closing IndexWriter with IndexWriterCloser
+2017-12-12 20:03:06.665 INFO  (coreCloseExecutor-12-thread-1) [   x:unis] o.a.s.c.SolrCore [unis] Closing main searcher on request.
+2017-12-12 20:03:06.667 INFO  (coreCloseExecutor-12-thread-1) [   x:unis] o.a.s.c.CachingDirectoryFactory Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+2017-12-12 20:03:06.667 INFO  (coreCloseExecutor-12-thread-1) [   x:unis] o.a.s.c.CachingDirectoryFactory looking to close /mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/data/index [CachedDir<<refCount=0;path=/mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/data/index;done=false>>]
+2017-12-12 20:03:06.667 INFO  (coreCloseExecutor-12-thread-1) [   x:unis] o.a.s.c.CachingDirectoryFactory Closing directory: /mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/data/index
+2017-12-12 20:03:06.667 INFO  (coreCloseExecutor-12-thread-1) [   x:unis] o.a.s.c.CachingDirectoryFactory looking to close /mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/data [CachedDir<<refCount=0;path=/mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/data;done=false>>]
+2017-12-12 20:03:06.668 INFO  (coreCloseExecutor-12-thread-1) [   x:unis] o.a.s.c.CachingDirectoryFactory Closing directory: /mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/data
+2017-12-12 20:03:06.670 INFO  (ShutdownMonitor) [   ] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@42dafa95{/solr,file:/mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server/solr-webapp/webapp/,UNAVAILABLE}{/mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server/solr-webapp/webapp}

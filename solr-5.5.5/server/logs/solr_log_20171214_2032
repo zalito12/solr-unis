@@ -1,0 +1,618 @@
+2017-12-14 17:51:02.822 INFO  (main) [   ] o.e.j.u.log Logging initialized @288ms
+2017-12-14 17:51:02.983 INFO  (main) [   ] o.e.j.s.Server jetty-9.2.13.v20150730
+2017-12-14 17:51:02.996 WARN  (main) [   ] o.e.j.s.h.RequestLogHandler !RequestLog
+2017-12-14 17:51:02.997 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:/mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server/contexts/] at interval 0
+2017-12-14 17:51:03.513 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2017-12-14 17:51:03.523 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@42dafa95{/solr,file:/mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server/solr-webapp/webapp/,STARTING}{/mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server/solr-webapp/webapp} has uncovered http methods for path: /
+2017-12-14 17:51:03.533 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=267760927@ff5b51f
+2017-12-14 17:51:03.546 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2017-12-14 17:51:03.546 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr
+2017-12-14 17:51:03.547 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr'
+2017-12-14 17:51:03.547 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2017-12-14 17:51:03.547 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr
+2017-12-14 17:51:03.552 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/solr.xml
+2017-12-14 17:51:03.609 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Config-defined core root directory: /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr
+2017-12-14 17:51:03.630 INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 1684792003
+2017-12-14 17:51:03.631 INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr]
+2017-12-14 17:51:03.632 WARN  (main) [   ] o.a.s.c.CoreContainer Couldn't add files from /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/lib to classpath: /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/lib
+2017-12-14 17:51:03.642 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,connectionsEvictorSleepDelay : 5000,maxConnectionIdleTime : 40000,
+2017-12-14 17:51:03.886 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2017-12-14 17:51:03.888 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2017-12-14 17:51:03.889 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2017-12-14 17:51:03.891 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+2017-12-14 17:51:03.891 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+2017-12-14 17:51:03.921 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Looking for core definitions underneath /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr
+2017-12-14 17:51:03.958 INFO  (main) [   ] o.a.s.c.CoreDescriptor Created CoreDescriptor: {name=unis, config=solrconfig.xml, loadOnStartup=true, schema=schema.xml, configSetProperties=configsetprops.json, transient=false, dataDir=data/}
+2017-12-14 17:51:03.958 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found core unis in /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis
+2017-12-14 17:51:03.959 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 1 core definitions
+2017-12-14 17:51:03.962 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter user.dir=/mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server
+2017-12-14 17:51:03.962 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+2017-12-14 17:51:03.962 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis'
+2017-12-14 17:51:03.962 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2017-12-14 17:51:03.962 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr
+2017-12-14 17:51:03.974 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@42dafa95{/solr,file:/mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server/solr-webapp/webapp/,AVAILABLE}{/mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server/solr-webapp/webapp}
+2017-12-14 17:51:03.985 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@7e6f74c{HTTP/1.1}{0.0.0.0:8983}
+2017-12-14 17:51:03.986 INFO  (main) [   ] o.e.j.s.Server Started @1453ms
+2017-12-14 17:51:04.036 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig current version of requestparams : 0
+2017-12-14 17:51:04.041 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Adding specified lib dirs to ClassLoader
+2017-12-14 17:51:04.052 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/pdfbox-1.8.8.jar' to classloader
+2017-12-14 17:51:04.052 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+2017-12-14 17:51:04.053 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+2017-12-14 17:51:04.053 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/aspectjrt-1.8.0.jar' to classloader
+2017-12-14 17:51:04.053 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+2017-12-14 17:51:04.053 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+2017-12-14 17:51:04.053 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+2017-12-14 17:51:04.053 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/commons-compress-1.8.1.jar' to classloader
+2017-12-14 17:51:04.053 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/fontbox-1.8.8.jar' to classloader
+2017-12-14 17:51:04.054 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/icu4j-54.1.jar' to classloader
+2017-12-14 17:51:04.054 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/isoparser-1.0.2.jar' to classloader
+2017-12-14 17:51:04.054 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/java-libpst-0.8.1.jar' to classloader
+2017-12-14 17:51:04.054 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/jdom-1.0.jar' to classloader
+2017-12-14 17:51:04.054 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/jempbox-1.8.8.jar' to classloader
+2017-12-14 17:51:04.054 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/jmatio-1.2.jar' to classloader
+2017-12-14 17:51:04.055 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+2017-12-14 17:51:04.055 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+2017-12-14 17:51:04.055 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/poi-3.11.jar' to classloader
+2017-12-14 17:51:04.055 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/poi-ooxml-3.11.jar' to classloader
+2017-12-14 17:51:04.055 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/poi-ooxml-schemas-3.11.jar' to classloader
+2017-12-14 17:51:04.055 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/poi-scratchpad-3.11.jar' to classloader
+2017-12-14 17:51:04.055 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/rome-1.0.jar' to classloader
+2017-12-14 17:51:04.056 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+2017-12-14 17:51:04.056 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/tika-core-1.7.jar' to classloader
+2017-12-14 17:51:04.056 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/tika-java7-1.7.jar' to classloader
+2017-12-14 17:51:04.056 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/tika-parsers-1.7.jar' to classloader
+2017-12-14 17:51:04.056 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/tika-xmp-1.7.jar' to classloader
+2017-12-14 17:51:04.056 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/vorbis-java-core-0.6.jar' to classloader
+2017-12-14 17:51:04.056 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/vorbis-java-tika-0.6.jar' to classloader
+2017-12-14 17:51:04.057 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+2017-12-14 17:51:04.057 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+2017-12-14 17:51:04.057 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+2017-12-14 17:51:04.057 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/xz-1.5.jar' to classloader
+2017-12-14 17:51:04.057 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/dist/solr-cell-5.5.5.jar' to classloader
+2017-12-14 17:51:04.057 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/clustering/lib/attributes-binder-1.2.3.jar' to classloader
+2017-12-14 17:51:04.057 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/clustering/lib/carrot2-guava-18.0.jar' to classloader
+2017-12-14 17:51:04.058 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/clustering/lib/carrot2-mini-3.10.4.jar' to classloader
+2017-12-14 17:51:04.058 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/clustering/lib/jackson-annotations-2.5.4.jar' to classloader
+2017-12-14 17:51:04.058 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/clustering/lib/jackson-databind-2.5.4.jar' to classloader
+2017-12-14 17:51:04.058 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+2017-12-14 17:51:04.058 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+2017-12-14 17:51:04.058 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/clustering/lib/simple-xml-2.7.1.jar' to classloader
+2017-12-14 17:51:04.058 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/dist/solr-clustering-5.5.5.jar' to classloader
+2017-12-14 17:51:04.058 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+2017-12-14 17:51:04.059 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+2017-12-14 17:51:04.059 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/dist/solr-langid-5.5.5.jar' to classloader
+2017-12-14 17:51:04.059 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+2017-12-14 17:51:04.059 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/velocity/lib/commons-collections-3.2.2.jar' to classloader
+2017-12-14 17:51:04.059 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/velocity/lib/velocity-1.7.jar' to classloader
+2017-12-14 17:51:04.059 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+2017-12-14 17:51:04.059 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/dist/solr-velocity-5.5.5.jar' to classloader
+2017-12-14 17:51:04.245 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.5.5
+2017-12-14 17:51:04.367 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Loaded SolrConfig: solrconfig.xml
+2017-12-14 17:51:04.435 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema [unis] Schema name=example-data-driven-schema
+2017-12-14 17:51:04.795 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema unique key field: id
+2017-12-14 17:51:04.939 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2017-12-14 17:51:04.946 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2017-12-14 17:51:05.017 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or '/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis'
+2017-12-14 17:51:05.018 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.CoreContainer Creating SolrCore 'unis' using configuration from instancedir /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis
+2017-12-14 17:51:05.037 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.c.SolrCore solr.NRTCachingDirectoryFactory
+2017-12-14 17:51:05.050 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.c.SolrCore [[unis] ] Opening new SolrCore at [/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis], dataDir=[/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/data/]
+2017-12-14 17:51:05.052 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2017-12-14 17:51:05.057 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.c.SolrCore [[unis] ] Added SolrEventListener for newSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2017-12-14 17:51:05.057 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.c.SolrCore [[unis] ] Added SolrEventListener for firstSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2017-12-14 17:51:05.061 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.c.SchemaCodecFactory Using default compressionMode: BEST_SPEED
+2017-12-14 17:51:05.078 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.c.CachingDirectoryFactory return new directory for /mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/data
+2017-12-14 17:51:05.079 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.c.SolrCore New index directory detected: old=null new=/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/data/index/
+2017-12-14 17:51:05.081 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.c.CachingDirectoryFactory return new directory for /mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/data/index
+2017-12-14 17:51:05.098 INFO  (OldIndexDirectoryCleanupThreadForCore-unis) [   x:unis] o.a.s.c.SolrCore Looking for old index directories to cleanup for core unis in /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/data/
+2017-12-14 17:51:05.101 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.c.PluginBag queryResponseWriter : 'velocity' created with startup=lazy 
+2017-12-14 17:51:05.105 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2017-12-14 17:51:05.198 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.u.p.UpdateRequestProcessorChain creating updateRequestProcessorChain "add-unknown-fields-to-the-schema"
+2017-12-14 17:51:05.255 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.u.p.UpdateRequestProcessorChain creating updateRequestProcessorChain "dedupe"
+2017-12-14 17:51:05.260 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.u.p.UpdateRequestProcessorChain inserting DistributedUpdateProcessorFactory into updateRequestProcessorChain "dedupe"
+2017-12-14 17:51:05.260 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.u.p.UpdateRequestProcessorChain creating updateRequestProcessorChain "decimales"
+2017-12-14 17:51:05.261 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.u.p.UpdateRequestProcessorChain inserting DistributedUpdateProcessorFactory into updateRequestProcessorChain "decimales"
+2017-12-14 17:51:05.261 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+2017-12-14 17:51:05.286 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2017-12-14 17:51:05.288 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2017-12-14 17:51:05.288 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2017-12-14 17:51:05.289 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2017-12-14 17:51:05.301 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.c.PluginBag requestHandler : '/update/extract' created with startup=lazy 
+2017-12-14 17:51:05.301 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.c.PluginBag requestHandler : '/analysis/field' created with startup=lazy 
+2017-12-14 17:51:05.301 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.c.PluginBag requestHandler : '/analysis/document' created with startup=lazy 
+2017-12-14 17:51:05.303 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.c.PluginBag requestHandler : '/spell' created with startup=lazy 
+2017-12-14 17:51:05.304 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.c.PluginBag requestHandler : '/tvrh' created with startup=lazy 
+2017-12-14 17:51:05.304 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.c.PluginBag requestHandler : '/terms' created with startup=lazy 
+2017-12-14 17:51:05.304 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.c.PluginBag requestHandler : '/elevate' created with startup=lazy 
+2017-12-14 17:51:05.304 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.c.RequestHandlers Registered paths: /admin/mbeans,/browse,/update/json/docs,/admin/luke,/export,/get,/admin/properties,/elevate,/update/json,/admin/threads,/query,/analysis/field,/analysis/document,/spell,/update/csv,/tvrh,/select,/admin/segments,/admin/system,/replication,/config,/schema,/admin/plugins,/admin/logging,/admin/ping,/update,/admin/file,/debug/dump,/terms,/update/extract
+2017-12-14 17:51:05.306 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2017-12-14 17:51:05.317 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2017-12-14 17:51:05.318 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2017-12-14 17:51:05.332 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2017-12-14 17:51:05.332 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2017-12-14 17:51:05.373 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@69517896; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_j,generation=19}
+2017-12-14 17:51:05.374 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.c.SolrDeletionPolicy newest commit generation = 19
+2017-12-14 17:51:05.420 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.s.SolrIndexSearcher Opening Searcher@3b3eaf67[unis] main
+2017-12-14 17:51:05.428 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/conf
+2017-12-14 17:51:05.429 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.r.RestManager Initializing RestManager with initArgs: {storageDir=/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/conf}
+2017-12-14 17:51:05.440 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using file:dir=/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/conf
+2017-12-14 17:51:05.440 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.r.RestManager Initializing 0 registered ManagedResources
+2017-12-14 17:51:05.448 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2017-12-14 17:51:05.456 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2017-12-14 17:51:05.457 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.h.c.SpellCheckComponent No queryConverter defined, using default converter
+2017-12-14 17:51:05.460 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/conf/elevate.xml
+2017-12-14 17:51:05.483 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2017-12-14 17:51:05.484 INFO  (searcherExecutor-7-thread-1-processing-x:unis) [   x:unis] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@3b3eaf67[unis] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_a(5.5.5):C2400/348:delGen=1)))}
+2017-12-14 17:51:05.484 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.u.UpdateLog Looking up max value of version field to seed version buckets
+2017-12-14 17:51:05.484 INFO  (searcherExecutor-7-thread-1-processing-x:unis) [   x:unis] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-12-14 17:51:05.484 INFO  (searcherExecutor-7-thread-1-processing-x:unis) [   x:unis] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2017-12-14 17:51:05.485 INFO  (searcherExecutor-7-thread-1-processing-x:unis) [   x:unis] o.a.s.c.SolrCore [unis] Registered new searcher Searcher@3b3eaf67[unis] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_a(5.5.5):C2400/348:delGen=1)))}
+2017-12-14 17:51:05.486 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.u.VersionInfo Refreshing highest value of _version_ for 65536 version buckets from index
+2017-12-14 17:51:05.498 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.u.VersionInfo Found MAX value 1586700836202872834 from Terms for _version_ in index
+2017-12-14 17:51:05.504 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.u.UpdateLog Took 18.0ms to seed version buckets with highest version 1586700836202872834
+2017-12-14 17:51:05.505 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.c.CoreContainer registering core: unis
+2017-12-14 17:51:12.723 INFO  (qtp987405879-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1513273872678} status=0 QTime=42
+2017-12-14 17:51:12.828 INFO  (qtp987405879-12) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1513273872765} status=0 QTime=61
+2017-12-14 17:51:16.094 INFO  (qtp987405879-18) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={} hits=2052 status=0 QTime=175
+2017-12-14 17:51:16.095 INFO  (qtp987405879-18) [   x:unis] o.a.s.c.PluginBag Going to create a new queryResponseWriter with {type = queryResponseWriter,name = velocity,class = solr.VelocityResponseWriter,args = {template.base.dir=,solr.resource.loader.enabled=true,params.resource.loader.enabled=false}} 
+2017-12-14 17:51:16.581 ERROR (qtp987405879-18) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 36, column 53]
+2017-12-14 17:51:36.327 INFO  (qtp987405879-18) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=&fq=tipo:"Pública+/++Propio"} hits=1795 status=0 QTime=32
+2017-12-14 17:51:41.204 INFO  (qtp987405879-18) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=&fq=tipo:"Pública+/++Propio"&fq=center.ubicacion.provincia:"Madrid"} hits=236 status=0 QTime=5
+2017-12-14 17:51:45.046 INFO  (qtp987405879-18) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=&fq=tipo:"Pública+/++Propio"} hits=1795 status=0 QTime=3
+2017-12-14 17:51:47.386 INFO  (qtp987405879-12) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=} hits=2052 status=0 QTime=3
+2017-12-14 17:51:47.446 ERROR (qtp987405879-12) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 36, column 53]
+2017-12-14 17:51:57.089 ERROR (qtp987405879-16) [   x:unis] o.a.s.h.RequestHandlerBase java.lang.NumberFormatException: For input string: "$next_start"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:569)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at org.apache.solr.search.QParser.getSort(QParser.java:244)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:186)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:246)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:155)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2102)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:654)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:460)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+
+2017-12-14 17:51:57.091 INFO  (qtp987405879-16) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=&start=$next_start} status=500 QTime=4
+2017-12-14 17:51:57.093 ERROR (qtp987405879-16) [   x:unis] o.a.s.s.HttpSolrCall null:java.lang.NumberFormatException: For input string: "$next_start"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:569)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at org.apache.solr.search.QParser.getSort(QParser.java:244)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:186)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:246)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:155)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2102)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:654)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:460)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+
+2017-12-14 17:51:57.126 ERROR (qtp987405879-16) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($response.facetFields.size()) of '>' operation has null value at facets.vm[line 7, column 39]
+2017-12-14 17:51:57.127 ERROR (qtp987405879-16) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 36, column 53]
+2017-12-14 17:52:12.043 INFO  (qtp987405879-15) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=medicina} hits=110 status=0 QTime=87
+2017-12-14 17:52:12.077 ERROR (qtp987405879-15) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 36, column 53]
+2017-12-14 17:52:20.570 INFO  (qtp987405879-16) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=medicina&fq=center.ubicacion.provincia:"Madrid"} hits=15 status=0 QTime=21
+2017-12-14 17:52:34.009 INFO  (qtp987405879-18) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=medicina} hits=110 status=0 QTime=1
+2017-12-14 17:52:34.033 ERROR (qtp987405879-18) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 36, column 53]
+2017-12-14 17:52:49.457 INFO  (qtp987405879-16) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=} hits=2052 status=0 QTime=3
+2017-12-14 17:52:49.491 ERROR (qtp987405879-16) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 36, column 53]
+2017-12-14 17:53:08.652 INFO  (qtp987405879-18) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={fl=titulo} hits=2052 status=0 QTime=2
+2017-12-14 17:53:08.681 ERROR (qtp987405879-18) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 36, column 53]
+2017-12-14 17:53:20.900 INFO  (qtp987405879-15) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={fl=titulo,universidad} hits=2052 status=0 QTime=1
+2017-12-14 17:53:20.925 ERROR (qtp987405879-15) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 36, column 53]
+2017-12-14 17:57:43.115 INFO  (qtp987405879-17) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={fl=titulo,universidad} hits=2052 status=0 QTime=6
+2017-12-14 17:57:43.158 ERROR (qtp987405879-17) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 36, column 53]
+2017-12-14 17:57:48.919 INFO  (qtp987405879-15) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=&start=50} hits=2052 status=0 QTime=7
+2017-12-14 17:57:48.955 ERROR (qtp987405879-15) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 36, column 53]
+2017-12-14 17:57:56.746 INFO  (qtp987405879-21) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=&start=100} hits=2052 status=0 QTime=4
+2017-12-14 17:57:56.817 ERROR (qtp987405879-21) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 36, column 53]
+2017-12-14 17:58:22.060 INFO  (qtp987405879-13) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=&start=100} hits=2052 status=0 QTime=4
+2017-12-14 17:58:22.101 ERROR (qtp987405879-13) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 36, column 53]
+2017-12-14 17:59:10.719 INFO  (qtp987405879-12) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=&start=100} hits=2052 status=0 QTime=4
+2017-12-14 17:59:10.763 ERROR (qtp987405879-12) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 36, column 53]
+2017-12-14 17:59:30.414 INFO  (qtp987405879-12) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=medicina} hits=110 status=0 QTime=2
+2017-12-14 17:59:30.441 ERROR (qtp987405879-12) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 36, column 53]
+2017-12-14 17:59:47.820 INFO  (qtp987405879-16) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=titulo:*medicina*} hits=1 status=0 QTime=67
+2017-12-14 17:59:47.841 ERROR (qtp987405879-16) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 36, column 53]
+2017-12-14 17:59:58.483 INFO  (qtp987405879-15) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=titulo:*Medicina*} hits=30 status=0 QTime=19
+2017-12-14 17:59:58.529 ERROR (qtp987405879-15) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 36, column 53]
+2017-12-14 18:00:16.470 INFO  (qtp987405879-17) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=ía} hits=0 status=0 QTime=3
+2017-12-14 18:00:16.494 ERROR (qtp987405879-17) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 36, column 53]
+2017-12-14 18:00:20.594 INFO  (qtp987405879-21) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=ia} hits=0 status=0 QTime=2
+2017-12-14 18:00:20.625 ERROR (qtp987405879-21) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 36, column 53]
+2017-12-14 18:00:31.794 INFO  (qtp987405879-18) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=cadiz} hits=21 status=0 QTime=33
+2017-12-14 18:00:31.965 ERROR (qtp987405879-18) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 36, column 53]
+2017-12-14 18:00:44.823 INFO  (qtp987405879-12) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=cádiz} hits=44 status=0 QTime=1
+2017-12-14 18:00:44.874 ERROR (qtp987405879-12) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 36, column 53]
+2017-12-14 18:02:00.031 INFO  (qtp987405879-13) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=} hits=2052 status=0 QTime=3
+2017-12-14 18:02:00.061 ERROR (qtp987405879-13) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 36, column 53]
+2017-12-14 18:02:16.117 INFO  (qtp987405879-17) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=&fq=tipo:"Pública+/++Propio"} hits=1795 status=0 QTime=3
+2017-12-14 18:02:19.030 INFO  (qtp987405879-12) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=&fq=tipo:"Pública+/++Propio"&fq=center.ubicacion.provincia:"Madrid"} hits=236 status=0 QTime=3
+2017-12-14 18:02:22.383 INFO  (qtp987405879-16) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=} hits=2052 status=0 QTime=2
+2017-12-14 18:02:22.414 ERROR (qtp987405879-16) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 36, column 53]
+2017-12-14 18:04:29.809 INFO  (qtp987405879-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1513274669806} status=0 QTime=0
+2017-12-14 18:04:29.847 INFO  (qtp987405879-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1513274669841} status=0 QTime=5
+2017-12-14 18:04:35.016 ERROR (qtp987405879-15) [   x:unis] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.menu-top.html [/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/conf/admin-extra.menu-top.html]
+2017-12-14 18:04:35.017 INFO  (qtp987405879-15) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/admin/file params={file=admin-extra.menu-top.html&contentType=text/html;charset%3Dutf-8&_=1513274675012} status=404 QTime=3
+2017-12-14 18:04:35.020 ERROR (qtp987405879-21) [   x:unis] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.menu-bottom.html [/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/conf/admin-extra.menu-bottom.html]
+2017-12-14 18:04:35.020 INFO  (qtp987405879-21) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/admin/file params={file=admin-extra.menu-bottom.html&contentType=text/html;charset%3Dutf-8&_=1513274675014} status=404 QTime=4
+2017-12-14 18:04:35.190 INFO  (qtp987405879-17) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/admin/luke params={show=index&numTerms=0&wt=json&_=1513274675177} status=0 QTime=1
+2017-12-14 18:04:35.196 INFO  (qtp987405879-18) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/replication params={wt=json&command=details&_=1513274675188} status=0 QTime=5
+2017-12-14 18:04:35.207 INFO  (qtp987405879-12) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1513274675197} status=503 QTime=1
+2017-12-14 18:04:35.209 ERROR (qtp987405879-15) [   x:unis] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.html [/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/conf/admin-extra.html]
+2017-12-14 18:04:35.209 INFO  (qtp987405879-15) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/admin/file params={file=admin-extra.html&_=1513274675194} status=404 QTime=0
+2017-12-14 18:04:35.218 INFO  (qtp987405879-16) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/admin/system params={wt=json&_=1513274675191} status=0 QTime=13
+2017-12-14 18:11:09.184 INFO  (qtp987405879-21) [   x:unis] o.a.s.c.PluginBag Going to create a new requestHandler with {type = requestHandler,name = /spell,class = solr.SearchHandler,args = {defaults={spellcheck.dictionary=default,spellcheck=on,spellcheck.extendedResults=true,spellcheck.count=10,spellcheck.alternativeTermCount=5,spellcheck.maxResultsForSuggest=5,spellcheck.collate=true,spellcheck.collateExtendedResults=true,spellcheck.maxCollationTries=10,spellcheck.maxCollations=5,df=_text_},last-components=[spellcheck]}} 
+2017-12-14 18:11:09.201 INFO  (qtp987405879-21) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/spell params={q=mad} hits=0 status=0 QTime=17
+2017-12-14 18:16:49.103 INFO  (qtp987405879-21) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=} hits=2052 status=0 QTime=3
+2017-12-14 18:16:49.149 ERROR (qtp987405879-21) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 36, column 53]
+2017-12-14 18:18:17.448 INFO  (qtp987405879-18) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=} hits=2052 status=0 QTime=1
+2017-12-14 18:18:17.474 ERROR (qtp987405879-18) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 36, column 53]
+2017-12-14 18:19:12.335 INFO  (qtp987405879-18) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=} hits=2052 status=0 QTime=1
+2017-12-14 18:19:12.359 ERROR (qtp987405879-18) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 36, column 53]
+2017-12-14 18:21:39.347 INFO  (qtp987405879-13) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=} hits=2052 status=0 QTime=2
+2017-12-14 18:21:39.397 ERROR (qtp987405879-13) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 36, column 53]
+2017-12-14 18:22:34.017 INFO  (qtp987405879-13) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=} hits=2052 status=0 QTime=1
+2017-12-14 18:22:34.041 ERROR (qtp987405879-13) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 36, column 53]
+2017-12-14 18:23:22.225 INFO  (qtp987405879-18) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=} hits=2052 status=0 QTime=1
+2017-12-14 18:23:22.258 ERROR (qtp987405879-18) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 36, column 53]
+2017-12-14 18:23:59.981 INFO  (qtp987405879-18) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=} hits=2052 status=0 QTime=1
+2017-12-14 18:24:00.022 ERROR (qtp987405879-18) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 36, column 53]
+2017-12-14 18:24:09.255 INFO  (qtp987405879-17) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=} hits=2052 status=0 QTime=2
+2017-12-14 18:24:09.289 ERROR (qtp987405879-17) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 36, column 53]
+2017-12-14 18:25:03.695 INFO  (qtp987405879-13) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=} hits=2052 status=0 QTime=1
+2017-12-14 18:25:03.717 ERROR (qtp987405879-13) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 36, column 53]
+2017-12-14 18:25:25.312 INFO  (qtp987405879-13) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=} hits=2052 status=0 QTime=2
+2017-12-14 18:25:25.333 ERROR (qtp987405879-13) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 36, column 53]
+2017-12-14 18:32:55.163 INFO  (qtp987405879-18) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=} hits=2052 status=0 QTime=2
+2017-12-14 18:32:55.193 ERROR (qtp987405879-18) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 36, column 53]
+2017-12-14 18:33:01.573 INFO  (qtp987405879-21) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=} hits=2052 status=0 QTime=3
+2017-12-14 18:33:01.626 ERROR (qtp987405879-21) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 36, column 53]
+2017-12-14 18:33:38.389 INFO  (qtp987405879-17) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=} hits=2052 status=0 QTime=1
+2017-12-14 18:33:38.410 ERROR (qtp987405879-17) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 38, column 53]
+2017-12-14 18:33:54.354 INFO  (qtp987405879-12) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=} hits=2052 status=0 QTime=2
+2017-12-14 18:33:54.395 ERROR (qtp987405879-12) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 39, column 53]
+2017-12-14 18:34:12.876 INFO  (qtp987405879-17) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=asd} hits=0 status=0 QTime=3
+2017-12-14 18:34:12.904 ERROR (qtp987405879-17) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 39, column 53]
+2017-12-14 18:34:22.158 INFO  (qtp987405879-17) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=gran} hits=49 status=0 QTime=3
+2017-12-14 18:34:22.194 ERROR (qtp987405879-17) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 39, column 53]
+2017-12-14 18:35:48.810 INFO  (qtp987405879-12) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=gran} hits=49 status=0 QTime=3
+2017-12-14 18:35:48.858 ERROR (qtp987405879-12) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 38, column 53]
+2017-12-14 18:36:03.096 INFO  (qtp987405879-15) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=gran} hits=49 status=0 QTime=3
+2017-12-14 18:36:03.139 ERROR (qtp987405879-15) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 36, column 53]
+2017-12-14 18:36:16.944 INFO  (qtp987405879-18) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=gran} hits=49 status=0 QTime=1
+2017-12-14 18:36:16.970 ERROR (qtp987405879-18) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 36, column 53]
+2017-12-14 18:37:36.724 INFO  (qtp987405879-16) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=gran} hits=49 status=0 QTime=3
+2017-12-14 18:37:36.755 ERROR (qtp987405879-16) [   x:unis] o.a.s.r.VelocityResponseWriter Parser Exception: browse.vm
+org.apache.velocity.runtime.parser.ParseException: Encountered ")\n" at line 34, column 43.
+Was expecting one of:
+    "[" ...
+    <WHITESPACE> ...
+    "=" ...
+    
+	at org.apache.velocity.runtime.parser.Parser.generateParseException(Parser.java:3679)
+	at org.apache.velocity.runtime.parser.Parser.jj_consume_token(Parser.java:3558)
+	at org.apache.velocity.runtime.parser.Parser.SetDirective(Parser.java:1970)
+	at org.apache.velocity.runtime.parser.Parser.Statement(Parser.java:369)
+	at org.apache.velocity.runtime.parser.Parser.process(Parser.java:317)
+	at org.apache.velocity.runtime.parser.Parser.parse(Parser.java:117)
+	at org.apache.velocity.runtime.RuntimeInstance.parse(RuntimeInstance.java:1226)
+	at org.apache.velocity.runtime.RuntimeInstance.parse(RuntimeInstance.java:1181)
+	at org.apache.velocity.Template.process(Template.java:134)
+	at org.apache.velocity.runtime.resource.ResourceManagerImpl.loadResource(ResourceManagerImpl.java:437)
+	at org.apache.velocity.runtime.resource.ResourceManagerImpl.getResource(ResourceManagerImpl.java:352)
+	at org.apache.velocity.runtime.RuntimeInstance.getTemplate(RuntimeInstance.java:1533)
+	at org.apache.velocity.runtime.RuntimeInstance.getTemplate(RuntimeInstance.java:1514)
+	at org.apache.velocity.app.VelocityEngine.getTemplate(VelocityEngine.java:373)
+	at org.apache.solr.response.VelocityResponseWriter.getTemplate(VelocityResponseWriter.java:358)
+	at org.apache.solr.response.VelocityResponseWriter.write(VelocityResponseWriter.java:153)
+	at org.apache.solr.response.QueryResponseWriterUtil.writeQueryResponse(QueryResponseWriterUtil.java:52)
+	at org.apache.solr.servlet.HttpSolrCall.writeResponse(HttpSolrCall.java:728)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:469)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+2017-12-14 18:37:36.759 ERROR (qtp987405879-16) [   x:unis] o.a.s.r.VelocityResponseWriter ResourceManager.getResource() parse exception
+org.apache.velocity.exception.ParseErrorException: Encountered ")\n" at browse.vm[line 34, column 43]
+Was expecting one of:
+    "[" ...
+    <WHITESPACE> ...
+    "=" ...
+    
+	at org.apache.velocity.Template.process(Template.java:151)
+	at org.apache.velocity.runtime.resource.ResourceManagerImpl.loadResource(ResourceManagerImpl.java:437)
+	at org.apache.velocity.runtime.resource.ResourceManagerImpl.getResource(ResourceManagerImpl.java:352)
+	at org.apache.velocity.runtime.RuntimeInstance.getTemplate(RuntimeInstance.java:1533)
+	at org.apache.velocity.runtime.RuntimeInstance.getTemplate(RuntimeInstance.java:1514)
+	at org.apache.velocity.app.VelocityEngine.getTemplate(VelocityEngine.java:373)
+	at org.apache.solr.response.VelocityResponseWriter.getTemplate(VelocityResponseWriter.java:358)
+	at org.apache.solr.response.VelocityResponseWriter.write(VelocityResponseWriter.java:153)
+	at org.apache.solr.response.QueryResponseWriterUtil.writeQueryResponse(QueryResponseWriterUtil.java:52)
+	at org.apache.solr.servlet.HttpSolrCall.writeResponse(HttpSolrCall.java:728)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:469)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+2017-12-14 18:37:36.761 ERROR (qtp987405879-16) [   x:unis] o.a.s.s.HttpSolrCall null:java.io.IOException: Encountered ")\n" at browse.vm[line 34, column 43]
+Was expecting one of:
+    "[" ...
+    <WHITESPACE> ...
+    "=" ...
+    
+	at org.apache.solr.response.VelocityResponseWriter.getTemplate(VelocityResponseWriter.java:360)
+	at org.apache.solr.response.VelocityResponseWriter.write(VelocityResponseWriter.java:153)
+	at org.apache.solr.response.QueryResponseWriterUtil.writeQueryResponse(QueryResponseWriterUtil.java:52)
+	at org.apache.solr.servlet.HttpSolrCall.writeResponse(HttpSolrCall.java:728)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:469)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+
+2017-12-14 18:37:36.781 ERROR (qtp987405879-16) [   x:unis] o.a.s.r.VelocityResponseWriter Parser Exception: browse.vm
+org.apache.velocity.runtime.parser.ParseException: Encountered ")\n" at line 34, column 43.
+Was expecting one of:
+    "[" ...
+    <WHITESPACE> ...
+    "=" ...
+    
+	at org.apache.velocity.runtime.parser.Parser.generateParseException(Parser.java:3679)
+	at org.apache.velocity.runtime.parser.Parser.jj_consume_token(Parser.java:3558)
+	at org.apache.velocity.runtime.parser.Parser.SetDirective(Parser.java:1970)
+	at org.apache.velocity.runtime.parser.Parser.Statement(Parser.java:369)
+	at org.apache.velocity.runtime.parser.Parser.process(Parser.java:317)
+	at org.apache.velocity.runtime.parser.Parser.parse(Parser.java:117)
+	at org.apache.velocity.runtime.RuntimeInstance.parse(RuntimeInstance.java:1226)
+	at org.apache.velocity.runtime.RuntimeInstance.parse(RuntimeInstance.java:1181)
+	at org.apache.velocity.Template.process(Template.java:134)
+	at org.apache.velocity.runtime.resource.ResourceManagerImpl.loadResource(ResourceManagerImpl.java:437)
+	at org.apache.velocity.runtime.resource.ResourceManagerImpl.getResource(ResourceManagerImpl.java:352)
+	at org.apache.velocity.runtime.RuntimeInstance.getTemplate(RuntimeInstance.java:1533)
+	at org.apache.velocity.runtime.RuntimeInstance.getTemplate(RuntimeInstance.java:1514)
+	at org.apache.velocity.app.VelocityEngine.getTemplate(VelocityEngine.java:373)
+	at org.apache.solr.response.VelocityResponseWriter.getTemplate(VelocityResponseWriter.java:358)
+	at org.apache.solr.response.VelocityResponseWriter.write(VelocityResponseWriter.java:153)
+	at org.apache.solr.response.QueryResponseWriterUtil.writeQueryResponse(QueryResponseWriterUtil.java:52)
+	at org.apache.solr.servlet.HttpSolrCall.writeResponse(HttpSolrCall.java:728)
+	at org.apache.solr.servlet.HttpSolrCall.sendError(HttpSolrCall.java:623)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:475)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+2017-12-14 18:37:36.783 ERROR (qtp987405879-16) [   x:unis] o.a.s.r.VelocityResponseWriter ResourceManager.getResource() parse exception
+org.apache.velocity.exception.ParseErrorException: Encountered ")\n" at browse.vm[line 34, column 43]
+Was expecting one of:
+    "[" ...
+    <WHITESPACE> ...
+    "=" ...
+    
+	at org.apache.velocity.Template.process(Template.java:151)
+	at org.apache.velocity.runtime.resource.ResourceManagerImpl.loadResource(ResourceManagerImpl.java:437)
+	at org.apache.velocity.runtime.resource.ResourceManagerImpl.getResource(ResourceManagerImpl.java:352)
+	at org.apache.velocity.runtime.RuntimeInstance.getTemplate(RuntimeInstance.java:1533)
+	at org.apache.velocity.runtime.RuntimeInstance.getTemplate(RuntimeInstance.java:1514)
+	at org.apache.velocity.app.VelocityEngine.getTemplate(VelocityEngine.java:373)
+	at org.apache.solr.response.VelocityResponseWriter.getTemplate(VelocityResponseWriter.java:358)
+	at org.apache.solr.response.VelocityResponseWriter.write(VelocityResponseWriter.java:153)
+	at org.apache.solr.response.QueryResponseWriterUtil.writeQueryResponse(QueryResponseWriterUtil.java:52)
+	at org.apache.solr.servlet.HttpSolrCall.writeResponse(HttpSolrCall.java:728)
+	at org.apache.solr.servlet.HttpSolrCall.sendError(HttpSolrCall.java:623)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:475)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+2017-12-14 18:37:36.784 ERROR (qtp987405879-16) [   x:unis] o.a.s.s.HttpSolrCall null:java.io.IOException: Encountered ")\n" at browse.vm[line 34, column 43]
+Was expecting one of:
+    "[" ...
+    <WHITESPACE> ...
+    "=" ...
+    
+	at org.apache.solr.response.VelocityResponseWriter.getTemplate(VelocityResponseWriter.java:360)
+	at org.apache.solr.response.VelocityResponseWriter.write(VelocityResponseWriter.java:153)
+	at org.apache.solr.response.QueryResponseWriterUtil.writeQueryResponse(QueryResponseWriterUtil.java:52)
+	at org.apache.solr.servlet.HttpSolrCall.writeResponse(HttpSolrCall.java:728)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:469)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+
+2017-12-14 18:37:40.792 INFO  (qtp987405879-16) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=gran} hits=49 status=0 QTime=2
+2017-12-14 18:37:40.831 ERROR (qtp987405879-16) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 36, column 53]
+2017-12-14 18:37:46.323 INFO  (qtp987405879-15) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=gran} hits=49 status=0 QTime=2
+2017-12-14 18:37:46.350 ERROR (qtp987405879-15) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 36, column 53]
+2017-12-14 18:40:02.199 INFO  (qtp987405879-16) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=gran} hits=49 status=0 QTime=2
+2017-12-14 18:40:02.226 ERROR (qtp987405879-16) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 36, column 53]
+2017-12-14 18:41:34.054 INFO  (qtp987405879-12) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=gran} hits=49 status=0 QTime=2
+2017-12-14 18:41:34.093 ERROR (qtp987405879-12) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 36, column 53]
+2017-12-14 18:45:21.668 INFO  (qtp987405879-18) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=gran} hits=49 status=0 QTime=3
+2017-12-14 18:45:21.703 ERROR (qtp987405879-18) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 36, column 53]
+2017-12-14 18:46:25.469 INFO  (qtp987405879-18) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=gran} hits=49 status=0 QTime=2
+2017-12-14 18:46:25.507 ERROR (qtp987405879-18) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 36, column 53]
+2017-12-14 18:46:59.385 INFO  (qtp987405879-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1513277219377} status=0 QTime=0
+2017-12-14 18:46:59.472 INFO  (qtp987405879-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1513277219454} status=0 QTime=6
+2017-12-14 18:47:02.254 ERROR (qtp987405879-21) [   x:unis] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.menu-top.html [/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/conf/admin-extra.menu-top.html]
+2017-12-14 18:47:02.255 INFO  (qtp987405879-21) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/admin/file params={file=admin-extra.menu-top.html&contentType=text/html;charset%3Dutf-8&_=1513277222252} status=404 QTime=1
+2017-12-14 18:47:02.257 ERROR (qtp987405879-16) [   x:unis] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.menu-bottom.html [/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/conf/admin-extra.menu-bottom.html]
+2017-12-14 18:47:02.257 INFO  (qtp987405879-16) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/admin/file params={file=admin-extra.menu-bottom.html&contentType=text/html;charset%3Dutf-8&_=1513277222254} status=404 QTime=1
+2017-12-14 18:47:02.326 INFO  (qtp987405879-18) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/admin/luke params={show=index&numTerms=0&wt=json&_=1513277222315} status=0 QTime=0
+2017-12-14 18:47:02.346 INFO  (qtp987405879-15) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/replication params={wt=json&command=details&_=1513277222323} status=0 QTime=4
+2017-12-14 18:47:02.350 INFO  (qtp987405879-17) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/admin/system params={wt=json&_=1513277222327} status=0 QTime=8
+2017-12-14 18:47:02.371 INFO  (qtp987405879-21) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1513277222332} status=503 QTime=0
+2017-12-14 18:47:02.371 ERROR (qtp987405879-12) [   x:unis] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.html [/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/conf/admin-extra.html]
+2017-12-14 18:47:02.371 INFO  (qtp987405879-12) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/admin/file params={file=admin-extra.html&_=1513277222330} status=404 QTime=0
+2017-12-14 18:47:09.046 INFO  (qtp987405879-15) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/select params={q=gran&indent=true&wt=json&_=1513277229040} hits=49 status=0 QTime=1
+2017-12-14 18:47:36.964 INFO  (qtp987405879-17) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=gran} hits=49 status=0 QTime=3
+2017-12-14 18:47:37.002 ERROR (qtp987405879-17) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 36, column 53]
+2017-12-14 18:47:50.552 INFO  (qtp987405879-17) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=gran&fq=center.ubicacion.provincia:"Lleida"} hits=1 status=0 QTime=2
+2017-12-14 18:47:55.134 INFO  (qtp987405879-17) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=gran} hits=49 status=0 QTime=2
+2017-12-14 18:47:55.159 ERROR (qtp987405879-17) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 36, column 53]
+2017-12-14 18:49:54.509 INFO  (Thread-0) [   ] o.e.j.s.ServerConnector Stopped ServerConnector@7e6f74c{HTTP/1.1}{0.0.0.0:8983}
+2017-12-14 18:49:54.510 INFO  (Thread-0) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=1684792003
+2017-12-14 18:49:54.511 INFO  (coreCloseExecutor-13-thread-1) [   x:unis] o.a.s.c.SolrCore [unis]  CLOSING SolrCore org.apache.solr.core.SolrCore@7c19cea
+2017-12-14 18:49:54.512 INFO  (coreCloseExecutor-13-thread-1) [   x:unis] o.a.s.u.DirectUpdateHandler2 closing DirectUpdateHandler2{commits=0,autocommit maxTime=15000ms,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=3985033,transaction_logs_total_number=1}
+2017-12-14 18:49:54.512 INFO  (coreCloseExecutor-13-thread-1) [   x:unis] o.a.s.u.SolrCoreState Closing SolrCoreState
+2017-12-14 18:49:54.512 INFO  (coreCloseExecutor-13-thread-1) [   x:unis] o.a.s.u.DefaultSolrCoreState SolrCoreState ref count has reached 0 - closing IndexWriter
+2017-12-14 18:49:54.512 INFO  (coreCloseExecutor-13-thread-1) [   x:unis] o.a.s.u.DefaultSolrCoreState closing IndexWriter with IndexWriterCloser
+2017-12-14 18:49:54.519 INFO  (coreCloseExecutor-13-thread-1) [   x:unis] o.a.s.c.SolrCore [unis] Closing main searcher on request.
+2017-12-14 18:49:54.521 INFO  (coreCloseExecutor-13-thread-1) [   x:unis] o.a.s.c.CachingDirectoryFactory Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+2017-12-14 18:49:54.522 INFO  (coreCloseExecutor-13-thread-1) [   x:unis] o.a.s.c.CachingDirectoryFactory looking to close /mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/data/index [CachedDir<<refCount=0;path=/mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/data/index;done=false>>]
+2017-12-14 18:49:54.522 INFO  (coreCloseExecutor-13-thread-1) [   x:unis] o.a.s.c.CachingDirectoryFactory Closing directory: /mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/data/index
+2017-12-14 18:49:54.522 INFO  (coreCloseExecutor-13-thread-1) [   x:unis] o.a.s.c.CachingDirectoryFactory looking to close /mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/data [CachedDir<<refCount=0;path=/mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/data;done=false>>]
+2017-12-14 18:49:54.522 INFO  (coreCloseExecutor-13-thread-1) [   x:unis] o.a.s.c.CachingDirectoryFactory Closing directory: /mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/data
+2017-12-14 18:49:54.527 INFO  (Thread-0) [   ] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@42dafa95{/solr,file:/mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server/solr-webapp/webapp/,UNAVAILABLE}{/mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server/solr-webapp/webapp}

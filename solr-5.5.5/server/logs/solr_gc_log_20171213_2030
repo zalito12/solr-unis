@@ -1,0 +1,196 @@
+Java HotSpot(TM) 64-Bit Server VM (25.151-b12) for linux-amd64 JRE (1.8.0_151-b12), built on Sep  5 2017 19:20:58 by "java_re" with gcc 4.3.0 20080428 (Red Hat 4.3.0-8)
+Memory: 4k page, physical 8124324k(5320364k free), swap 7812092k(7812092k free)
+CommandLine flags: -XX:CMSInitiatingOccupancyFraction=50 -XX:CMSMaxAbortablePrecleanTime=6000 -XX:+CMSParallelRemarkEnabled -XX:+CMSScavengeBeforeRemark -XX:ConcGCThreads=4 -XX:InitialHeapSize=536870912 -XX:MaxHeapSize=536870912 -XX:MaxTenuringThreshold=8 -XX:NewRatio=3 -XX:OldPLABSize=16 -XX:OnOutOfMemoryError=/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/bin/oom_solr.sh 8983 /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/logs -XX:ParallelGCThreads=4 -XX:+ParallelRefProcEnabled -XX:PretenureSizeThreshold=67108864 -XX:+PrintGC -XX:+PrintGCApplicationStoppedTime -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+PrintHeapAtGC -XX:+PrintTenuringDistribution -XX:SurvivorRatio=4 -XX:TargetSurvivorRatio=90 -XX:ThreadStackSize=256 -XX:+UseCMSInitiatingOccupancyOnly -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseConcMarkSweepGC -XX:+UseParNewGC 
+2017-12-13T20:27:50.547+0100: 0,294: Total time for which application threads were stopped: 0,0001268 seconds, Stopping threads took: 0,0000171 seconds
+2017-12-13T20:27:50.630+0100: 0,376: Total time for which application threads were stopped: 0,0001097 seconds, Stopping threads took: 0,0000206 seconds
+2017-12-13T20:27:50.716+0100: 0,462: Total time for which application threads were stopped: 0,0001238 seconds, Stopping threads took: 0,0000215 seconds
+2017-12-13T20:27:50.761+0100: 0,508: Total time for which application threads were stopped: 0,0001328 seconds, Stopping threads took: 0,0000203 seconds
+2017-12-13T20:27:50.777+0100: 0,523: Total time for which application threads were stopped: 0,0002059 seconds, Stopping threads took: 0,0000215 seconds
+2017-12-13T20:27:50.792+0100: 0,538: Total time for which application threads were stopped: 0,0001753 seconds, Stopping threads took: 0,0000238 seconds
+{Heap before GC invocations=0 (full 0):
+ par new generation   total 109248K, used 87424K [0x00000000e0000000, 0x00000000e8000000, 0x00000000e8000000)
+  eden space 87424K, 100% used [0x00000000e0000000, 0x00000000e5560000, 0x00000000e5560000)
+  from space 21824K,   0% used [0x00000000e5560000, 0x00000000e5560000, 0x00000000e6ab0000)
+  to   space 21824K,   0% used [0x00000000e6ab0000, 0x00000000e6ab0000, 0x00000000e8000000)
+ concurrent mark-sweep generation total 393216K, used 0K [0x00000000e8000000, 0x0000000100000000, 0x0000000100000000)
+ Metaspace       used 10140K, capacity 10346K, committed 10496K, reserved 1058816K
+  class space    used 1159K, capacity 1214K, committed 1280K, reserved 1048576K
+2017-12-13T20:27:51.081+0100: 0,827: [GC (Allocation Failure) 2017-12-13T20:27:51.081+0100: 0,827: [ParNew
+Desired survivor size 20112992 bytes, new threshold 8 (max 8)
+- age   1:    5519880 bytes,    5519880 total
+: 87424K->5463K(109248K), 0,0076241 secs] 87424K->5463K(502464K), 0,0078793 secs] [Times: user=0,03 sys=0,00, real=0,00 secs] 
+Heap after GC invocations=1 (full 0):
+ par new generation   total 109248K, used 5463K [0x00000000e0000000, 0x00000000e8000000, 0x00000000e8000000)
+  eden space 87424K,   0% used [0x00000000e0000000, 0x00000000e0000000, 0x00000000e5560000)
+  from space 21824K,  25% used [0x00000000e6ab0000, 0x00000000e7005d10, 0x00000000e8000000)
+  to   space 21824K,   0% used [0x00000000e5560000, 0x00000000e5560000, 0x00000000e6ab0000)
+ concurrent mark-sweep generation total 393216K, used 0K [0x00000000e8000000, 0x0000000100000000, 0x0000000100000000)
+ Metaspace       used 10140K, capacity 10346K, committed 10496K, reserved 1058816K
+  class space    used 1159K, capacity 1214K, committed 1280K, reserved 1048576K
+}
+2017-12-13T20:27:51.089+0100: 0,835: Total time for which application threads were stopped: 0,0081064 seconds, Stopping threads took: 0,0000261 seconds
+2017-12-13T20:27:51.253+0100: 0,999: Total time for which application threads were stopped: 0,0001613 seconds, Stopping threads took: 0,0000204 seconds
+2017-12-13T20:27:51.289+0100: 1,035: Total time for which application threads were stopped: 0,0001601 seconds, Stopping threads took: 0,0000206 seconds
+2017-12-13T20:27:51.411+0100: 1,157: Total time for which application threads were stopped: 0,0002095 seconds, Stopping threads took: 0,0000172 seconds
+2017-12-13T20:27:51.412+0100: 1,158: Total time for which application threads were stopped: 0,0001242 seconds, Stopping threads took: 0,0000133 seconds
+2017-12-13T20:27:51.415+0100: 1,161: Total time for which application threads were stopped: 0,0001953 seconds, Stopping threads took: 0,0000154 seconds
+2017-12-13T20:27:51.491+0100: 1,238: Total time for which application threads were stopped: 0,0001933 seconds, Stopping threads took: 0,0000198 seconds
+2017-12-13T20:27:51.771+0100: 1,517: Total time for which application threads were stopped: 0,0002510 seconds, Stopping threads took: 0,0000236 seconds
+{Heap before GC invocations=1 (full 0):
+ par new generation   total 109248K, used 92887K [0x00000000e0000000, 0x00000000e8000000, 0x00000000e8000000)
+  eden space 87424K, 100% used [0x00000000e0000000, 0x00000000e5560000, 0x00000000e5560000)
+  from space 21824K,  25% used [0x00000000e6ab0000, 0x00000000e7005d10, 0x00000000e8000000)
+  to   space 21824K,   0% used [0x00000000e5560000, 0x00000000e5560000, 0x00000000e6ab0000)
+ concurrent mark-sweep generation total 393216K, used 0K [0x00000000e8000000, 0x0000000100000000, 0x0000000100000000)
+ Metaspace       used 19889K, capacity 20280K, committed 20480K, reserved 1067008K
+  class space    used 2340K, capacity 2454K, committed 2560K, reserved 1048576K
+2017-12-13T20:27:52.081+0100: 1,827: [GC (Allocation Failure) 2017-12-13T20:27:52.081+0100: 1,827: [ParNew
+Desired survivor size 20112992 bytes, new threshold 8 (max 8)
+- age   1:    8750592 bytes,    8750592 total
+- age   2:    2502328 bytes,   11252920 total
+: 92887K->13227K(109248K), 0,0374966 secs] 92887K->13227K(502464K), 0,0377835 secs] [Times: user=0,11 sys=0,00, real=0,03 secs] 
+Heap after GC invocations=2 (full 0):
+ par new generation   total 109248K, used 13227K [0x00000000e0000000, 0x00000000e8000000, 0x00000000e8000000)
+  eden space 87424K,   0% used [0x00000000e0000000, 0x00000000e0000000, 0x00000000e5560000)
+  from space 21824K,  60% used [0x00000000e5560000, 0x00000000e624ad38, 0x00000000e6ab0000)
+  to   space 21824K,   0% used [0x00000000e6ab0000, 0x00000000e6ab0000, 0x00000000e8000000)
+ concurrent mark-sweep generation total 393216K, used 0K [0x00000000e8000000, 0x0000000100000000, 0x0000000100000000)
+ Metaspace       used 19889K, capacity 20280K, committed 20480K, reserved 1067008K
+  class space    used 2340K, capacity 2454K, committed 2560K, reserved 1048576K
+}
+2017-12-13T20:27:52.118+0100: 1,865: Total time for which application threads were stopped: 0,0380372 seconds, Stopping threads took: 0,0000220 seconds
+2017-12-13T20:27:52.151+0100: 1,898: Total time for which application threads were stopped: 0,0002549 seconds, Stopping threads took: 0,0000222 seconds
+2017-12-13T20:27:52.196+0100: 1,942: Total time for which application threads were stopped: 0,0003296 seconds, Stopping threads took: 0,0000276 seconds
+2017-12-13T20:27:52.238+0100: 1,984: Total time for which application threads were stopped: 0,0003233 seconds, Stopping threads took: 0,0000250 seconds
+2017-12-13T20:27:52.335+0100: 2,082: Total time for which application threads were stopped: 0,0001555 seconds, Stopping threads took: 0,0000370 seconds
+2017-12-13T20:27:52.383+0100: 2,130: Total time for which application threads were stopped: 0,0001226 seconds, Stopping threads took: 0,0000322 seconds
+2017-12-13T20:27:52.399+0100: 2,145: Total time for which application threads were stopped: 0,0001086 seconds, Stopping threads took: 0,0000245 seconds
+{Heap before GC invocations=2 (full 0):
+ par new generation   total 109248K, used 100651K [0x00000000e0000000, 0x00000000e8000000, 0x00000000e8000000)
+  eden space 87424K, 100% used [0x00000000e0000000, 0x00000000e5560000, 0x00000000e5560000)
+  from space 21824K,  60% used [0x00000000e5560000, 0x00000000e624ad38, 0x00000000e6ab0000)
+  to   space 21824K,   0% used [0x00000000e6ab0000, 0x00000000e6ab0000, 0x00000000e8000000)
+ concurrent mark-sweep generation total 393216K, used 0K [0x00000000e8000000, 0x0000000100000000, 0x0000000100000000)
+ Metaspace       used 21768K, capacity 22142K, committed 22292K, reserved 1069056K
+  class space    used 2573K, capacity 2711K, committed 2760K, reserved 1048576K
+2017-12-13T20:27:52.470+0100: 2,217: [GC (Allocation Failure) 2017-12-13T20:27:52.471+0100: 2,217: [ParNew
+Desired survivor size 20112992 bytes, new threshold 8 (max 8)
+- age   1:    2445208 bytes,    2445208 total
+- age   2:    3288368 bytes,    5733576 total
+- age   3:    2486912 bytes,    8220488 total
+: 100651K->11404K(109248K), 0,0165921 secs] 100651K->11404K(502464K), 0,0169063 secs] [Times: user=0,05 sys=0,00, real=0,02 secs] 
+Heap after GC invocations=3 (full 0):
+ par new generation   total 109248K, used 11404K [0x00000000e0000000, 0x00000000e8000000, 0x00000000e8000000)
+  eden space 87424K,   0% used [0x00000000e0000000, 0x00000000e0000000, 0x00000000e5560000)
+  from space 21824K,  52% used [0x00000000e6ab0000, 0x00000000e75d3158, 0x00000000e8000000)
+  to   space 21824K,   0% used [0x00000000e5560000, 0x00000000e5560000, 0x00000000e6ab0000)
+ concurrent mark-sweep generation total 393216K, used 0K [0x00000000e8000000, 0x0000000100000000, 0x0000000100000000)
+ Metaspace       used 21768K, capacity 22142K, committed 22292K, reserved 1069056K
+  class space    used 2573K, capacity 2711K, committed 2760K, reserved 1048576K
+}
+2017-12-13T20:27:52.487+0100: 2,234: Total time for which application threads were stopped: 0,0171542 seconds, Stopping threads took: 0,0000305 seconds
+2017-12-13T20:27:52.488+0100: 2,234: [GC (CMS Initial Mark) [1 CMS-initial-mark: 0K(393216K)] 12345K(502464K), 0,0032998 secs] [Times: user=0,02 sys=0,00, real=0,01 secs] 
+2017-12-13T20:27:52.491+0100: 2,237: Total time for which application threads were stopped: 0,0035173 seconds, Stopping threads took: 0,0000484 seconds
+2017-12-13T20:27:52.491+0100: 2,237: [CMS-concurrent-mark-start]
+2017-12-13T20:27:52.492+0100: 2,239: [CMS-concurrent-mark: 0,001/0,001 secs] [Times: user=0,00 sys=0,00, real=0,00 secs] 
+2017-12-13T20:27:52.492+0100: 2,239: [CMS-concurrent-preclean-start]
+2017-12-13T20:27:52.493+0100: 2,240: [CMS-concurrent-preclean: 0,001/0,001 secs] [Times: user=0,00 sys=0,00, real=0,00 secs] 
+2017-12-13T20:27:52.494+0100: 2,240: [GC (CMS Final Remark) [YG occupancy: 12345 K (109248 K)]{Heap before GC invocations=3 (full 1):
+ par new generation   total 109248K, used 12345K [0x00000000e0000000, 0x00000000e8000000, 0x00000000e8000000)
+  eden space 87424K,   1% used [0x00000000e0000000, 0x00000000e00eb4d8, 0x00000000e5560000)
+  from space 21824K,  52% used [0x00000000e6ab0000, 0x00000000e75d3158, 0x00000000e8000000)
+  to   space 21824K,   0% used [0x00000000e5560000, 0x00000000e5560000, 0x00000000e6ab0000)
+ concurrent mark-sweep generation total 393216K, used 0K [0x00000000e8000000, 0x0000000100000000, 0x0000000100000000)
+ Metaspace       used 21773K, capacity 22142K, committed 22292K, reserved 1069056K
+  class space    used 2574K, capacity 2711K, committed 2760K, reserved 1048576K
+2017-12-13T20:27:52.494+0100: 2,240: [GC (CMS Final Remark) 2017-12-13T20:27:52.494+0100: 2,240: [ParNew
+Desired survivor size 20112992 bytes, new threshold 8 (max 8)
+- age   1:       9040 bytes,       9040 total
+- age   2:     861024 bytes,     870064 total
+- age   3:    3278552 bytes,    4148616 total
+- age   4:    2486912 bytes,    6635528 total
+: 12345K->9259K(109248K), 0,0075549 secs] 12345K->9259K(502464K), 0,0077097 secs] [Times: user=0,03 sys=0,00, real=0,01 secs] 
+Heap after GC invocations=4 (full 1):
+ par new generation   total 109248K, used 9259K [0x00000000e0000000, 0x00000000e8000000, 0x00000000e8000000)
+  eden space 87424K,   0% used [0x00000000e0000000, 0x00000000e0000000, 0x00000000e5560000)
+  from space 21824K,  42% used [0x00000000e5560000, 0x00000000e5e6aef8, 0x00000000e6ab0000)
+  to   space 21824K,   0% used [0x00000000e6ab0000, 0x00000000e6ab0000, 0x00000000e8000000)
+ concurrent mark-sweep generation total 393216K, used 0K [0x00000000e8000000, 0x0000000100000000, 0x0000000100000000)
+ Metaspace       used 21773K, capacity 22142K, committed 22292K, reserved 1069056K
+  class space    used 2574K, capacity 2711K, committed 2760K, reserved 1048576K
+}
+2017-12-13T20:27:52.502+0100: 2,248: [Rescan (parallel) , 0,0030479 secs]2017-12-13T20:27:52.505+0100: 2,251: [weak refs processing, 0,0008345 secs]2017-12-13T20:27:52.506+0100: 2,252: [class unloading, 0,0028188 secs]2017-12-13T20:27:52.508+0100: 2,255: [scrub symbol table, 0,0018683 secs]2017-12-13T20:27:52.510+0100: 2,257: [scrub string table, 0,0003961 secs][1 CMS-remark: 0K(393216K)] 9259K(502464K), 0,0177444 secs] [Times: user=0,04 sys=0,00, real=0,02 secs] 
+2017-12-13T20:27:52.512+0100: 2,258: Total time for which application threads were stopped: 0,0179154 seconds, Stopping threads took: 0,0000428 seconds
+2017-12-13T20:27:52.512+0100: 2,258: [CMS-concurrent-sweep-start]
+2017-12-13T20:27:52.512+0100: 2,258: [CMS-concurrent-sweep: 0,000/0,000 secs] [Times: user=0,00 sys=0,00, real=0,00 secs] 
+2017-12-13T20:27:52.512+0100: 2,258: [CMS-concurrent-reset-start]
+2017-12-13T20:27:52.513+0100: 2,259: [CMS-concurrent-reset: 0,001/0,001 secs] [Times: user=0,01 sys=0,00, real=0,00 secs] 
+2017-12-13T20:27:52.680+0100: 2,426: Total time for which application threads were stopped: 0,0003302 seconds, Stopping threads took: 0,0000260 seconds
+2017-12-13T20:27:52.736+0100: 2,482: Total time for which application threads were stopped: 0,0002827 seconds, Stopping threads took: 0,0000192 seconds
+{Heap before GC invocations=4 (full 1):
+ par new generation   total 109248K, used 96683K [0x00000000e0000000, 0x00000000e8000000, 0x00000000e8000000)
+  eden space 87424K, 100% used [0x00000000e0000000, 0x00000000e5560000, 0x00000000e5560000)
+  from space 21824K,  42% used [0x00000000e5560000, 0x00000000e5e6aef8, 0x00000000e6ab0000)
+  to   space 21824K,   0% used [0x00000000e6ab0000, 0x00000000e6ab0000, 0x00000000e8000000)
+ concurrent mark-sweep generation total 393216K, used 0K [0x00000000e8000000, 0x0000000100000000, 0x0000000100000000)
+ Metaspace       used 23217K, capacity 23674K, committed 23880K, reserved 1071104K
+  class space    used 2747K, capacity 2877K, committed 2888K, reserved 1048576K
+2017-12-13T20:27:52.774+0100: 2,520: [GC (Allocation Failure) 2017-12-13T20:27:52.774+0100: 2,520: [ParNew
+Desired survivor size 20112992 bytes, new threshold 8 (max 8)
+- age   1:    1759592 bytes,    1759592 total
+- age   2:       3368 bytes,    1762960 total
+- age   3:     858008 bytes,    2620968 total
+- age   4:    3270288 bytes,    5891256 total
+- age   5:    2487136 bytes,    8378392 total
+: 96683K->9382K(109248K), 0,0084611 secs] 96683K->9382K(502464K), 0,0086612 secs] [Times: user=0,03 sys=0,00, real=0,01 secs] 
+Heap after GC invocations=5 (full 1):
+ par new generation   total 109248K, used 9382K [0x00000000e0000000, 0x00000000e8000000, 0x00000000e8000000)
+  eden space 87424K,   0% used [0x00000000e0000000, 0x00000000e0000000, 0x00000000e5560000)
+  from space 21824K,  42% used [0x00000000e6ab0000, 0x00000000e73d9870, 0x00000000e8000000)
+  to   space 21824K,   0% used [0x00000000e5560000, 0x00000000e5560000, 0x00000000e6ab0000)
+ concurrent mark-sweep generation total 393216K, used 0K [0x00000000e8000000, 0x0000000100000000, 0x0000000100000000)
+ Metaspace       used 23217K, capacity 23674K, committed 23880K, reserved 1071104K
+  class space    used 2747K, capacity 2877K, committed 2888K, reserved 1048576K
+}
+2017-12-13T20:27:52.782+0100: 2,529: Total time for which application threads were stopped: 0,0088805 seconds, Stopping threads took: 0,0000280 seconds
+2017-12-13T20:27:52.942+0100: 2,688: Total time for which application threads were stopped: 0,0003277 seconds, Stopping threads took: 0,0000249 seconds
+2017-12-13T20:27:52.955+0100: 2,701: Total time for which application threads were stopped: 0,0003276 seconds, Stopping threads took: 0,0000231 seconds
+2017-12-13T20:27:53.263+0100: 3,009: Total time for which application threads were stopped: 0,0003968 seconds, Stopping threads took: 0,0000294 seconds
+2017-12-13T20:27:54.263+0100: 4,009: Total time for which application threads were stopped: 0,0001499 seconds, Stopping threads took: 0,0000522 seconds
+2017-12-13T20:27:54.314+0100: 4,061: Total time for which application threads were stopped: 0,0003402 seconds, Stopping threads took: 0,0000294 seconds
+2017-12-13T20:28:15.925+0100: 25,672: Total time for which application threads were stopped: 0,0001400 seconds, Stopping threads took: 0,0000364 seconds
+2017-12-13T20:28:15.933+0100: 25,680: Total time for which application threads were stopped: 0,0001171 seconds, Stopping threads took: 0,0000327 seconds
+2017-12-13T20:28:15.977+0100: 25,723: Total time for which application threads were stopped: 0,0004838 seconds, Stopping threads took: 0,0000349 seconds
+2017-12-13T20:28:16.049+0100: 25,796: Total time for which application threads were stopped: 0,0001234 seconds, Stopping threads took: 0,0000387 seconds
+2017-12-13T20:28:16.051+0100: 25,798: Total time for which application threads were stopped: 0,0000781 seconds, Stopping threads took: 0,0000221 seconds
+2017-12-13T20:28:29.393+0100: 39,140: Total time for which application threads were stopped: 0,0001776 seconds, Stopping threads took: 0,0000649 seconds
+2017-12-13T20:28:29.394+0100: 39,140: Total time for which application threads were stopped: 0,0001101 seconds, Stopping threads took: 0,0000348 seconds
+2017-12-13T20:28:29.400+0100: 39,146: Total time for which application threads were stopped: 0,0002432 seconds, Stopping threads took: 0,0001272 seconds
+2017-12-13T20:28:29.401+0100: 39,148: Total time for which application threads were stopped: 0,0001659 seconds, Stopping threads took: 0,0000776 seconds
+2017-12-13T20:28:29.402+0100: 39,148: Total time for which application threads were stopped: 0,0001220 seconds, Stopping threads took: 0,0000350 seconds
+2017-12-13T20:28:38.535+0100: 48,281: Total time for which application threads were stopped: 0,0002606 seconds, Stopping threads took: 0,0000498 seconds
+2017-12-13T20:28:38.535+0100: 48,281: Total time for which application threads were stopped: 0,0001586 seconds, Stopping threads took: 0,0000350 seconds
+2017-12-13T20:28:38.542+0100: 48,288: Total time for which application threads were stopped: 0,0001969 seconds, Stopping threads took: 0,0000708 seconds
+2017-12-13T20:28:38.543+0100: 48,289: Total time for which application threads were stopped: 0,0000857 seconds, Stopping threads took: 0,0000227 seconds
+2017-12-13T20:28:38.543+0100: 48,290: Total time for which application threads were stopped: 0,0000746 seconds, Stopping threads took: 0,0000185 seconds
+2017-12-13T20:29:01.594+0100: 71,340: Total time for which application threads were stopped: 0,0002384 seconds, Stopping threads took: 0,0000808 seconds
+2017-12-13T20:29:01.594+0100: 71,341: Total time for which application threads were stopped: 0,0004753 seconds, Stopping threads took: 0,0000229 seconds
+2017-12-13T20:29:01.601+0100: 71,347: Total time for which application threads were stopped: 0,0001663 seconds, Stopping threads took: 0,0000550 seconds
+2017-12-13T20:29:01.602+0100: 71,348: Total time for which application threads were stopped: 0,0001558 seconds, Stopping threads took: 0,0000742 seconds
+2017-12-13T20:29:12.615+0100: 82,361: Total time for which application threads were stopped: 0,0002387 seconds, Stopping threads took: 0,0001033 seconds
+2017-12-13T20:29:12.615+0100: 82,362: Total time for which application threads were stopped: 0,0001261 seconds, Stopping threads took: 0,0000346 seconds
+2017-12-13T20:29:12.621+0100: 82,367: Total time for which application threads were stopped: 0,0001782 seconds, Stopping threads took: 0,0000560 seconds
+2017-12-13T20:29:12.622+0100: 82,368: Total time for which application threads were stopped: 0,0001504 seconds, Stopping threads took: 0,0000585 seconds
+2017-12-13T20:29:17.623+0100: 87,369: Total time for which application threads were stopped: 0,0001653 seconds, Stopping threads took: 0,0000460 seconds
+2017-12-13T20:29:21.623+0100: 91,370: Total time for which application threads were stopped: 0,0001483 seconds, Stopping threads took: 0,0000448 seconds
+2017-12-13T20:30:33.239+0100: 162,986: Total time for which application threads were stopped: 0,0000748 seconds, Stopping threads took: 0,0000182 seconds
+2017-12-13T20:30:33.242+0100: 162,988: Total time for which application threads were stopped: 0,0000907 seconds, Stopping threads took: 0,0000328 seconds
+2017-12-13T20:30:33.254+0100: 163,000: Total time for which application threads were stopped: 0,0001072 seconds, Stopping threads took: 0,0000216 seconds
+Heap
+ par new generation   total 109248K, used 83641K [0x00000000e0000000, 0x00000000e8000000, 0x00000000e8000000)
+  eden space 87424K,  84% used [0x00000000e0000000, 0x00000000e4884bd0, 0x00000000e5560000)
+  from space 21824K,  42% used [0x00000000e6ab0000, 0x00000000e73d9870, 0x00000000e8000000)
+  to   space 21824K,   0% used [0x00000000e5560000, 0x00000000e5560000, 0x00000000e6ab0000)
+ concurrent mark-sweep generation total 393216K, used 0K [0x00000000e8000000, 0x0000000100000000, 0x0000000100000000)
+ Metaspace       used 28457K, capacity 28836K, committed 29256K, reserved 1075200K
+  class space    used 3403K, capacity 3536K, committed 3656K, reserved 1048576K

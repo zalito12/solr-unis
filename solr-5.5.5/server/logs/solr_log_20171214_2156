@@ -1,0 +1,13 @@
+2017-12-14 20:56:25.112 INFO  (main) [   ] o.e.j.u.log Logging initialized @21761ms
+2017-12-14 20:56:33.465 INFO  (main) [   ] o.e.j.s.Server jetty-9.2.13.v20150730
+2017-12-14 20:56:34.079 WARN  (main) [   ] o.e.j.s.h.RequestLogHandler !RequestLog
+2017-12-14 20:56:34.083 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:/mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server/contexts/] at interval 0
+2017-12-14 20:56:46.875 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2017-12-14 20:56:47.292 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@42dafa95{/solr,file:/mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server/solr-webapp/webapp/,STARTING}{/mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server/solr-webapp/webapp} has uncovered http methods for path: /
+2017-12-14 20:56:47.945 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=267760927@ff5b51f
+2017-12-14 20:56:49.638 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2017-12-14 20:56:49.640 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr
+2017-12-14 20:56:49.720 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr'
+2017-12-14 20:56:49.722 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2017-12-14 20:56:49.724 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr
+2017-12-14 20:56:49.891 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/solr.xml

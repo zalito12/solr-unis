@@ -1,0 +1,161 @@
+2017-12-13 19:21:20.926 INFO  (main) [   ] o.e.j.u.log Logging initialized @286ms
+2017-12-13 19:21:21.071 INFO  (main) [   ] o.e.j.s.Server jetty-9.2.13.v20150730
+2017-12-13 19:21:21.086 WARN  (main) [   ] o.e.j.s.h.RequestLogHandler !RequestLog
+2017-12-13 19:21:21.087 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:/mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server/contexts/] at interval 0
+2017-12-13 19:21:21.583 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2017-12-13 19:21:21.591 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@42dafa95{/solr,file:/mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server/solr-webapp/webapp/,STARTING}{/mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server/solr-webapp/webapp} has uncovered http methods for path: /
+2017-12-13 19:21:21.599 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=267760927@ff5b51f
+2017-12-13 19:21:21.615 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2017-12-13 19:21:21.615 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr
+2017-12-13 19:21:21.616 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr'
+2017-12-13 19:21:21.616 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2017-12-13 19:21:21.617 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr
+2017-12-13 19:21:21.622 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/solr.xml
+2017-12-13 19:21:21.676 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Config-defined core root directory: /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr
+2017-12-13 19:21:21.697 INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 1684792003
+2017-12-13 19:21:21.697 INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr]
+2017-12-13 19:21:21.697 WARN  (main) [   ] o.a.s.c.CoreContainer Couldn't add files from /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/lib to classpath: /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/lib
+2017-12-13 19:21:21.707 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,connectionsEvictorSleepDelay : 5000,maxConnectionIdleTime : 40000,
+2017-12-13 19:21:21.960 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2017-12-13 19:21:21.963 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2017-12-13 19:21:21.964 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2017-12-13 19:21:21.965 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+2017-12-13 19:21:21.965 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+2017-12-13 19:21:21.996 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Looking for core definitions underneath /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr
+2017-12-13 19:21:22.034 INFO  (main) [   ] o.a.s.c.CoreDescriptor Created CoreDescriptor: {name=unis, config=solrconfig.xml, loadOnStartup=true, schema=schema.xml, configSetProperties=configsetprops.json, transient=false, dataDir=data/}
+2017-12-13 19:21:22.034 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found core unis in /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis
+2017-12-13 19:21:22.035 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 1 core definitions
+2017-12-13 19:21:22.039 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter user.dir=/mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server
+2017-12-13 19:21:22.039 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+2017-12-13 19:21:22.039 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis'
+2017-12-13 19:21:22.040 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2017-12-13 19:21:22.040 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr
+2017-12-13 19:21:22.053 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@42dafa95{/solr,file:/mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server/solr-webapp/webapp/,AVAILABLE}{/mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server/solr-webapp/webapp}
+2017-12-13 19:21:22.067 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@1094d183{HTTP/1.1}{0.0.0.0:8983}
+2017-12-13 19:21:22.067 INFO  (main) [   ] o.e.j.s.Server Started @1429ms
+2017-12-13 19:21:22.069 ERROR (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.Config Exception during parsing file: solrconfig.xml:org.xml.sax.SAXParseException; systemId: solrres:/solrconfig.xml; lineNumber: 858; columnNumber: 43; El tipo de elemento "str" debe finalizar por la etiqueta final coincidente "</str>".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1749)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2967)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.apache.solr.core.Config.<init>(Config.java:143)
+	at org.apache.solr.core.Config.<init>(Config.java:90)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:189)
+	at org.apache.solr.core.SolrConfig.readFromResourceLoader(SolrConfig.java:166)
+	at org.apache.solr.core.ConfigSetService.createSolrConfig(ConfigSetService.java:98)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:78)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:818)
+	at org.apache.solr.core.CoreContainer.access$000(CoreContainer.java:90)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:473)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:464)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor$1.run(ExecutorUtil.java:231)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2017-12-13 19:21:22.072 ERROR (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.CoreContainer Error creating core [unis]: Could not load conf for core unis: Error loading solr config from /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/conf/solrconfig.xml
+org.apache.solr.common.SolrException: Could not load conf for core unis: Error loading solr config from /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/conf/solrconfig.xml
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:84)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:818)
+	at org.apache.solr.core.CoreContainer.access$000(CoreContainer.java:90)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:473)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:464)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor$1.run(ExecutorUtil.java:231)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.solr.common.SolrException: Error loading solr config from /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/conf/solrconfig.xml
+	at org.apache.solr.core.SolrConfig.readFromResourceLoader(SolrConfig.java:174)
+	at org.apache.solr.core.ConfigSetService.createSolrConfig(ConfigSetService.java:98)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:78)
+	... 9 more
+Caused by: org.apache.solr.common.SolrException: org.xml.sax.SAXParseException; systemId: solrres:/solrconfig.xml; lineNumber: 858; columnNumber: 43; El tipo de elemento "str" debe finalizar por la etiqueta final coincidente "</str>".
+	at org.apache.solr.core.Config.<init>(Config.java:154)
+	at org.apache.solr.core.Config.<init>(Config.java:90)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:189)
+	at org.apache.solr.core.SolrConfig.readFromResourceLoader(SolrConfig.java:166)
+	... 11 more
+Caused by: org.xml.sax.SAXParseException; systemId: solrres:/solrconfig.xml; lineNumber: 858; columnNumber: 43; El tipo de elemento "str" debe finalizar por la etiqueta final coincidente "</str>".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1749)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2967)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.apache.solr.core.Config.<init>(Config.java:143)
+	... 14 more
+2017-12-13 19:21:22.075 ERROR (coreContainerWorkExecutor-2-thread-1) [   ] o.a.s.c.CoreContainer Error waiting for SolrCore to be created
+java.util.concurrent.ExecutionException: org.apache.solr.common.SolrException: Unable to create core [unis]
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192)
+	at org.apache.solr.core.CoreContainer$2.run(CoreContainer.java:502)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor$1.run(ExecutorUtil.java:231)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.solr.common.SolrException: Unable to create core [unis]
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:833)
+	at org.apache.solr.core.CoreContainer.access$000(CoreContainer.java:90)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:473)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:464)
+	... 5 more
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core unis: Error loading solr config from /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/conf/solrconfig.xml
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:84)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:818)
+	... 8 more
+Caused by: org.apache.solr.common.SolrException: Error loading solr config from /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/conf/solrconfig.xml
+	at org.apache.solr.core.SolrConfig.readFromResourceLoader(SolrConfig.java:174)
+	at org.apache.solr.core.ConfigSetService.createSolrConfig(ConfigSetService.java:98)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:78)
+	... 9 more
+Caused by: org.apache.solr.common.SolrException: org.xml.sax.SAXParseException; systemId: solrres:/solrconfig.xml; lineNumber: 858; columnNumber: 43; El tipo de elemento "str" debe finalizar por la etiqueta final coincidente "</str>".
+	at org.apache.solr.core.Config.<init>(Config.java:154)
+	at org.apache.solr.core.Config.<init>(Config.java:90)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:189)
+	at org.apache.solr.core.SolrConfig.readFromResourceLoader(SolrConfig.java:166)
+	... 11 more
+Caused by: org.xml.sax.SAXParseException; systemId: solrres:/solrconfig.xml; lineNumber: 858; columnNumber: 43; El tipo de elemento "str" debe finalizar por la etiqueta final coincidente "</str>".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1749)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2967)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.apache.solr.core.Config.<init>(Config.java:143)
+	... 14 more
+2017-12-13 19:21:35.950 INFO  (ShutdownMonitor) [   ] o.e.j.s.ServerConnector Stopped ServerConnector@1094d183{HTTP/1.1}{0.0.0.0:8983}
+2017-12-13 19:21:35.951 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=1684792003
+2017-12-13 19:21:35.956 INFO  (ShutdownMonitor) [   ] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@42dafa95{/solr,file:/mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server/solr-webapp/webapp/,UNAVAILABLE}{/mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server/solr-webapp/webapp}

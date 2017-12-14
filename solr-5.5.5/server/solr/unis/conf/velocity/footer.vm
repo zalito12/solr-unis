@@ -1,0 +1,80 @@
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<script src="https://unpkg.com/vue-i18n/dist/vue-i18n.js"></script>
+<script>
+$( function() {
+    $("#query").autocomplete({
+        source: function (request, response) {
+            $.get("/solr/unis/suggest?suggest.build=true&wt=json", {
+                "suggest.q": request.term
+            }, function (data) {
+                var resp = [];
+                var terms = JSON.parse(data).suggest.tituloDict[request.term].suggestions;
+                for(i=0;i < terms.length;i++){
+                    resp[i] = terms[i].term;
+                }
+                response(resp);
+            });
+        }
+    });
+});
+</script>
+<script>
+// If using a module system (e.g. via vue-cli), import Vue and VueI18n and then call Vue.use(VueI18n).
+// import Vue from 'vue'
+// import VueI18n from 'vue-i18n'
+//
+// Vue.use(VueI18n)
+
+// Ready translated locale messages
+const messages = {
+  en: {
+    message: {
+    }
+  },
+  es: {
+    tipo: "Tipo centro",
+    "center.ubicacion.provincia": "Provincia",
+    "results found in" : "resultados encontrados en"
+  }
+}
+
+// Create VueI18n instance with options
+const i18n = new VueI18n({
+  locale: 'es', // set locale
+  messages, // set locale messages
+})
+
+// Create a Vue instance with `i18n` option
+const tv = new Vue({i18n}).$mount('#content')
+</script>
+
+<script>
+function filterList(input, id) {
+    // Declare variables
+    var filter, ul, li, a, i;
+    filter = input.value.toUpperCase();
+    ul = document.getElementById(id);
+    li = ul.getElementsByTagName('li');
+
+    // Loop through all list items, and hide those who don't match the search query
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+
+function applyNote(form) {
+    var h = document.getElementById("fq-nota");
+    var from = document.getElementById("facet-nota-from").value.trim() ;
+    var to = document.getElementById("facet-nota-to").value.trim() ;
+    h.value = "nota:["+(from == "" ? "*" : from)+" TO "+(to = "" ? "*" : to)+"]";
+    form.submit();
+}
+</script>
+

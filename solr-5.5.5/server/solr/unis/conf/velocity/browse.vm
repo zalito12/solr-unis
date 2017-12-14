@@ -1,0 +1,125 @@
+## Show Error Message, if any
+<div class="error">
+  #parse("error.vm")
+</div>
+
+#parse("facets.vm")
+
+<main role="main" class="col-sm-9 ml-sm-auto col-md-10 pt-3">
+    <!--<h2>Búsqueda avanzada</h2>
+    <section class="row text-center placeholders">
+    <div class="col-6 col-sm-3 placeholder">
+        <input name="titulo" class="form-control mr-sm-2" type="search" placeholder="Título" value="$!esc.html($request.params.get('q'))" aria-label="Búsqueda título">
+    <h4>Label</h4>
+    <div class="text-muted">Something else</div>
+    </div>
+    <div class="col-6 col-sm-3 placeholder">
+    <img src="data:image/gif;base64,R0lGODlhAQABAIABAADcgwAAACwAAAAAAQABAAACAkQBADs=" class="img-fluid rounded-circle" alt="Generic placeholder thumbnail" height="200" width="200">
+    <h4>Label</h4>
+    <span class="text-muted">Something else</span>
+    </div>
+    <div class="col-6 col-sm-3 placeholder">
+    <img src="data:image/gif;base64,R0lGODlhAQABAIABAAJ12AAAACwAAAAAAQABAAACAkQBADs=" class="img-fluid rounded-circle" alt="Generic placeholder thumbnail" height="200" width="200">
+    <h4>Label</h4>
+    <span class="text-muted">Something else</span>
+    </div>
+    <div class="col-6 col-sm-3 placeholder">
+    <img src="data:image/gif;base64,R0lGODlhAQABAIABAADcgwAAACwAAAAAAQABAAACAkQBADs=" class="img-fluid rounded-circle" alt="Generic placeholder thumbnail" height="200" width="200">
+    <h4>Label</h4>
+    <span class="text-muted">Something else</span>
+    </div>
+    </section>-->
+
+    <nav aria-label="breadcrumb" role="navigation">
+      <ol class="breadcrumb">
+        #if($request.params.getParams('fq').size() > 0)
+            <li class="breadcrumb-item"><a href="#url_for_filters($request.params.getParams('fq').subList(0,0))">Inicio</a></li>
+            #foreach($fq in $request.params.getParams('fq'))
+                #set($fq_count=$velocityCount)
+                #if($fq != '')
+                    #set($fq_init=$fq.indexOf(':') + 1)
+                    #set($fq_end=$fq.length())
+                    #if($fq.indexOf('"') != -1)
+                        #set($fq_init=$fq.indexOf('"') + 1)
+                        #set($fq_end=$fq.lastIndexOf('"'))
+                    #end
+                    #if($fq_count == $request.params.getParams('fq').size())
+                        <li class="breadcrumb-item active">$fq.substring($fq_init, $fq_end)</li>
+                    #else
+                        <li class="breadcrumb-item"><a href="#url_for_filters($request.params.getParams('fq').subList(0,$fq_count))">$fq.substring($fq_init, $fq_end)</a></li>
+                    #end
+                #end
+            #end
+        #else
+            <li class="breadcrumb-item active">Inicio</li>
+        #end
+      </ol>
+    </nav>
+    
+    <h2>Universidades <small class="text-muted">$page.results_found</span> {{ $t('results found in') }} ${response.responseHeader.QTime}ms</small></h2>
+
+    #if($page.page_count > 1)
+    <nav aria-label="Page navigation example">
+      <ul class="pagination justify-content-end">
+        #if($page.current_page_number > 1)
+        #set($prev_start = $page.start - $page.results_per_page)
+        <li class="page-item">
+          <a class="page-link" href="#url_for_start($prev_start)" tabindex="-1">Previous</a>
+        </li>
+        #else
+        <li class="page-item disabled">
+          <a class="page-link" href="#" tabindex="-1">Previous</a>
+        </li>
+        #end
+        
+        #if($page.current_page_number != 1)
+            <li class="page-item"><a class="page-link" href="#url_for_start(0)">1</a></li>
+        #end
+        
+        #if($page.current_page_number > 2)
+            <li class="page-item disabled"><a class="page-link" href="#">...</a></li>
+        #end
+        
+        <li class="page-item disabled"><a class="page-link" href="#">$page.current_page_number</a></li>
+        
+        #if($page.current_page_number < $page.page_count - 1)
+            <li class="page-item disabled"><a class="page-link" href="#">...</a></li>
+        #end
+        
+        #if($page.current_page_number != $page.page_count)
+            #set($last_start = ($page.page_count - 1) * $page.results_per_page)
+            <li class="page-item"><a class="page-link" href="#url_for_start($last_start)">$page.page_count</a></li>
+        #end
+        
+        #if($page.current_page_number < $page.page_count)
+        #set($next_start = $page.start + $page.results_per_page)
+        <li class="page-item">
+          <a class="page-link" href="#url_for_start($next_start)">Next</a>
+        </li>
+        #else
+        <li class="page-item disabled">
+          <a class="page-link" href="#" tabindex="-1">Next</a>
+        </li>
+        #end
+      </ul>
+    </nav>
+  #end
+          <div class="table-responsive">
+            ## Render Results, actual matching docs
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>Título</th>
+                  <th>Universidad</th>
+                  <th>Localidad</th>
+                  <th>Nota Corte</th>
+                  <th>Teléfono</th>
+                  <th>Web</th>
+                </tr>
+              </thead>
+              <tbody>
+                #parse("results_list.vm")
+              </tbody>
+            </table>
+          </div>
+        </main>

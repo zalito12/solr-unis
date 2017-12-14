@@ -1,0 +1,47 @@
+<html>
+<head>
+  #parse("head.vm")
+</head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#url_root/#core_name/browse">
+            <img src="#{url_root}/img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+            ¿Dónde estudiar?
+        </a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav mr-auto">
+          </ul>
+          <form id="query-form" action="#{url_for_home}" method="GET" class="form-inline mt-2 mt-md-0">
+            #if($debug) ## TODO: this would automatically happen when arbitrary parameters are kept on URLs
+              <input type="hidden" name="debug" value="true"/>
+            #end
+            #foreach($fq in $request.params.getParams('fq'))
+              <input type="hidden" name="fq" id="allFQs" value="$esc.html($fq)">
+            #end
+            <input id="query" name="q" class="form-control mr-sm-2" type="search" placeholder="Búsqueda global..." value="$!esc.html($request.params.get('q'))" aria-label="Búsqueda global">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+            
+            <div class="parsed_query_header">
+              #if($debug)
+                <a href="#" onclick='jQuery(this).siblings("div").toggle(); return false;'>toggle parsed query</a>
+                <div class="parsed_query" style="display:none">$response.response.debug.parsedquery</div>
+              #end
+            </div>
+          </form>
+        </div>
+      </nav>
+    </header>
+
+    <div class="row container-fluid" id="content">
+      $content
+    </div>
+
+    <div id="footer">
+      #parse("footer.vm")
+    </div>
+  </body>
+</html>

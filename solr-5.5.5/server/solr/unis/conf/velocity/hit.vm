@@ -1,0 +1,10 @@
+#set($docId = $doc.getFirstValue($request.schema.uniqueKeyField.name))
+
+<tr>
+    <td>#field('titulo')</td>
+    <td>#field('universidad')</td>
+    <td>#field('center.ubicacion.localidad')</td>
+    <td>#field('nota')</td>
+    <td>#field('center.ubicacion.telefono')</td>
+    <td><a href="#field('url_universidad')">Visitar</a></td>
+</tr>

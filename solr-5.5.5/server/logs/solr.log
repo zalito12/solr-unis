@@ -1,0 +1,835 @@
+2017-12-14 22:15:59.228 INFO  (main) [   ] o.e.j.u.log Logging initialized @314ms
+2017-12-14 22:15:59.379 INFO  (main) [   ] o.e.j.s.Server jetty-9.2.13.v20150730
+2017-12-14 22:15:59.392 WARN  (main) [   ] o.e.j.s.h.RequestLogHandler !RequestLog
+2017-12-14 22:15:59.394 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:/mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server/contexts/] at interval 0
+2017-12-14 22:15:59.901 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2017-12-14 22:15:59.911 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@42dafa95{/solr,file:/mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server/solr-webapp/webapp/,STARTING}{/mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server/solr-webapp/webapp} has uncovered http methods for path: /
+2017-12-14 22:15:59.919 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=267760927@ff5b51f
+2017-12-14 22:15:59.934 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2017-12-14 22:15:59.934 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr
+2017-12-14 22:15:59.935 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr'
+2017-12-14 22:15:59.936 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2017-12-14 22:15:59.936 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr
+2017-12-14 22:15:59.942 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/solr.xml
+2017-12-14 22:16:00.002 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Config-defined core root directory: /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr
+2017-12-14 22:16:00.025 INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 1684792003
+2017-12-14 22:16:00.026 INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr]
+2017-12-14 22:16:00.026 WARN  (main) [   ] o.a.s.c.CoreContainer Couldn't add files from /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/lib to classpath: /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/lib
+2017-12-14 22:16:00.036 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,connectionsEvictorSleepDelay : 5000,maxConnectionIdleTime : 40000,
+2017-12-14 22:16:00.287 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2017-12-14 22:16:00.290 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2017-12-14 22:16:00.291 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2017-12-14 22:16:00.293 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+2017-12-14 22:16:00.293 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+2017-12-14 22:16:00.324 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Looking for core definitions underneath /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr
+2017-12-14 22:16:00.361 INFO  (main) [   ] o.a.s.c.CoreDescriptor Created CoreDescriptor: {name=unis, config=solrconfig.xml, loadOnStartup=true, schema=schema.xml, configSetProperties=configsetprops.json, transient=false, dataDir=data/}
+2017-12-14 22:16:00.361 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found core unis in /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis
+2017-12-14 22:16:00.362 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 1 core definitions
+2017-12-14 22:16:00.365 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter user.dir=/mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server
+2017-12-14 22:16:00.365 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+2017-12-14 22:16:00.365 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis'
+2017-12-14 22:16:00.366 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2017-12-14 22:16:00.366 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr
+2017-12-14 22:16:00.379 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@42dafa95{/solr,file:/mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server/solr-webapp/webapp/,AVAILABLE}{/mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server/solr-webapp/webapp}
+2017-12-14 22:16:00.392 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@7e6f74c{HTTP/1.1}{0.0.0.0:8983}
+2017-12-14 22:16:00.392 INFO  (main) [   ] o.e.j.s.Server Started @1480ms
+2017-12-14 22:16:00.423 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig current version of requestparams : 0
+2017-12-14 22:16:00.426 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Adding specified lib dirs to ClassLoader
+2017-12-14 22:16:00.437 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/pdfbox-1.8.8.jar' to classloader
+2017-12-14 22:16:00.438 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+2017-12-14 22:16:00.438 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+2017-12-14 22:16:00.438 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/aspectjrt-1.8.0.jar' to classloader
+2017-12-14 22:16:00.438 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+2017-12-14 22:16:00.438 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+2017-12-14 22:16:00.438 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+2017-12-14 22:16:00.439 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/commons-compress-1.8.1.jar' to classloader
+2017-12-14 22:16:00.439 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/fontbox-1.8.8.jar' to classloader
+2017-12-14 22:16:00.439 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/icu4j-54.1.jar' to classloader
+2017-12-14 22:16:00.439 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/isoparser-1.0.2.jar' to classloader
+2017-12-14 22:16:00.439 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/java-libpst-0.8.1.jar' to classloader
+2017-12-14 22:16:00.439 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/jdom-1.0.jar' to classloader
+2017-12-14 22:16:00.440 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/jempbox-1.8.8.jar' to classloader
+2017-12-14 22:16:00.440 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/jmatio-1.2.jar' to classloader
+2017-12-14 22:16:00.440 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+2017-12-14 22:16:00.440 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+2017-12-14 22:16:00.440 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/poi-3.11.jar' to classloader
+2017-12-14 22:16:00.441 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/poi-ooxml-3.11.jar' to classloader
+2017-12-14 22:16:00.441 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/poi-ooxml-schemas-3.11.jar' to classloader
+2017-12-14 22:16:00.441 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/poi-scratchpad-3.11.jar' to classloader
+2017-12-14 22:16:00.441 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/rome-1.0.jar' to classloader
+2017-12-14 22:16:00.441 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+2017-12-14 22:16:00.442 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/tika-core-1.7.jar' to classloader
+2017-12-14 22:16:00.442 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/tika-java7-1.7.jar' to classloader
+2017-12-14 22:16:00.442 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/tika-parsers-1.7.jar' to classloader
+2017-12-14 22:16:00.442 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/tika-xmp-1.7.jar' to classloader
+2017-12-14 22:16:00.442 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/vorbis-java-core-0.6.jar' to classloader
+2017-12-14 22:16:00.442 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/vorbis-java-tika-0.6.jar' to classloader
+2017-12-14 22:16:00.443 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+2017-12-14 22:16:00.443 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+2017-12-14 22:16:00.443 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+2017-12-14 22:16:00.443 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/extraction/lib/xz-1.5.jar' to classloader
+2017-12-14 22:16:00.443 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/dist/solr-cell-5.5.5.jar' to classloader
+2017-12-14 22:16:00.443 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/clustering/lib/attributes-binder-1.2.3.jar' to classloader
+2017-12-14 22:16:00.444 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/clustering/lib/carrot2-guava-18.0.jar' to classloader
+2017-12-14 22:16:00.444 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/clustering/lib/carrot2-mini-3.10.4.jar' to classloader
+2017-12-14 22:16:00.444 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/clustering/lib/jackson-annotations-2.5.4.jar' to classloader
+2017-12-14 22:16:00.444 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/clustering/lib/jackson-databind-2.5.4.jar' to classloader
+2017-12-14 22:16:00.444 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+2017-12-14 22:16:00.444 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+2017-12-14 22:16:00.445 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/clustering/lib/simple-xml-2.7.1.jar' to classloader
+2017-12-14 22:16:00.445 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/dist/solr-clustering-5.5.5.jar' to classloader
+2017-12-14 22:16:00.445 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+2017-12-14 22:16:00.445 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+2017-12-14 22:16:00.445 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/dist/solr-langid-5.5.5.jar' to classloader
+2017-12-14 22:16:00.445 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+2017-12-14 22:16:00.446 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/velocity/lib/commons-collections-3.2.2.jar' to classloader
+2017-12-14 22:16:00.446 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/velocity/lib/velocity-1.7.jar' to classloader
+2017-12-14 22:16:00.446 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+2017-12-14 22:16:00.446 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/dist/solr-velocity-5.5.5.jar' to classloader
+2017-12-14 22:16:00.635 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.5.5
+2017-12-14 22:16:00.763 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Loaded SolrConfig: solrconfig.xml
+2017-12-14 22:16:00.825 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema [unis] Schema name=example-data-driven-schema
+2017-12-14 22:16:01.164 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema unique key field: id
+2017-12-14 22:16:01.331 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2017-12-14 22:16:01.337 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2017-12-14 22:16:01.407 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or '/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis'
+2017-12-14 22:16:01.408 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.CoreContainer Creating SolrCore 'unis' using configuration from instancedir /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis
+2017-12-14 22:16:01.422 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.c.SolrCore solr.NRTCachingDirectoryFactory
+2017-12-14 22:16:01.432 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.c.SolrCore [[unis] ] Opening new SolrCore at [/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis], dataDir=[/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/data/]
+2017-12-14 22:16:01.434 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2017-12-14 22:16:01.438 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.c.SolrCore [[unis] ] Added SolrEventListener for newSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2017-12-14 22:16:01.438 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.c.SolrCore [[unis] ] Added SolrEventListener for firstSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2017-12-14 22:16:01.442 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.c.SchemaCodecFactory Using default compressionMode: BEST_SPEED
+2017-12-14 22:16:01.456 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.c.CachingDirectoryFactory return new directory for /mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/data
+2017-12-14 22:16:01.457 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.c.SolrCore New index directory detected: old=null new=/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/data/index/
+2017-12-14 22:16:01.458 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.c.CachingDirectoryFactory return new directory for /mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/data/index
+2017-12-14 22:16:01.476 INFO  (OldIndexDirectoryCleanupThreadForCore-unis) [   x:unis] o.a.s.c.SolrCore Looking for old index directories to cleanup for core unis in /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/data/
+2017-12-14 22:16:01.478 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.c.PluginBag queryResponseWriter : 'velocity' created with startup=lazy 
+2017-12-14 22:16:01.481 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2017-12-14 22:16:01.579 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.u.p.UpdateRequestProcessorChain creating updateRequestProcessorChain "add-unknown-fields-to-the-schema"
+2017-12-14 22:16:01.632 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.u.p.UpdateRequestProcessorChain creating updateRequestProcessorChain "dedupe"
+2017-12-14 22:16:01.637 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.u.p.UpdateRequestProcessorChain inserting DistributedUpdateProcessorFactory into updateRequestProcessorChain "dedupe"
+2017-12-14 22:16:01.637 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.u.p.UpdateRequestProcessorChain creating updateRequestProcessorChain "decimales"
+2017-12-14 22:16:01.637 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.u.p.UpdateRequestProcessorChain inserting DistributedUpdateProcessorFactory into updateRequestProcessorChain "decimales"
+2017-12-14 22:16:01.638 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+2017-12-14 22:16:01.660 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2017-12-14 22:16:01.662 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2017-12-14 22:16:01.663 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2017-12-14 22:16:01.664 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2017-12-14 22:16:01.679 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.c.PluginBag requestHandler : '/update/extract' created with startup=lazy 
+2017-12-14 22:16:01.679 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.c.PluginBag requestHandler : '/analysis/field' created with startup=lazy 
+2017-12-14 22:16:01.679 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.c.PluginBag requestHandler : '/analysis/document' created with startup=lazy 
+2017-12-14 22:16:01.681 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.c.PluginBag requestHandler : '/suggest' created with startup=lazy 
+2017-12-14 22:16:01.682 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.c.PluginBag requestHandler : '/spell' created with startup=lazy 
+2017-12-14 22:16:01.682 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.c.PluginBag requestHandler : '/tvrh' created with startup=lazy 
+2017-12-14 22:16:01.682 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.c.PluginBag requestHandler : '/terms' created with startup=lazy 
+2017-12-14 22:16:01.682 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.c.PluginBag requestHandler : '/elevate' created with startup=lazy 
+2017-12-14 22:16:01.682 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.c.RequestHandlers Registered paths: /admin/mbeans,/browse,/update/json/docs,/admin/luke,/export,/get,/admin/properties,/elevate,/update/json,/admin/threads,/query,/analysis/field,/analysis/document,/spell,/update/csv,/tvrh,/select,/admin/segments,/admin/system,/suggest,/replication,/config,/schema,/admin/plugins,/admin/logging,/admin/ping,/update,/admin/file,/debug/dump,/terms,/update/extract
+2017-12-14 22:16:01.684 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2017-12-14 22:16:01.696 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2017-12-14 22:16:01.696 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2017-12-14 22:16:01.714 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2017-12-14 22:16:01.714 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2017-12-14 22:16:01.753 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/mnt/datos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@eca4ac0; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_j,generation=19}
+2017-12-14 22:16:01.753 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.c.SolrDeletionPolicy newest commit generation = 19
+2017-12-14 22:16:01.792 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.s.SolrIndexSearcher Opening Searcher@60b1907a[unis] main
+2017-12-14 22:16:01.798 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/conf
+2017-12-14 22:16:01.799 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.r.RestManager Initializing RestManager with initArgs: {storageDir=/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/conf}
+2017-12-14 22:16:01.810 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using file:dir=/home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/conf
+2017-12-14 22:16:01.811 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.r.RestManager Initializing 0 registered ManagedResources
+2017-12-14 22:16:01.819 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.h.c.SuggestComponent Initializing SuggestComponent
+2017-12-14 22:16:01.821 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.s.s.SolrSuggester init: {name=tituloDict,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=titulo,suggestAnalyzerFieldType=string,buildOnStartup=false}
+2017-12-14 22:16:01.841 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.s.s.SolrSuggester Dictionary loaded with params: {name=tituloDict,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=titulo,suggestAnalyzerFieldType=string,buildOnStartup=false}
+2017-12-14 22:16:01.842 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2017-12-14 22:16:01.850 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2017-12-14 22:16:01.851 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.h.c.SpellCheckComponent No queryConverter defined, using default converter
+2017-12-14 22:16:01.854 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /home/gonzalo/Documentos/MUEI/RIWS/entrega/solr-5.5.5/server/solr/unis/conf/elevate.xml
+2017-12-14 22:16:01.877 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2017-12-14 22:16:01.878 INFO  (searcherExecutor-7-thread-1-processing-x:unis) [   x:unis] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@60b1907a[unis] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_a(5.5.5):C2400/348:delGen=1)))}
+2017-12-14 22:16:01.878 INFO  (searcherExecutor-7-thread-1-processing-x:unis) [   x:unis] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-12-14 22:16:01.878 INFO  (searcherExecutor-7-thread-1-processing-x:unis) [   x:unis] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2017-12-14 22:16:01.879 INFO  (searcherExecutor-7-thread-1-processing-x:unis) [   x:unis] o.a.s.c.SolrCore [unis] Registered new searcher Searcher@60b1907a[unis] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_a(5.5.5):C2400/348:delGen=1)))}
+2017-12-14 22:16:01.879 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.u.UpdateLog Looking up max value of version field to seed version buckets
+2017-12-14 22:16:01.881 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.u.VersionInfo Refreshing highest value of _version_ for 65536 version buckets from index
+2017-12-14 22:16:01.894 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.u.VersionInfo Found MAX value 1586700836202872834 from Terms for _version_ in index
+2017-12-14 22:16:01.900 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.u.UpdateLog Took 20.0ms to seed version buckets with highest version 1586700836202872834
+2017-12-14 22:16:01.901 INFO  (coreLoadExecutor-6-thread-1) [   x:unis] o.a.s.c.CoreContainer registering core: unis
+2017-12-14 22:16:23.175 INFO  (qtp987405879-19) [   x:unis] o.a.s.c.PluginBag Going to create a new requestHandler with {type = requestHandler,name = /suggest,class = solr.SearchHandler,args = {defaults={suggest.dictionary=tituloDict,suggest=true,suggest.count=10},components=[tituloSuggest]}} 
+2017-12-14 22:16:23.185 INFO  (qtp987405879-19) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.q=medicina
+2017-12-14 22:16:23.185 INFO  (qtp987405879-19) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.q=medicina
+2017-12-14 22:16:23.187 INFO  (qtp987405879-19) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.q=medicina&suggest=true} status=0 QTime=12
+2017-12-14 22:16:44.315 INFO  (qtp987405879-18) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.q=Grado
+2017-12-14 22:16:44.315 INFO  (qtp987405879-18) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.q=Grado
+2017-12-14 22:16:44.316 INFO  (qtp987405879-18) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.q=Grado&suggest=true} status=0 QTime=1
+2017-12-14 22:16:58.495 INFO  (qtp987405879-18) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/select params={q=*:*&indent=true&wt=json&_=1513289818453} hits=2052 status=0 QTime=34
+2017-12-14 22:17:07.204 INFO  (qtp987405879-18) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.q=Grado*
+2017-12-14 22:17:07.205 INFO  (qtp987405879-18) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.q=Grado*
+2017-12-14 22:17:07.206 INFO  (qtp987405879-18) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.q=Grado*&suggest=true} status=0 QTime=1
+2017-12-14 22:17:10.202 INFO  (qtp987405879-19) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.q=Grado
+2017-12-14 22:17:10.203 INFO  (qtp987405879-19) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.q=Grado
+2017-12-14 22:17:10.204 INFO  (qtp987405879-19) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.q=Grado&suggest=true} status=0 QTime=2
+2017-12-14 22:17:46.031 INFO  (qtp987405879-18) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&suggest.q=Grado
+2017-12-14 22:17:46.032 INFO  (qtp987405879-18) [   x:unis] o.a.s.s.s.SolrSuggester SolrSuggester.build(tituloDict)
+2017-12-14 22:17:46.449 INFO  (qtp987405879-18) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&suggest.q=Grado
+2017-12-14 22:17:46.459 INFO  (qtp987405879-18) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.build=true&suggest.q=Grado&suggest=true} status=0 QTime=429
+2017-12-14 22:17:52.954 INFO  (qtp987405879-14) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&suggest.q=medicina
+2017-12-14 22:17:52.954 INFO  (qtp987405879-14) [   x:unis] o.a.s.s.s.SolrSuggester SolrSuggester.build(tituloDict)
+2017-12-14 22:17:53.087 INFO  (qtp987405879-14) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&suggest.q=medicina
+2017-12-14 22:17:53.089 INFO  (qtp987405879-14) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.build=true&suggest.q=medicina&suggest=true} status=0 QTime=135
+2017-12-14 22:18:00.090 INFO  (qtp987405879-19) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&suggest.q=Grado+en+Bi
+2017-12-14 22:18:00.091 INFO  (qtp987405879-19) [   x:unis] o.a.s.s.s.SolrSuggester SolrSuggester.build(tituloDict)
+2017-12-14 22:18:00.261 INFO  (qtp987405879-19) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&suggest.q=Grado+en+Bi
+2017-12-14 22:18:00.263 INFO  (qtp987405879-19) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.build=true&suggest.q=Grado+en+Bi&suggest=true} status=0 QTime=173
+2017-12-14 22:18:07.480 INFO  (qtp987405879-14) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&suggest.q=Grado+en+Biom
+2017-12-14 22:18:07.481 INFO  (qtp987405879-14) [   x:unis] o.a.s.s.s.SolrSuggester SolrSuggester.build(tituloDict)
+2017-12-14 22:18:07.658 INFO  (qtp987405879-14) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&suggest.q=Grado+en+Biom
+2017-12-14 22:18:07.660 INFO  (qtp987405879-14) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.build=true&suggest.q=Grado+en+Biom&suggest=true} status=0 QTime=180
+2017-12-14 22:18:14.240 INFO  (qtp987405879-21) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&suggest.q=Grado+en+Biome
+2017-12-14 22:18:14.241 INFO  (qtp987405879-21) [   x:unis] o.a.s.s.s.SolrSuggester SolrSuggester.build(tituloDict)
+2017-12-14 22:18:14.370 INFO  (qtp987405879-21) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&suggest.q=Grado+en+Biome
+2017-12-14 22:18:14.372 INFO  (qtp987405879-21) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.build=true&suggest.q=Grado+en+Biome&suggest=true} status=0 QTime=132
+2017-12-14 22:18:23.040 INFO  (qtp987405879-21) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&suggest.q=Bio
+2017-12-14 22:18:23.041 INFO  (qtp987405879-21) [   x:unis] o.a.s.s.s.SolrSuggester SolrSuggester.build(tituloDict)
+2017-12-14 22:18:23.150 INFO  (qtp987405879-21) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&suggest.q=Bio
+2017-12-14 22:18:23.150 INFO  (qtp987405879-21) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.build=true&suggest.q=Bio&suggest=true} status=0 QTime=110
+2017-12-14 22:18:26.314 INFO  (qtp987405879-18) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&suggest.q=Biomedi
+2017-12-14 22:18:26.316 INFO  (qtp987405879-18) [   x:unis] o.a.s.s.s.SolrSuggester SolrSuggester.build(tituloDict)
+2017-12-14 22:18:26.447 INFO  (qtp987405879-18) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&suggest.q=Biomedi
+2017-12-14 22:18:26.448 INFO  (qtp987405879-18) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.build=true&suggest.q=Biomedi&suggest=true} status=0 QTime=134
+2017-12-14 22:18:29.660 INFO  (qtp987405879-19) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&suggest.q=Biomedicina
+2017-12-14 22:18:29.660 INFO  (qtp987405879-19) [   x:unis] o.a.s.s.s.SolrSuggester SolrSuggester.build(tituloDict)
+2017-12-14 22:18:29.735 INFO  (qtp987405879-19) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&suggest.q=Biomedicina
+2017-12-14 22:18:29.736 INFO  (qtp987405879-19) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.build=true&suggest.q=Biomedicina&suggest=true} status=0 QTime=76
+2017-12-14 22:19:22.279 INFO  (qtp987405879-21) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Biomedicina
+2017-12-14 22:19:22.280 INFO  (qtp987405879-21) [   x:unis] o.a.s.s.s.SolrSuggester SolrSuggester.build(tituloDict)
+2017-12-14 22:19:22.398 INFO  (qtp987405879-21) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Biomedicina
+2017-12-14 22:19:22.399 INFO  (qtp987405879-21) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.build=true&suggest.q=Biomedicina&suggest=true&wt=json} status=0 QTime=120
+2017-12-14 22:19:31.484 INFO  (qtp987405879-21) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado+en+Ing
+2017-12-14 22:19:31.485 INFO  (qtp987405879-21) [   x:unis] o.a.s.s.s.SolrSuggester SolrSuggester.build(tituloDict)
+2017-12-14 22:19:31.565 INFO  (qtp987405879-21) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado+en+Ing
+2017-12-14 22:19:31.567 INFO  (qtp987405879-21) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.build=true&suggest.q=Grado+en+Ing&suggest=true&wt=json} status=0 QTime=83
+2017-12-14 22:20:20.541 INFO  (qtp987405879-21) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.buildAll=true&suggest.dictionary=tituloDict
+2017-12-14 22:20:20.542 INFO  (qtp987405879-21) [   x:unis] o.a.s.s.s.SolrSuggester SolrSuggester.build(tituloDict)
+2017-12-14 22:20:20.648 INFO  (qtp987405879-21) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.buildAll=true&suggest.dictionary=tituloDict
+2017-12-14 22:20:20.649 INFO  (qtp987405879-21) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.buildAll=true} status=0 QTime=108
+2017-12-14 22:20:30.296 INFO  (qtp987405879-21) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&wt=json&suggest.q=Grado+en+Ing
+2017-12-14 22:20:30.297 INFO  (qtp987405879-21) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&wt=json&suggest.q=Grado+en+Ing
+2017-12-14 22:20:30.300 INFO  (qtp987405879-21) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.q=Grado+en+Ing&suggest=true&wt=json} status=0 QTime=4
+2017-12-14 22:20:33.265 INFO  (qtp987405879-20) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.q=Grado+en+Ing
+2017-12-14 22:20:33.265 INFO  (qtp987405879-20) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.q=Grado+en+Ing
+2017-12-14 22:20:33.270 INFO  (qtp987405879-20) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.q=Grado+en+Ing&suggest=true} status=0 QTime=5
+2017-12-14 22:20:39.272 INFO  (qtp987405879-16) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.q=Grado+en+Magi
+2017-12-14 22:20:39.273 INFO  (qtp987405879-16) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.q=Grado+en+Magi
+2017-12-14 22:20:39.275 INFO  (qtp987405879-16) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.q=Grado+en+Magi&suggest=true} status=0 QTime=3
+2017-12-14 22:24:57.845 INFO  (qtp987405879-17) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=cádiz} hits=44 status=0 QTime=55
+2017-12-14 22:24:57.846 INFO  (qtp987405879-17) [   x:unis] o.a.s.c.PluginBag Going to create a new queryResponseWriter with {type = queryResponseWriter,name = velocity,class = solr.VelocityResponseWriter,args = {template.base.dir=,solr.resource.loader.enabled=true,params.resource.loader.enabled=false}} 
+2017-12-14 22:24:58.161 ERROR (qtp987405879-17) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 22:25:16.229 INFO  (qtp987405879-16) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={} hits=2052 status=0 QTime=7
+2017-12-14 22:25:16.343 ERROR (qtp987405879-16) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 22:26:15.800 INFO  (qtp987405879-16) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={} hits=2052 status=0 QTime=3
+2017-12-14 22:26:15.849 ERROR (qtp987405879-16) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 22:26:33.750 INFO  (qtp987405879-19) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={} hits=2052 status=0 QTime=2
+2017-12-14 22:26:33.783 ERROR (qtp987405879-19) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 22:27:05.000 INFO  (qtp987405879-20) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={} hits=2052 status=0 QTime=1
+2017-12-14 22:27:05.050 ERROR (qtp987405879-20) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 22:27:10.630 INFO  (qtp987405879-18) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={} hits=2052 status=0 QTime=2
+2017-12-14 22:27:10.690 ERROR (qtp987405879-18) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 22:27:16.664 INFO  (qtp987405879-21) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={} hits=2052 status=0 QTime=1
+2017-12-14 22:27:16.694 ERROR (qtp987405879-21) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 22:27:28.112 INFO  (qtp987405879-17) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={} hits=2052 status=0 QTime=4
+2017-12-14 22:27:28.160 ERROR (qtp987405879-17) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 22:28:00.389 INFO  (qtp987405879-14) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={} hits=2052 status=0 QTime=3
+2017-12-14 22:28:00.455 ERROR (qtp987405879-14) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 22:28:11.836 INFO  (qtp987405879-16) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={} hits=2052 status=0 QTime=2
+2017-12-14 22:28:11.868 ERROR (qtp987405879-16) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 22:28:19.849 INFO  (qtp987405879-14) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={} hits=2052 status=0 QTime=2
+2017-12-14 22:28:19.876 ERROR (qtp987405879-14) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 22:28:26.576 INFO  (qtp987405879-16) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={} hits=2052 status=0 QTime=3
+2017-12-14 22:28:26.609 ERROR (qtp987405879-16) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 22:29:43.142 INFO  (qtp987405879-14) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={} hits=2052 status=0 QTime=3
+2017-12-14 22:29:43.188 ERROR (qtp987405879-14) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 22:30:12.455 INFO  (qtp987405879-14) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={} hits=2052 status=0 QTime=2
+2017-12-14 22:30:12.487 ERROR (qtp987405879-14) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 22:32:55.462 INFO  (qtp987405879-19) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={} hits=2052 status=0 QTime=1
+2017-12-14 22:32:55.490 ERROR (qtp987405879-19) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 22:33:08.606 INFO  (qtp987405879-17) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=&fq=tipo:"Pública+/++Propio"} hits=1795 status=0 QTime=16
+2017-12-14 22:33:11.883 INFO  (qtp987405879-14) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=} hits=2052 status=0 QTime=2
+2017-12-14 22:33:11.924 ERROR (qtp987405879-14) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 22:33:50.171 INFO  (qtp987405879-19) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=} hits=2052 status=0 QTime=2
+2017-12-14 22:33:50.209 ERROR (qtp987405879-19) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 22:34:30.446 INFO  (qtp987405879-14) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=} hits=2052 status=0 QTime=2
+2017-12-14 22:34:30.473 ERROR (qtp987405879-14) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 22:36:40.430 INFO  (qtp987405879-14) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.q=Grado+en+Mag
+2017-12-14 22:36:40.431 INFO  (qtp987405879-14) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.q=Grado+en+Mag
+2017-12-14 22:36:40.435 INFO  (qtp987405879-14) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.q=Grado+en+Mag} status=0 QTime=5
+2017-12-14 22:37:45.735 INFO  (qtp987405879-21) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&wt=json&suggest.q=Grado+en+Mag
+2017-12-14 22:37:45.735 INFO  (qtp987405879-21) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&wt=json&suggest.q=Grado+en+Mag
+2017-12-14 22:37:45.737 INFO  (qtp987405879-21) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.q=Grado+en+Mag&wt=json} status=0 QTime=3
+2017-12-14 22:39:18.257 INFO  (qtp987405879-17) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=} hits=2052 status=0 QTime=1
+2017-12-14 22:39:18.278 ERROR (qtp987405879-17) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 22:39:25.468 INFO  (qtp987405879-16) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=} hits=2052 status=0 QTime=1
+2017-12-14 22:39:25.492 ERROR (qtp987405879-16) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 22:40:02.772 INFO  (qtp987405879-17) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=} hits=2052 status=0 QTime=2
+2017-12-14 22:40:02.796 ERROR (qtp987405879-17) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 22:40:16.166 INFO  (qtp987405879-17) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={} hits=2052 status=0 QTime=1
+2017-12-14 22:40:16.189 ERROR (qtp987405879-17) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 22:40:41.170 INFO  (qtp987405879-17) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={} hits=2052 status=0 QTime=0
+2017-12-14 22:40:41.188 ERROR (qtp987405879-17) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 22:41:25.260 INFO  (qtp987405879-18) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={} hits=2052 status=0 QTime=1
+2017-12-14 22:41:25.285 ERROR (qtp987405879-18) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 22:42:43.343 INFO  (qtp987405879-18) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={} hits=2052 status=0 QTime=1
+2017-12-14 22:42:43.379 ERROR (qtp987405879-18) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 22:48:22.341 INFO  (qtp987405879-18) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={} hits=2052 status=0 QTime=1
+2017-12-14 22:48:22.369 ERROR (qtp987405879-18) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 22:48:33.106 INFO  (qtp987405879-20) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={} hits=2052 status=0 QTime=1
+2017-12-14 22:48:33.125 ERROR (qtp987405879-20) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 22:48:38.413 INFO  (qtp987405879-21) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=G
+2017-12-14 22:48:38.414 INFO  (qtp987405879-21) [   x:unis] o.a.s.s.s.SolrSuggester SolrSuggester.build(tituloDict)
+2017-12-14 22:48:38.542 INFO  (qtp987405879-21) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=G
+2017-12-14 22:48:38.544 INFO  (qtp987405879-21) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.build=true&suggest.q=G&wt=json} status=0 QTime=131
+2017-12-14 22:48:49.216 INFO  (qtp987405879-17) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Gra
+2017-12-14 22:48:49.217 INFO  (qtp987405879-17) [   x:unis] o.a.s.s.s.SolrSuggester SolrSuggester.build(tituloDict)
+2017-12-14 22:48:49.336 INFO  (qtp987405879-17) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Gra
+2017-12-14 22:48:49.337 INFO  (qtp987405879-17) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.build=true&suggest.q=Gra&wt=json} status=0 QTime=121
+2017-12-14 22:55:09.263 INFO  (qtp987405879-19) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={} hits=2052 status=0 QTime=1
+2017-12-14 22:55:09.310 ERROR (qtp987405879-19) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 22:55:12.445 INFO  (qtp987405879-14) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grad
+2017-12-14 22:55:12.446 INFO  (qtp987405879-14) [   x:unis] o.a.s.s.s.SolrSuggester SolrSuggester.build(tituloDict)
+2017-12-14 22:55:12.588 INFO  (qtp987405879-14) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grad
+2017-12-14 22:55:12.590 INFO  (qtp987405879-14) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.build=true&suggest.q=Grad&wt=json} status=0 QTime=144
+2017-12-14 22:55:24.006 INFO  (qtp987405879-19) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={} hits=2052 status=0 QTime=0
+2017-12-14 22:55:24.046 ERROR (qtp987405879-19) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 22:55:27.215 INFO  (qtp987405879-14) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado
+2017-12-14 22:55:27.215 INFO  (qtp987405879-14) [   x:unis] o.a.s.s.s.SolrSuggester SolrSuggester.build(tituloDict)
+2017-12-14 22:55:27.346 INFO  (qtp987405879-14) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado
+2017-12-14 22:55:27.347 INFO  (qtp987405879-14) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.build=true&suggest.q=Grado&wt=json} status=0 QTime=132
+2017-12-14 22:55:29.348 INFO  (qtp987405879-18) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado+
+2017-12-14 22:55:29.349 INFO  (qtp987405879-18) [   x:unis] o.a.s.s.s.SolrSuggester SolrSuggester.build(tituloDict)
+2017-12-14 22:55:29.487 INFO  (qtp987405879-18) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado+
+2017-12-14 22:55:29.488 INFO  (qtp987405879-18) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.build=true&suggest.q=Grado+&wt=json} status=0 QTime=140
+2017-12-14 22:55:43.552 INFO  (qtp987405879-21) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={} hits=2052 status=0 QTime=2
+2017-12-14 22:55:43.576 ERROR (qtp987405879-21) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 22:55:46.306 INFO  (qtp987405879-14) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado
+2017-12-14 22:55:46.306 INFO  (qtp987405879-14) [   x:unis] o.a.s.s.s.SolrSuggester SolrSuggester.build(tituloDict)
+2017-12-14 22:55:46.431 INFO  (qtp987405879-14) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado
+2017-12-14 22:55:46.431 INFO  (qtp987405879-14) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.build=true&suggest.q=Grado&wt=json} status=0 QTime=125
+2017-12-14 22:56:16.342 INFO  (qtp987405879-14) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={} hits=2052 status=0 QTime=1
+2017-12-14 22:56:16.380 ERROR (qtp987405879-14) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 22:56:19.237 INFO  (qtp987405879-17) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grad
+2017-12-14 22:56:19.238 INFO  (qtp987405879-17) [   x:unis] o.a.s.s.s.SolrSuggester SolrSuggester.build(tituloDict)
+2017-12-14 22:56:19.385 INFO  (qtp987405879-17) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grad
+2017-12-14 22:56:19.387 INFO  (qtp987405879-17) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.build=true&suggest.q=Grad&wt=json} status=0 QTime=149
+2017-12-14 22:57:03.587 INFO  (qtp987405879-21) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={} hits=2052 status=0 QTime=2
+2017-12-14 22:57:03.613 ERROR (qtp987405879-21) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 22:57:07.336 INFO  (qtp987405879-16) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado
+2017-12-14 22:57:07.336 INFO  (qtp987405879-16) [   x:unis] o.a.s.s.s.SolrSuggester SolrSuggester.build(tituloDict)
+2017-12-14 22:57:07.424 INFO  (qtp987405879-16) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado
+2017-12-14 22:57:07.425 INFO  (qtp987405879-16) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.build=true&suggest.q=Grado&wt=json} status=0 QTime=89
+2017-12-14 22:57:21.268 INFO  (qtp987405879-14) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={} hits=2052 status=0 QTime=1
+2017-12-14 22:57:21.293 ERROR (qtp987405879-14) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 22:57:23.631 INFO  (qtp987405879-21) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grad
+2017-12-14 22:57:23.632 INFO  (qtp987405879-21) [   x:unis] o.a.s.s.s.SolrSuggester SolrSuggester.build(tituloDict)
+2017-12-14 22:57:23.757 INFO  (qtp987405879-21) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grad
+2017-12-14 22:57:23.758 INFO  (qtp987405879-21) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.build=true&suggest.q=Grad&wt=json} status=0 QTime=126
+2017-12-14 22:57:36.593 INFO  (qtp987405879-16) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={} hits=2052 status=0 QTime=1
+2017-12-14 22:57:36.618 ERROR (qtp987405879-16) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 22:57:39.736 INFO  (qtp987405879-14) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado
+2017-12-14 22:57:39.737 INFO  (qtp987405879-14) [   x:unis] o.a.s.s.s.SolrSuggester SolrSuggester.build(tituloDict)
+2017-12-14 22:57:39.879 INFO  (qtp987405879-14) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado
+2017-12-14 22:57:39.880 INFO  (qtp987405879-14) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.build=true&suggest.q=Grado&wt=json} status=0 QTime=144
+2017-12-14 22:58:11.504 INFO  (qtp987405879-20) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={} hits=2052 status=0 QTime=1
+2017-12-14 22:58:11.523 ERROR (qtp987405879-20) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 22:58:14.336 INFO  (qtp987405879-18) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grad
+2017-12-14 22:58:14.337 INFO  (qtp987405879-18) [   x:unis] o.a.s.s.s.SolrSuggester SolrSuggester.build(tituloDict)
+2017-12-14 22:58:14.488 INFO  (qtp987405879-18) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grad
+2017-12-14 22:58:14.489 INFO  (qtp987405879-18) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.build=true&suggest.q=Grad&wt=json} status=0 QTime=152
+2017-12-14 22:58:24.360 INFO  (qtp987405879-18) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={} hits=2052 status=0 QTime=2
+2017-12-14 22:58:24.387 ERROR (qtp987405879-18) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 22:58:28.617 INFO  (qtp987405879-19) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado
+2017-12-14 22:58:28.618 INFO  (qtp987405879-19) [   x:unis] o.a.s.s.s.SolrSuggester SolrSuggester.build(tituloDict)
+2017-12-14 22:58:28.763 INFO  (qtp987405879-19) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado
+2017-12-14 22:58:28.764 INFO  (qtp987405879-19) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.build=true&suggest.q=Grado&wt=json} status=0 QTime=147
+2017-12-14 22:58:36.917 INFO  (qtp987405879-19) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={} hits=2052 status=0 QTime=1
+2017-12-14 22:58:36.941 ERROR (qtp987405879-19) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 22:58:42.348 INFO  (qtp987405879-18) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grad
+2017-12-14 22:58:42.349 INFO  (qtp987405879-18) [   x:unis] o.a.s.s.s.SolrSuggester SolrSuggester.build(tituloDict)
+2017-12-14 22:58:42.494 INFO  (qtp987405879-18) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grad
+2017-12-14 22:58:42.495 INFO  (qtp987405879-18) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.build=true&suggest.q=Grad&wt=json} status=0 QTime=147
+2017-12-14 22:58:46.267 INFO  (qtp987405879-20) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado
+2017-12-14 22:58:46.268 INFO  (qtp987405879-20) [   x:unis] o.a.s.s.s.SolrSuggester SolrSuggester.build(tituloDict)
+2017-12-14 22:58:46.384 INFO  (qtp987405879-20) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado
+2017-12-14 22:58:46.386 INFO  (qtp987405879-20) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.build=true&suggest.q=Grado&wt=json} status=0 QTime=118
+2017-12-14 22:59:04.808 INFO  (qtp987405879-20) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={} hits=2052 status=0 QTime=1
+2017-12-14 22:59:04.827 ERROR (qtp987405879-20) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 22:59:07.977 INFO  (qtp987405879-14) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grad
+2017-12-14 22:59:07.978 INFO  (qtp987405879-14) [   x:unis] o.a.s.s.s.SolrSuggester SolrSuggester.build(tituloDict)
+2017-12-14 22:59:08.128 INFO  (qtp987405879-14) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grad
+2017-12-14 22:59:08.129 INFO  (qtp987405879-14) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.build=true&suggest.q=Grad&wt=json} status=0 QTime=152
+2017-12-14 22:59:16.804 INFO  (qtp987405879-19) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={} hits=2052 status=0 QTime=1
+2017-12-14 22:59:16.822 ERROR (qtp987405879-19) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 22:59:19.655 INFO  (qtp987405879-20) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado
+2017-12-14 22:59:19.656 INFO  (qtp987405879-20) [   x:unis] o.a.s.s.s.SolrSuggester SolrSuggester.build(tituloDict)
+2017-12-14 22:59:19.799 INFO  (qtp987405879-20) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado
+2017-12-14 22:59:19.801 INFO  (qtp987405879-20) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.build=true&suggest.q=Grado&wt=json} status=0 QTime=145
+2017-12-14 22:59:27.722 INFO  (qtp987405879-14) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={} hits=2052 status=0 QTime=0
+2017-12-14 22:59:27.735 ERROR (qtp987405879-14) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 22:59:30.630 INFO  (qtp987405879-21) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado+
+2017-12-14 22:59:30.631 INFO  (qtp987405879-21) [   x:unis] o.a.s.s.s.SolrSuggester SolrSuggester.build(tituloDict)
+2017-12-14 22:59:30.738 INFO  (qtp987405879-21) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado+
+2017-12-14 22:59:30.739 INFO  (qtp987405879-21) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.build=true&suggest.q=Grado+&wt=json} status=0 QTime=108
+2017-12-14 22:59:31.981 INFO  (qtp987405879-17) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado+e
+2017-12-14 22:59:31.982 INFO  (qtp987405879-17) [   x:unis] o.a.s.s.s.SolrSuggester SolrSuggester.build(tituloDict)
+2017-12-14 22:59:32.127 INFO  (qtp987405879-17) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado+e
+2017-12-14 22:59:32.128 INFO  (qtp987405879-17) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.build=true&suggest.q=Grado+e&wt=json} status=0 QTime=147
+2017-12-14 22:59:32.424 INFO  (qtp987405879-18) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado+en
+2017-12-14 22:59:32.424 INFO  (qtp987405879-18) [   x:unis] o.a.s.s.s.SolrSuggester SolrSuggester.build(tituloDict)
+2017-12-14 22:59:32.523 INFO  (qtp987405879-18) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado+en
+2017-12-14 22:59:32.524 INFO  (qtp987405879-18) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.build=true&suggest.q=Grado+en&wt=json} status=0 QTime=100
+2017-12-14 22:59:33.061 INFO  (qtp987405879-16) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado+en+
+2017-12-14 22:59:33.061 INFO  (qtp987405879-16) [   x:unis] o.a.s.s.s.SolrSuggester SolrSuggester.build(tituloDict)
+2017-12-14 22:59:33.134 INFO  (qtp987405879-16) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado+en+
+2017-12-14 22:59:33.134 INFO  (qtp987405879-16) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.build=true&suggest.q=Grado+en+&wt=json} status=0 QTime=73
+2017-12-14 22:59:34.736 INFO  (qtp987405879-21) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado+en+m
+2017-12-14 22:59:34.737 INFO  (qtp987405879-21) [   x:unis] o.a.s.s.s.SolrSuggester SolrSuggester.build(tituloDict)
+2017-12-14 22:59:34.884 INFO  (qtp987405879-21) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado+en+m
+2017-12-14 22:59:34.885 INFO  (qtp987405879-21) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.build=true&suggest.q=Grado+en+m&wt=json} status=0 QTime=149
+2017-12-14 22:59:35.956 INFO  (qtp987405879-19) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado+en+me
+2017-12-14 22:59:35.957 INFO  (qtp987405879-19) [   x:unis] o.a.s.s.s.SolrSuggester SolrSuggester.build(tituloDict)
+2017-12-14 22:59:36.105 INFO  (qtp987405879-19) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado+en+me
+2017-12-14 22:59:36.106 INFO  (qtp987405879-19) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.build=true&suggest.q=Grado+en+me&wt=json} status=0 QTime=149
+2017-12-14 22:59:37.304 INFO  (qtp987405879-18) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado+en+med
+2017-12-14 22:59:37.307 INFO  (qtp987405879-18) [   x:unis] o.a.s.s.s.SolrSuggester SolrSuggester.build(tituloDict)
+2017-12-14 22:59:37.444 INFO  (qtp987405879-18) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado+en+med
+2017-12-14 22:59:37.445 INFO  (qtp987405879-18) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.build=true&suggest.q=Grado+en+med&wt=json} status=0 QTime=142
+2017-12-14 22:59:38.731 INFO  (qtp987405879-21) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado+en+medi
+2017-12-14 22:59:38.731 INFO  (qtp987405879-21) [   x:unis] o.a.s.s.s.SolrSuggester SolrSuggester.build(tituloDict)
+2017-12-14 22:59:38.824 INFO  (qtp987405879-21) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado+en+medi
+2017-12-14 22:59:38.825 INFO  (qtp987405879-21) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.build=true&suggest.q=Grado+en+medi&wt=json} status=0 QTime=94
+2017-12-14 23:00:33.988 INFO  (qtp987405879-17) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={} hits=2052 status=0 QTime=4
+2017-12-14 23:00:34.029 ERROR (qtp987405879-17) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 23:00:37.094 INFO  (qtp987405879-14) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado+en+med
+2017-12-14 23:00:37.095 INFO  (qtp987405879-14) [   x:unis] o.a.s.s.s.SolrSuggester SolrSuggester.build(tituloDict)
+2017-12-14 23:00:37.239 INFO  (qtp987405879-14) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado+en+med
+2017-12-14 23:00:37.240 INFO  (qtp987405879-14) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.build=true&suggest.q=Grado+en+med&wt=json} status=0 QTime=146
+2017-12-14 23:00:41.095 INFO  (qtp987405879-14) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado+en+medi
+2017-12-14 23:00:41.099 INFO  (qtp987405879-14) [   x:unis] o.a.s.s.s.SolrSuggester SolrSuggester.build(tituloDict)
+2017-12-14 23:00:41.230 INFO  (qtp987405879-14) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado+en+medi
+2017-12-14 23:00:41.231 INFO  (qtp987405879-14) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.build=true&suggest.q=Grado+en+medi&wt=json} status=0 QTime=136
+2017-12-14 23:00:42.025 INFO  (qtp987405879-20) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado+en+medic
+2017-12-14 23:00:42.025 INFO  (qtp987405879-20) [   x:unis] o.a.s.s.s.SolrSuggester SolrSuggester.build(tituloDict)
+2017-12-14 23:00:42.095 INFO  (qtp987405879-20) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado+en+medic
+2017-12-14 23:00:42.095 INFO  (qtp987405879-20) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.build=true&suggest.q=Grado+en+medic&wt=json} status=0 QTime=70
+2017-12-14 23:00:43.050 INFO  (qtp987405879-16) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado+en+medici
+2017-12-14 23:00:43.050 INFO  (qtp987405879-16) [   x:unis] o.a.s.s.s.SolrSuggester SolrSuggester.build(tituloDict)
+2017-12-14 23:00:43.115 INFO  (qtp987405879-16) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado+en+medici
+2017-12-14 23:00:43.116 INFO  (qtp987405879-16) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.build=true&suggest.q=Grado+en+medici&wt=json} status=0 QTime=66
+2017-12-14 23:00:43.606 INFO  (qtp987405879-21) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado+en+medicina
+2017-12-14 23:00:43.606 INFO  (qtp987405879-21) [   x:unis] o.a.s.s.s.SolrSuggester SolrSuggester.build(tituloDict)
+2017-12-14 23:00:43.677 INFO  (qtp987405879-21) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado+en+medicina
+2017-12-14 23:00:43.678 INFO  (qtp987405879-21) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.build=true&suggest.q=Grado+en+medicina&wt=json} status=0 QTime=72
+2017-12-14 23:00:45.134 INFO  (qtp987405879-14) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado+en+
+2017-12-14 23:00:45.135 INFO  (qtp987405879-14) [   x:unis] o.a.s.s.s.SolrSuggester SolrSuggester.build(tituloDict)
+2017-12-14 23:00:45.289 INFO  (qtp987405879-14) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado+en+
+2017-12-14 23:00:45.291 INFO  (qtp987405879-14) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.build=true&suggest.q=Grado+en+&wt=json} status=0 QTime=156
+2017-12-14 23:00:46.052 INFO  (qtp987405879-20) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado+en+b
+2017-12-14 23:00:46.053 INFO  (qtp987405879-20) [   x:unis] o.a.s.s.s.SolrSuggester SolrSuggester.build(tituloDict)
+2017-12-14 23:00:46.153 INFO  (qtp987405879-20) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado+en+b
+2017-12-14 23:00:46.154 INFO  (qtp987405879-20) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.build=true&suggest.q=Grado+en+b&wt=json} status=0 QTime=102
+2017-12-14 23:00:46.449 INFO  (qtp987405879-16) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado+en+bi
+2017-12-14 23:00:46.449 INFO  (qtp987405879-16) [   x:unis] o.a.s.s.s.SolrSuggester SolrSuggester.build(tituloDict)
+2017-12-14 23:00:46.525 INFO  (qtp987405879-16) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado+en+bi
+2017-12-14 23:00:46.526 INFO  (qtp987405879-16) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.build=true&suggest.q=Grado+en+bi&wt=json} status=0 QTime=77
+2017-12-14 23:00:46.956 INFO  (qtp987405879-21) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado+en+bio
+2017-12-14 23:00:46.956 INFO  (qtp987405879-21) [   x:unis] o.a.s.s.s.SolrSuggester SolrSuggester.build(tituloDict)
+2017-12-14 23:00:47.059 INFO  (qtp987405879-21) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado+en+bio
+2017-12-14 23:00:47.060 INFO  (qtp987405879-21) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.build=true&suggest.q=Grado+en+bio&wt=json} status=0 QTime=104
+2017-12-14 23:00:47.568 INFO  (qtp987405879-19) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado+en+biom
+2017-12-14 23:00:47.569 INFO  (qtp987405879-19) [   x:unis] o.a.s.s.s.SolrSuggester SolrSuggester.build(tituloDict)
+2017-12-14 23:00:47.695 INFO  (qtp987405879-19) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado+en+biom
+2017-12-14 23:00:47.696 INFO  (qtp987405879-19) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.build=true&suggest.q=Grado+en+biom&wt=json} status=0 QTime=127
+2017-12-14 23:00:48.937 INFO  (qtp987405879-17) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado+en+biome
+2017-12-14 23:00:48.938 INFO  (qtp987405879-17) [   x:unis] o.a.s.s.s.SolrSuggester SolrSuggester.build(tituloDict)
+2017-12-14 23:00:49.080 INFO  (qtp987405879-17) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado+en+biome
+2017-12-14 23:00:49.082 INFO  (qtp987405879-17) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.build=true&suggest.q=Grado+en+biome&wt=json} status=0 QTime=145
+2017-12-14 23:00:52.188 INFO  (qtp987405879-19) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=Grado+en+Biomedicina+Básica+y+Experimental} hits=2052 status=0 QTime=19
+2017-12-14 23:00:52.213 ERROR (qtp987405879-19) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 23:01:02.730 INFO  (qtp987405879-17) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={fq=nota:[10+TO+12]} hits=146 status=0 QTime=9
+2017-12-14 23:01:15.458 INFO  (qtp987405879-20) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=} hits=2052 status=0 QTime=1
+2017-12-14 23:01:15.472 ERROR (qtp987405879-20) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 23:02:37.047 INFO  (qtp987405879-21) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=Grado+en+Biomedicina+Básica+y+Experimental} hits=2052 status=0 QTime=4
+2017-12-14 23:02:37.067 ERROR (qtp987405879-21) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 23:02:41.810 INFO  (qtp987405879-21) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={} hits=2052 status=0 QTime=1
+2017-12-14 23:02:41.837 ERROR (qtp987405879-21) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 23:02:44.625 INFO  (qtp987405879-14) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=$request.params.get('q')&fq=nota:[1+TO+12]} hits=3 status=0 QTime=27
+2017-12-14 23:02:50.296 INFO  (qtp987405879-20) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=$request.params.get('q')} hits=3 status=0 QTime=3
+2017-12-14 23:02:50.309 ERROR (qtp987405879-20) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 23:03:22.081 INFO  (qtp987405879-19) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=$request.params.get('q')} hits=3 status=0 QTime=2
+2017-12-14 23:03:22.106 ERROR (qtp987405879-19) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 23:03:29.162 INFO  (qtp987405879-18) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=} hits=2052 status=0 QTime=2
+2017-12-14 23:03:29.198 ERROR (qtp987405879-18) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 23:03:48.613 INFO  (qtp987405879-18) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=} hits=2052 status=0 QTime=1
+2017-12-14 23:03:48.635 ERROR (qtp987405879-18) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 23:03:54.564 INFO  (qtp987405879-20) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=} hits=2052 status=0 QTime=3
+2017-12-14 23:03:54.595 ERROR (qtp987405879-20) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 23:04:03.187 INFO  (qtp987405879-18) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=} hits=2052 status=0 QTime=2
+2017-12-14 23:04:03.219 ERROR (qtp987405879-18) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 23:04:32.293 INFO  (qtp987405879-18) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=} hits=2052 status=0 QTime=1
+2017-12-14 23:04:32.313 ERROR (qtp987405879-18) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 23:04:54.901 INFO  (qtp987405879-21) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=} hits=2052 status=0 QTime=1
+2017-12-14 23:04:54.927 ERROR (qtp987405879-21) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 23:05:00.431 INFO  (qtp987405879-17) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={} hits=2052 status=0 QTime=2
+2017-12-14 23:05:00.451 ERROR (qtp987405879-17) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 23:05:02.924 INFO  (qtp987405879-20) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={} hits=2052 status=0 QTime=2
+2017-12-14 23:05:02.943 ERROR (qtp987405879-20) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 23:05:32.803 INFO  (qtp987405879-20) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={} hits=2052 status=0 QTime=3
+2017-12-14 23:05:32.831 ERROR (qtp987405879-20) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 23:05:36.460 INFO  (qtp987405879-18) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado+en
+2017-12-14 23:05:36.461 INFO  (qtp987405879-18) [   x:unis] o.a.s.s.s.SolrSuggester SolrSuggester.build(tituloDict)
+2017-12-14 23:05:36.603 INFO  (qtp987405879-18) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado+en
+2017-12-14 23:05:36.604 INFO  (qtp987405879-18) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.build=true&suggest.q=Grado+en&wt=json} status=0 QTime=144
+2017-12-14 23:05:39.448 INFO  (qtp987405879-21) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=Grado+en++Biotecnología} hits=2052 status=0 QTime=9
+2017-12-14 23:05:39.479 ERROR (qtp987405879-21) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]
+2017-12-14 23:05:48.241 INFO  (qtp987405879-21) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=Grado+en++Biotecnología&fq=nota:[*+TO+12]} hits=1912 status=0 QTime=18
+2017-12-14 23:06:00.469 ERROR (qtp987405879-17) [   x:unis] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: org.apache.solr.search.SyntaxError: Cannot parse 'nota:[ TO 12]': Encountered " "TO" "TO "" at line 1, column 7.
+Was expecting one of:
+    <RANGE_QUOTED> ...
+    <RANGE_GOOP> ...
+    
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:216)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:246)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:155)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2102)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:654)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:460)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.solr.search.SyntaxError: Cannot parse 'nota:[ TO 12]': Encountered " "TO" "TO "" at line 1, column 7.
+Was expecting one of:
+    <RANGE_QUOTED> ...
+    <RANGE_GOOP> ...
+    
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:157)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:50)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:141)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:205)
+	... 27 more
+Caused by: org.apache.solr.parser.ParseException: Encountered " "TO" "TO "" at line 1, column 7.
+Was expecting one of:
+    <RANGE_QUOTED> ...
+    <RANGE_GOOP> ...
+    
+	at org.apache.solr.parser.QueryParser.generateParseException(QueryParser.java:665)
+	at org.apache.solr.parser.QueryParser.jj_consume_token(QueryParser.java:547)
+	at org.apache.solr.parser.QueryParser.Term(QueryParser.java:341)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:186)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:107)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:96)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:153)
+	... 30 more
+
+2017-12-14 23:06:00.469 INFO  (qtp987405879-17) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=Grado+en++Biotecnología&fq=nota:[+TO+12]} status=400 QTime=3
+2017-12-14 23:06:00.481 ERROR (qtp987405879-17) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($response.facetFields.size()) of '>' operation has null value at facets.vm[line 31, column 41]
+2017-12-14 23:06:10.542 ERROR (qtp987405879-18) [   x:unis] o.a.s.h.RequestHandlerBase java.lang.NumberFormatException: For input string: "asd"
+	at sun.misc.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2043)
+	at sun.misc.FloatingDecimal.parseFloat(FloatingDecimal.java:122)
+	at java.lang.Float.parseFloat(Float.java:451)
+	at org.apache.solr.schema.TrieField.getRangeQuery(TrieField.java:395)
+	at org.apache.solr.parser.SolrQueryParserBase.getRangeQuery(SolrQueryParserBase.java:767)
+	at org.apache.solr.parser.QueryParser.Term(QueryParser.java:398)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:186)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:107)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:96)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:153)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:50)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:141)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:205)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:246)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:155)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2102)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:654)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:460)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+
+2017-12-14 23:06:10.543 INFO  (qtp987405879-18) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=Grado+en++Biotecnología&fq=nota:[asd+TO+12]} status=500 QTime=3
+2017-12-14 23:06:10.544 ERROR (qtp987405879-18) [   x:unis] o.a.s.s.HttpSolrCall null:java.lang.NumberFormatException: For input string: "asd"
+	at sun.misc.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2043)
+	at sun.misc.FloatingDecimal.parseFloat(FloatingDecimal.java:122)
+	at java.lang.Float.parseFloat(Float.java:451)
+	at org.apache.solr.schema.TrieField.getRangeQuery(TrieField.java:395)
+	at org.apache.solr.parser.SolrQueryParserBase.getRangeQuery(SolrQueryParserBase.java:767)
+	at org.apache.solr.parser.QueryParser.Term(QueryParser.java:398)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:186)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:107)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:96)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:153)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:50)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:141)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:205)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:246)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:155)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2102)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:654)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:460)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+
+2017-12-14 23:06:10.564 ERROR (qtp987405879-18) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($response.facetFields.size()) of '>' operation has null value at facets.vm[line 31, column 41]
+2017-12-14 23:07:56.540 ERROR (qtp987405879-20) [   x:unis] o.a.s.h.RequestHandlerBase java.lang.NumberFormatException: For input string: "asd"
+	at sun.misc.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2043)
+	at sun.misc.FloatingDecimal.parseFloat(FloatingDecimal.java:122)
+	at java.lang.Float.parseFloat(Float.java:451)
+	at org.apache.solr.schema.TrieField.getRangeQuery(TrieField.java:395)
+	at org.apache.solr.parser.SolrQueryParserBase.getRangeQuery(SolrQueryParserBase.java:767)
+	at org.apache.solr.parser.QueryParser.Term(QueryParser.java:398)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:186)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:107)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:96)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:153)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:50)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:141)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:205)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:246)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:155)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2102)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:654)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:460)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+
+2017-12-14 23:07:56.540 INFO  (qtp987405879-20) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=Grado+en++Biotecnología&fq=nota:[asd+TO+12]} status=500 QTime=1
+2017-12-14 23:07:56.541 ERROR (qtp987405879-20) [   x:unis] o.a.s.s.HttpSolrCall null:java.lang.NumberFormatException: For input string: "asd"
+	at sun.misc.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2043)
+	at sun.misc.FloatingDecimal.parseFloat(FloatingDecimal.java:122)
+	at java.lang.Float.parseFloat(Float.java:451)
+	at org.apache.solr.schema.TrieField.getRangeQuery(TrieField.java:395)
+	at org.apache.solr.parser.SolrQueryParserBase.getRangeQuery(SolrQueryParserBase.java:767)
+	at org.apache.solr.parser.QueryParser.Term(QueryParser.java:398)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:186)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:107)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:96)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:153)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:50)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:141)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:205)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:246)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:155)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2102)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:654)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:460)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+
+2017-12-14 23:07:56.554 ERROR (qtp987405879-20) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($response.facetFields.size()) of '>' operation has null value at facets.vm[line 31, column 41]
+2017-12-14 23:08:23.956 ERROR (qtp987405879-19) [   x:unis] o.a.s.h.RequestHandlerBase java.lang.NumberFormatException: For input string: "asd"
+	at sun.misc.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2043)
+	at sun.misc.FloatingDecimal.parseFloat(FloatingDecimal.java:122)
+	at java.lang.Float.parseFloat(Float.java:451)
+	at org.apache.solr.schema.TrieField.getRangeQuery(TrieField.java:395)
+	at org.apache.solr.parser.SolrQueryParserBase.getRangeQuery(SolrQueryParserBase.java:767)
+	at org.apache.solr.parser.QueryParser.Term(QueryParser.java:398)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:186)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:107)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:96)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:153)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:50)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:141)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:205)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:246)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:155)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2102)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:654)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:460)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+
+2017-12-14 23:08:23.957 INFO  (qtp987405879-19) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=Grado+en++Biotecnología&fq=nota:[asd+TO+12]} status=500 QTime=5
+2017-12-14 23:08:23.957 ERROR (qtp987405879-19) [   x:unis] o.a.s.s.HttpSolrCall null:java.lang.NumberFormatException: For input string: "asd"
+	at sun.misc.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2043)
+	at sun.misc.FloatingDecimal.parseFloat(FloatingDecimal.java:122)
+	at java.lang.Float.parseFloat(Float.java:451)
+	at org.apache.solr.schema.TrieField.getRangeQuery(TrieField.java:395)
+	at org.apache.solr.parser.SolrQueryParserBase.getRangeQuery(SolrQueryParserBase.java:767)
+	at org.apache.solr.parser.QueryParser.Term(QueryParser.java:398)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:186)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:107)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:96)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:153)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:50)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:141)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:205)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:246)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:155)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2102)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:654)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:460)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+
+2017-12-14 23:08:23.979 ERROR (qtp987405879-19) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($response.facetFields.size()) of '>' operation has null value at facets.vm[line 31, column 41]
+2017-12-14 23:08:26.398 INFO  (qtp987405879-20) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=Grado+en++Biotecnología&fq=nota:[*+TO+12]} hits=1912 status=0 QTime=3
+2017-12-14 23:08:30.057 INFO  (qtp987405879-18) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=Grado+en++Biotecnología&fq=nota:[*+TO+12]&fq=tipo:"Privada+/++Adscrito*"} hits=1 status=0 QTime=5
+2017-12-14 23:08:34.167 INFO  (qtp987405879-18) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado+en++
+2017-12-14 23:08:34.168 INFO  (qtp987405879-18) [   x:unis] o.a.s.s.s.SolrSuggester SolrSuggester.build(tituloDict)
+2017-12-14 23:08:34.249 INFO  (qtp987405879-18) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado+en++
+2017-12-14 23:08:34.250 INFO  (qtp987405879-18) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.build=true&suggest.q=Grado+en++&wt=json} status=0 QTime=82
+2017-12-14 23:08:35.044 INFO  (qtp987405879-14) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado+en++D
+2017-12-14 23:08:35.044 INFO  (qtp987405879-14) [   x:unis] o.a.s.s.s.SolrSuggester SolrSuggester.build(tituloDict)
+2017-12-14 23:08:35.128 INFO  (qtp987405879-14) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado+en++D
+2017-12-14 23:08:35.129 INFO  (qtp987405879-14) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.build=true&suggest.q=Grado+en++D&wt=json} status=0 QTime=85
+2017-12-14 23:08:35.845 INFO  (qtp987405879-20) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado+en++Di
+2017-12-14 23:08:35.845 INFO  (qtp987405879-20) [   x:unis] o.a.s.s.s.SolrSuggester SolrSuggester.build(tituloDict)
+2017-12-14 23:08:35.972 INFO  (qtp987405879-20) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado+en++Di
+2017-12-14 23:08:35.973 INFO  (qtp987405879-20) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.build=true&suggest.q=Grado+en++Di&wt=json} status=0 QTime=129
+2017-12-14 23:08:36.532 INFO  (qtp987405879-16) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado+en++Dis
+2017-12-14 23:08:36.533 INFO  (qtp987405879-16) [   x:unis] o.a.s.s.s.SolrSuggester SolrSuggester.build(tituloDict)
+2017-12-14 23:08:36.654 INFO  (qtp987405879-16) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado+en++Dis
+2017-12-14 23:08:36.655 INFO  (qtp987405879-16) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.build=true&suggest.q=Grado+en++Dis&wt=json} status=0 QTime=123
+2017-12-14 23:08:36.889 INFO  (qtp987405879-21) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent prepare with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado+en++Dise
+2017-12-14 23:08:36.890 INFO  (qtp987405879-21) [   x:unis] o.a.s.s.s.SolrSuggester SolrSuggester.build(tituloDict)
+2017-12-14 23:08:37.017 INFO  (qtp987405879-21) [   x:unis] o.a.s.h.c.SuggestComponent SuggestComponent process with : suggest.count=10&suggest=true&suggest.dictionary=tituloDict&suggest.build=true&wt=json&suggest.q=Grado+en++Dise
+2017-12-14 23:08:37.018 INFO  (qtp987405879-21) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/suggest params={suggest.build=true&suggest.q=Grado+en++Dise&wt=json} status=0 QTime=129
+2017-12-14 23:08:38.870 INFO  (qtp987405879-19) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={q=Grado+en+Diseño&fq=nota:[*+TO+12]&fq=tipo:"Privada+/++Adscrito*"} hits=1 status=0 QTime=5
+2017-12-14 23:12:56.232 INFO  (qtp987405879-16) [   x:unis] o.a.s.c.S.Request [unis]  webapp=/solr path=/browse params={} hits=2052 status=0 QTime=0
+2017-12-14 23:12:57.046 ERROR (qtp987405879-16) [   x:unis] o.a.s.r.VelocityResponseWriter Left side ($request.params.getParams('fq').size()) of '>' operation has null value at browse.vm[line 35, column 53]

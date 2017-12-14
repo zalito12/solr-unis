@@ -1,0 +1,20 @@
+{"params":{
+    "query":{
+      "defType":"edismax",
+      "q.alt":"*:*",
+      "rows":"10",
+      "fl":"*,score",
+      "":{"v":0}},
+    "facets":{
+      "facet":"on",
+      "facet.mincount":"1",
+      "facet.field":[
+        "tipo",
+        "center.ubicacion.provincia"],
+      "":{"v":0}},
+    "velocity":{
+      "wt":"velocity",
+      "v.template":"browse",
+      "v.layout":"layout",
+      "rows":50,
+      "":{"v":0}}}}

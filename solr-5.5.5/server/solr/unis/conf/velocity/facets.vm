@@ -1,0 +1,57 @@
+#**
+ *  Display facets based on field values
+ *  e.g.: fields specified by &facet.field=
+ *#
+
+<nav class="col-sm-3 col-md-2 d-none d-sm-block bg-light sidebar">
+      <h3>Filtros</h3>
+        <span class="facet-field">Nota</span>
+        <form id="query-form" action="#{url_for_home}" method="GET">
+        <div class="row" style="margin-bottom: 20px;">
+            #foreach($fq in $request.params.getParams('fq'))
+                #if($fq.indexOf("nota") == -1)
+                    <input type="hidden" name="fq" id="allFQs" value="$esc.html($fq)"/>
+                #end
+            #end
+            #foreach($q in $request.params.getParams('q'))
+                <input type="hidden" name="q" value="$q"/>
+            #end
+            <input type="hidden" name="fq" id="fq-nota" value="nota:[* TO *]"/>
+            <div class="col-4">
+                <input id="facet-nota-from" class="form-control mr-sm-2" type="search" placeholder="Desde" aria-label="Desde">
+            </div>
+            <div class="col-4">
+                <input id="facet-nota-to" class="form-control mr-sm-2" type="search" placeholder="Hasta" aria-label="Hasta">
+            </div>
+            <div class="col-4">
+                <button class="btn btn-primary my-2 my-sm-0" type="button" onclick="applyNote(this.form)">Aplicar</button>
+            </div>
+        </div>
+        </form>
+      #if($response.facetFields.size() > 0)
+      #foreach($field in $response.facetFields)
+        ## Hide facets without value
+        #if($field.values.size() > 0)
+          #set($friendly_field = $field.name.replace(".","-"))
+          <span class="facet-field">{{ $t("$field.name") }}</span>
+          
+        #if($field.values.size() > 10)
+            <input class="form-control mr-sm-2" type="search" v-bind:placeholder="'Encontrar '+$t('$field.name')" aria-label="Search" onkeyup="filterList(this, '$friendly_field')">
+        #end
+          
+        <ul class="nav nav-pills flex-column" id="$friendly_field">
+        #foreach($facet in $field.values)
+            <li class="nav-item">
+              <a class="nav-link" href="#url_for_facet_filter($field.name, $facet.name)">
+                #if($facet.name!=$null)$facet.name#else<em>missing</em>#end<span class="badge badge-light" style="float:right">$facet.count</span>
+              </a>
+            </li>
+        #end
+        </ul>
+          
+        #end  ## end if > 0
+      #end    ## end for each facet field
+    #end      ## end if response has facet fields
+</nav>
+
+
