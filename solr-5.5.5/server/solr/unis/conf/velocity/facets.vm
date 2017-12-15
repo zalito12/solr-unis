@@ -5,7 +5,7 @@
 
 <nav class="col-sm-3 col-md-2 d-none d-sm-block bg-light sidebar">
       <h3>Filtros</h3>
-        <span class="facet-field">Nota</span>
+        <span class="facet-field">Nota de corte</span>
         <form id="query-form" action="#{url_for_home}" method="GET">
         <div class="row" style="margin-bottom: 20px;">
             #foreach($fq in $request.params.getParams('fq'))
